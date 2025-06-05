@@ -28,16 +28,23 @@ def read_csv_with_encoding(file_path: str) -> int:
             with open(file_path, 'r', encoding=encoding) as f:
                 csv_reader = csv.reader(f)
                 rows = list(csv_reader)
-                # Return number of violations (rows minus header)
-                return max(0, len(rows) - 1)  # Subtract header row
+                row_count = max(0, len(rows) - 1)  # Subtract header row
+                
+                # Проверяем, что файл не пустой и содержит строки данных
+                if row_count > 0:
+                    reports_logger.info(f"Успешно прочитан файл {file_path} с кодировкой {encoding}: найдено {row_count} строк")
+                else:
+                    reports_logger.warning(f"Файл {file_path} содержит только заголовок или пустой")
+                    
+                return row_count
                 
         except UnicodeDecodeError:
             continue
         except Exception as e:
-            reports_logger.warning(f"Error with {encoding} encoding: {e}")
+            reports_logger.warning(f"Ошибка при чтении файла {file_path} с кодировкой {encoding}: {e}")
             continue
     
-    reports_logger.error(f"Could not read file {file_path} with any encoding")
+    reports_logger.error(f"Не удалось прочитать файл {file_path} ни с одной из кодировок")
     return 0
 
 def load_violations_data(base_dir='output'):
@@ -131,6 +138,11 @@ def process_reports_for_token(cert_name: str, email_config: dict = None):
             
             if group_code is None:
                 reports_logger.warning(f"No group code found in filename: {csv_file}")
+                continue
+                
+            # Проверяем, что код группы существует в словаре PRODUCT_GROUPS
+            if group_code not in PRODUCT_GROUPS:
+                reports_logger.warning(f"Unknown product group code in filename: {csv_file}, code: {group_code}")
                 continue
             
             # Get product group name
