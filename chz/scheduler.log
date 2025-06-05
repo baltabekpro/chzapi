@@ -1,0 +1,9 @@
+2025-03-04 13:42:33,820 - main - INFO - === Запуск ЦРПТ Маркировка ===
+2025-03-04 13:42:33,824 - main - INFO - Запуск в интерактивном режиме
+2025-03-04 13:42:34,384 - main - INFO - Программа остановлена пользователем (Ctrl+C)
+2025-03-04 13:48:15,513 - main - INFO - === Starting ЦРПТ Маркировка ===
+2025-03-04 13:48:24,347 - scheduler - INFO - Configuration file not found, using defaults
+2025-03-04 13:48:24,348 - scheduler - INFO - Configuration saved
+2025-03-04 13:48:24,351 - scheduler - INFO - Starting scheduler
+2025-03-04 13:48:38,497 - scheduler - INFO - Received exit signal, shutting down...
+2025-03-04 13:48:38,500 - main - ERROR - Unexpected error: 

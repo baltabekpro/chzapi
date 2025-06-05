@@ -1,0 +1,14 @@
+{
+  "token": "7840665570:AAGQK-0rG6SaZYuNpEE9w2G9WjgmbHcgCrY",
+  "allowed_users": [1419048544],
+  "admin_users": [1419048544],
+  "error_notification_chat_ids": [1419048544],
+  "status_interval_hours": 12,
+  "enable_error_notifications": true,
+  "enable_status_updates": true,
+  "max_retries": 3,
+  "retry_delay": 5,
+  "connection_timeout": 30,
+  "proxy": null,
+  "cleanup_on_start": true
+}

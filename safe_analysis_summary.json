@@ -1,0 +1,1265 @@
+{
+  "analysis_date": "2025-06-05T10:50:35.651172",
+  "mode": "safe",
+  "total_certificates": 8,
+  "problem_certificates": [
+    "Омелина Татьяна - тс28",
+    "Хуторская Татьяна - тс324",
+    "Хуторская Татьяна - тс124",
+    "Хуторская Татьяна - тс3",
+    "Хуторская Татьяна - тс5",
+    "Лежнева Евгения - тс54",
+    "Лежнева Евгения - тс55",
+    "Лежнева Евгения - тс142"
+  ],
+  "detailed_analysis": [
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "user": "Неизвестно",
+      "inn": "2801216975",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "user": "Неизвестно",
+      "inn": "2462221738",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "user": "Неизвестно",
+      "inn": "2465254026",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "user": "Неизвестно",
+      "inn": "2462210253",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "user": "Неизвестно",
+      "inn": "2462210285",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "13"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "user": "Неизвестно",
+      "inn": "5405475428",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "user": "Неизвестно",
+      "inn": "5504242150",
+      "total_groups": 13,
+      "active_groups": 0,
+      "inactive_groups": 13,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "4"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_NO_ACCESS",
+        "38": "FAIL_NO_ACCESS"
+      }
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "user": "Неизвестно",
+      "inn": "4217148578",
+      "total_groups": 14,
+      "active_groups": 0,
+      "inactive_groups": 14,
+      "group_access": {
+        "1": {
+          "name": "Предметы одежды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "2": {
+          "name": "Обувные товары",
+          "has_access": true,
+          "status": "5"
+        },
+        "3": {
+          "name": "Табачная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "4": {
+          "name": "Духи и туалетная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "5": {
+          "name": "Шины и покрышки",
+          "has_access": true,
+          "status": "5"
+        },
+        "6": {
+          "name": "Фотокамеры",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "8": {
+          "name": "Молочная продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "9": {
+          "name": "Велосипеды",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "10": {
+          "name": "Медицинские изделия",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "11": {
+          "name": "Слабоалкогольные напитки",
+          "has_access": true,
+          "status": "5"
+        },
+        "12": {
+          "name": "Альтернативная табачная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "13": {
+          "name": "Упакованная вода",
+          "has_access": true,
+          "status": "5"
+        },
+        "14": {
+          "name": "Товары из натурального меха",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "15": {
+          "name": "Пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "22": {
+          "name": "Безалкогольное пиво",
+          "has_access": true,
+          "status": "5"
+        },
+        "23": {
+          "name": "Соковая продукция",
+          "has_access": true,
+          "status": "5"
+        },
+        "26": {
+          "name": "Ветеринарные препараты",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "27": {
+          "name": "Игры и игрушки",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "28": {
+          "name": "Радиоэлектронная продукция",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        },
+        "21": {
+          "name": "Морепродукты",
+          "has_access": true,
+          "status": "5"
+        },
+        "17": {
+          "name": "БАДы",
+          "has_access": true,
+          "status": "5"
+        },
+        "19": {
+          "name": "Антисептики",
+          "has_access": true,
+          "status": "5"
+        },
+        "35": {
+          "name": "Парфюмерия и косметика",
+          "has_access": true,
+          "status": "5"
+        },
+        "38": {
+          "name": "Лекарственные средства",
+          "has_access": false,
+          "status": "NOT_FOUND"
+        }
+      },
+      "predictions": {
+        "1": "FAIL_NO_ACCESS",
+        "2": "FAIL_INACTIVE",
+        "3": "FAIL_INACTIVE",
+        "4": "FAIL_INACTIVE",
+        "5": "FAIL_INACTIVE",
+        "6": "FAIL_NO_ACCESS",
+        "8": "FAIL_INACTIVE",
+        "9": "FAIL_NO_ACCESS",
+        "10": "FAIL_NO_ACCESS",
+        "11": "FAIL_INACTIVE",
+        "12": "FAIL_NO_ACCESS",
+        "13": "FAIL_INACTIVE",
+        "14": "FAIL_NO_ACCESS",
+        "15": "FAIL_INACTIVE",
+        "22": "FAIL_INACTIVE",
+        "23": "FAIL_INACTIVE",
+        "26": "FAIL_NO_ACCESS",
+        "27": "FAIL_NO_ACCESS",
+        "28": "FAIL_NO_ACCESS",
+        "21": "FAIL_INACTIVE",
+        "17": "FAIL_INACTIVE",
+        "19": "FAIL_INACTIVE",
+        "35": "FAIL_INACTIVE",
+        "38": "FAIL_NO_ACCESS"
+      }
+    }
+  ]
+}

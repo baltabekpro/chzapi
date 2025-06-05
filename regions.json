@@ -1,0 +1,54 @@
+{
+  "central": {
+    "name": "Центральный регион",
+    "tc_list": [
+      "тс5",
+      "тс3",
+      "тс124",
+      "тс324"
+    ],
+    "emails": [
+      "central@example.com",
+      "dfobot3@gmail.com"
+    ]
+  },
+  "far_east": {
+    "name": "Дальневосточный регион",
+    "tc_list": [
+      "тс54",
+      "тс55",
+      "тс142",
+      "тс127",
+      "тс27"
+    ],
+    "emails": [
+      "far_east@example.com",
+      "dfobot3@gmail.com"
+    ]
+  },
+  "south": {
+    "name": "Южный регион",
+    "tc_list": [
+      "тс28",
+      "тс22",
+      "тс25",
+      "тс75"
+    ],
+    "emails": [
+      "south@example.com",
+      "dfobot3@gmail.com"
+    ]
+  },
+  "siberia": {
+    "name": "Сибирский регион",
+    "tc_list": [
+      "тс138",
+      "тс238",
+      "тс338"
+    ],
+    "emails": [
+      "siberia@example.com",
+      "dfobot3@gmail.com"
+    ]
+  }
+}

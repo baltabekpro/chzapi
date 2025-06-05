@@ -1,0 +1,18 @@
+====================================================
+=== Test Results for ЦРПТ Report System (Comprehensive) ===
+=== Test run started at: 2025-04-12 11:05:51 ===
+====================================================
+
+[2025-04-12 11:05:51] Created temporary test directory: C:\Users\workb\AppData\Local\Temp\crpt_test_zadso9bd
+[2025-04-12 11:05:51] Created mock data files for testing
+[2025-04-12 11:05:52] Removed temporary test directory: C:\Users\workb\AppData\Local\Temp\crpt_test_zadso9bd
+
+====================================================
+=== Test run completed at: 2025-04-12 11:05:52 ===
+====================================================
+[2025-04-12 11:05:52] 
+=== Test Summary ===
+[2025-04-12 11:05:52] Tests run: 7
+[2025-04-12 11:05:52] Failures: 0
+[2025-04-12 11:05:52] Errors: 0
+[2025-04-12 11:05:52] All tests passed successfully!

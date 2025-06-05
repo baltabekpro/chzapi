@@ -1,0 +1,30 @@
+{
+    "check_time": "20:05",
+    "check_interval_minutes": 5,
+    "tasks": [
+        {
+            "name": "Get Tokens",
+            "script": "python get_token.py",
+            "enabled": true,
+            "order": 1
+        },
+        {
+            "name": "Get Violations",
+            "script": "python get_violations.py",
+            "enabled": true,
+            "order": 2
+        },
+        {
+            "name": "Download Reports",
+            "script": "python get_report.py",
+            "enabled": true,
+            "order": 3
+        }
+    ],
+    "email_summary": true,
+    "daily_report_time": "04:00",
+    "check_interval": 60,
+    "token_refresh_time": "03:00",
+    "enabled": true,
+    "email_time": "20:04"
+}

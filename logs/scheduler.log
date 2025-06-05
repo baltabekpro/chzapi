@@ -1,0 +1,63 @@
+2025-04-09 20:04:10 - INFO - Loaded configuration from scheduler_config.json
+2025-04-09 20:04:10 - INFO - Using email time from email_config.json: 20:04
+2025-04-09 20:04:10 - INFO - Scheduler initialized
+2025-04-09 20:04:10 - INFO - Scheduler starting continuous operation
+2025-04-09 20:04:10 - INFO - It's time to send email reports (20:04)
+2025-04-09 20:04:10 - INFO - Running email reports task
+2025-04-09 20:04:10 - ERROR - Failed to send email reports
+2025-04-09 20:04:11 - INFO - Updated last email run time
+2025-04-09 20:04:12 - INFO - Started scheduler process with PID 21284
+2025-04-09 20:05:11 - INFO - It's time to send email reports (20:04)
+2025-04-09 20:05:11 - INFO - Running email reports task
+2025-04-09 20:05:11 - ERROR - Failed to send email reports
+2025-04-09 20:05:11 - INFO - Updated last email run time
+2025-04-09 20:14:26 - INFO - Scheduler already running with PID 21284
+2025-04-09 20:22:34 - INFO - Scheduler already running with PID 21284
+2025-04-09 20:29:17 - INFO - Scheduler already running with PID 21284
+2025-04-10 11:24:34 - INFO - Loaded configuration from scheduler_config.json
+2025-04-10 11:24:34 - INFO - Using email time from email_config.json: 20:04
+2025-04-10 11:24:34 - INFO - Scheduler initialized
+2025-04-10 11:24:34 - INFO - Scheduler starting continuous operation
+2025-04-10 11:24:36 - INFO - Started scheduler process with PID 12476
+2025-04-10 11:43:35 - INFO - Scheduler already running with PID 12476
+2025-04-10 12:21:35 - INFO - Running scheduler in normal mode
+2025-04-10 12:21:35 - INFO - Loaded configuration from scheduler_config.json
+2025-04-10 12:21:35 - INFO - Using email time from email_config.json: 20:04
+2025-04-10 12:21:35 - INFO - Scheduler initialized
+2025-04-10 12:21:35 - INFO - Scheduler starting continuous operation
+2025-04-10 12:21:37 - INFO - Started scheduler process with PID 2476
+2025-04-10 12:45:58 - INFO - Scheduler already running with PID 2476
+2025-04-10 12:48:56 - INFO - Scheduler already running with PID 2476
+2025-04-11 20:04:25 - INFO - It's time to send email reports (20:04)
+2025-04-11 20:04:25 - INFO - Running email reports task
+2025-04-11 20:04:26 - ERROR - Failed to send email reports
+2025-04-11 20:04:34 - INFO - Updated last email run time
+2025-04-11 20:05:34 - INFO - It's time to send email reports (20:04)
+2025-04-11 20:05:34 - INFO - Running email reports task
+2025-04-11 20:05:34 - ERROR - Failed to send email reports
+2025-04-11 20:05:34 - INFO - Updated last email run time
+2025-04-12 10:32:00 - INFO - Running scheduler in normal mode
+2025-04-12 10:32:00 - INFO - Loaded configuration from scheduler_config.json
+2025-04-12 10:32:00 - INFO - Using email time from email_config.json: 20:04
+2025-04-12 10:32:00 - INFO - Scheduler initialized
+2025-04-12 10:32:00 - INFO - Scheduler starting continuous operation
+2025-04-12 10:32:02 - INFO - Started scheduler process with PID 16804
+2025-04-12 11:54:14 - INFO - Running scheduler in normal mode
+2025-04-12 11:54:14 - INFO - Loaded configuration from scheduler_config.json
+2025-04-12 11:54:14 - INFO - Using email time from email_config.json: 20:04
+2025-04-12 11:54:14 - INFO - Scheduler initialized
+2025-04-12 11:54:14 - INFO - Scheduler starting continuous operation
+2025-04-12 11:54:16 - INFO - Started scheduler process with PID 11712
+2025-04-12 12:04:07 - INFO - Scheduler already running with PID 11712
+2025-04-12 12:08:48 - INFO - Scheduler already running with PID 11712
+2025-04-12 12:45:39 - INFO - Scheduler already running with PID 11712
+2025-04-12 13:39:40 - INFO - Scheduler already running with PID 11712
+2025-04-12 14:04:41 - INFO - Scheduler already running with PID 11712
+2025-04-12 15:02:09 - INFO - Scheduler already running with PID 11712
+2025-04-12 15:18:18 - INFO - Scheduler already running with PID 11712
+2025-06-05 10:23:09 - INFO - Running scheduler in normal mode
+2025-06-05 10:23:09 - INFO - Loaded configuration from scheduler_config.json
+2025-06-05 10:23:09 - INFO - Using email time from email_config.json: 20:04
+2025-06-05 10:23:09 - INFO - Scheduler initialized
+2025-06-05 10:23:09 - INFO - Scheduler starting continuous operation
+2025-06-05 10:23:11 - INFO - Started scheduler process with PID 46192

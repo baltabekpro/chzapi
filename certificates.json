@@ -1,0 +1,49 @@
+{
+  "certificates": [
+    {
+      "name": "Омелина Татьяна",
+      "thumbprint": "88cf91ce3814cd8887364d6a7b1c0112b171b88f",
+      "multi_inn": false
+    },
+    {
+      "name": "Хуторская Татьяна",
+      "thumbprint": "14b00859941db2a1496dd2eabcf9ca15cd80ef9f",
+      "multi_inn": true
+    },
+    {
+      "name": "Тимофеева Елена",
+      "thumbprint": "59ca6cd6a44ff8eb3a416f984010459478f8554f",
+      "multi_inn": true
+    },
+    {
+      "name": "Соколова Татьяна",
+      "thumbprint": "c5bebb2cb2a61e6e8c00728b81d1c0ed2d22caae",
+      "multi_inn": false
+    },
+    {
+      "name": "Лежнева Евгения",
+      "thumbprint": "14614465c116c30ce9ac53a3248ea1bcf94e5b74",
+      "multi_inn": true
+    },
+    {
+      "name": "Костишина Наталья",
+      "thumbprint": "65e92f7676afdf66e1bb43035181a790562ee249",
+      "multi_inn": false
+    },
+    {
+      "name": "Киселева Оксана",
+      "thumbprint": "a325d29a50ee48099231ab8d864b6afa983bb2fc",
+      "multi_inn": false
+    },
+	{
+      "name": "ТОРГСЕРВИС 75",
+      "thumbprint": "99a8ee12a0716df2530474d2496570bfb5608205",
+      "multi_inn": false
+    },
+    {
+      "name": "Дорофеева Светлана",
+      "thumbprint": "d3f2f320c355474c9c85ecb6ec78f64b15467e7f",
+      "multi_inn": true
+    }
+  ]
+}

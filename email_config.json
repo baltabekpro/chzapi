@@ -1,0 +1,10 @@
+{
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587,
+  "sender_email": "dfobot3@gmail.com",
+  "sender_password": "nnzg edlm xcdz rmoj",
+  "recipient_emails": [
+      "workbalta@gmail.com"
+  ],
+  "send_time": "20:04"
+}

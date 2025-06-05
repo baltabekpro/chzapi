@@ -1,0 +1,736 @@
+2025-04-14 07:28:00 - INFO - Creating tasks for certificate: Омелина Татьяна - тс28
+2025-04-14 07:28:00 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:28:00 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:28:00 - INFO - Created task: 06ae46df-8852-46df-a62f-b65cc1777cca
+2025-04-14 07:28:00 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:28:00 - INFO - Created task: c1b41779-f184-46dd-801f-529cc4891638
+2025-04-14 07:28:00 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:28:00 - INFO - Created task: a52e7b7e-a743-4dda-a055-74dfbbd87a98
+2025-04-14 07:28:00 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:28:01 - INFO - Created task: a518c509-3756-4d4a-8508-c1e0eb001fb8
+2025-04-14 07:28:01 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:28:01 - INFO - Created task: ef692e81-44ed-45c8-8461-4f25ba127104
+2025-04-14 07:28:01 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:28:01 - INFO - Created task: 6e790ec4-3b33-484f-ab64-9faa6064fd16
+2025-04-14 07:28:01 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:28:02 - INFO - Created task: 6242e5bd-6073-4ea4-b0d5-3e909b626c78
+2025-04-14 07:28:02 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:28:02 - INFO - Created task: 7ec9c54e-fc41-46d6-b525-f03cd0fd1e86
+2025-04-14 07:28:02 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:28:02 - INFO - Created task: 348be574-4103-4335-9a0f-05cdd44d858f
+2025-04-14 07:28:02 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:28:02 - INFO - Created task: 3ec5f5fa-9864-486c-95df-236da99f7cfb
+2025-04-14 07:28:02 - INFO - Saved 10 tasks to output\Омелина Татьяна - тс28\pending_tasks.txt
+2025-04-14 07:28:30 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс324
+2025-04-14 07:28:30 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:28:30 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:28:30 - INFO - Created task: 93312bb3-7002-4b65-be8b-92417b9a1624
+2025-04-14 07:28:30 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:28:31 - INFO - Created task: c6f70afe-a657-4683-92f9-bcd6dfa67064
+2025-04-14 07:28:31 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:28:31 - INFO - Created task: 10434ea0-8786-4f4e-9b94-48a409e474ac
+2025-04-14 07:28:31 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:28:31 - INFO - Created task: 49298359-1a9a-48fe-9358-f39d19beeff8
+2025-04-14 07:28:31 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:28:31 - INFO - Created task: d8812b99-8a9e-4fcc-af77-8a99b1ceec2e
+2025-04-14 07:28:31 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:28:32 - INFO - Created task: b9c26c61-660e-4357-8060-2e0e8994a89d
+2025-04-14 07:28:32 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:28:32 - INFO - Created task: c3c6e8db-9b30-4e37-873d-190a4cb60b94
+2025-04-14 07:28:32 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:28:32 - INFO - Created task: 793b7db2-2679-4cce-a59b-c35c6447537c
+2025-04-14 07:28:32 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:28:32 - INFO - Created task: 3b4fb811-7494-46e2-a2d9-9332a102155d
+2025-04-14 07:28:32 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:28:33 - INFO - Created task: 3d115865-f877-4be4-a35e-d44271f56437
+2025-04-14 07:28:33 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс324\pending_tasks.txt
+2025-04-14 07:29:00 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс124
+2025-04-14 07:29:00 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:29:00 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:29:01 - INFO - Created task: 21730e9f-a80c-4cb6-ab76-0d0444b0bdb5
+2025-04-14 07:29:01 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:29:01 - INFO - Created task: 15fae5da-56db-4282-acf0-5221c4f2a4c2
+2025-04-14 07:29:01 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:29:01 - INFO - Created task: 745a0b4a-add1-41b4-bc1a-ad64a094a34e
+2025-04-14 07:29:01 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:29:02 - INFO - Created task: 6bb57af8-c8ea-4838-b810-9400bbd3cac1
+2025-04-14 07:29:02 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:29:02 - INFO - Created task: 919b2242-0f2e-4a9f-b31e-37f972a63a3a
+2025-04-14 07:29:02 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:29:02 - INFO - Created task: 66610393-975f-46b4-98ad-291e7bd45151
+2025-04-14 07:29:02 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:29:02 - INFO - Created task: 215e06a7-c86b-4620-a8b6-9abfd3a521fb
+2025-04-14 07:29:02 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:29:03 - INFO - Created task: 3d202a1d-e313-432a-9c2f-3b8087b0794e
+2025-04-14 07:29:03 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:29:03 - INFO - Created task: 93a641cc-6b46-4f4a-b947-5b63235b509e
+2025-04-14 07:29:03 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:29:03 - INFO - Created task: 8eb09f2b-216f-4b0a-9331-1aef145ce89d
+2025-04-14 07:29:03 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс124\pending_tasks.txt
+2025-04-14 07:29:31 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс3
+2025-04-14 07:29:31 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:29:31 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:29:31 - INFO - Created task: 4006ecdf-4bf0-4d06-80ba-a41e31b913fd
+2025-04-14 07:29:31 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:29:31 - INFO - Created task: e05c5ef3-d242-4515-9781-2f0d73585a7d
+2025-04-14 07:29:31 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:29:32 - INFO - Created task: 87e3e71c-5cb1-423f-afec-f3133c2caee3
+2025-04-14 07:29:32 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:29:32 - INFO - Created task: 95d498d1-921a-408f-8606-7c168767615c
+2025-04-14 07:29:32 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:29:32 - INFO - Created task: 0a7fbeb1-f52e-4f8b-b4f5-b9b54068c5bc
+2025-04-14 07:29:32 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:29:32 - INFO - Created task: c28bf9ac-1741-4865-919c-5c56d5c60d34
+2025-04-14 07:29:32 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:29:33 - INFO - Created task: 8446b4f2-6ffa-4a4d-b79d-6fab1aba94d7
+2025-04-14 07:29:33 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:29:33 - INFO - Created task: 0eecef3e-1994-47bb-ac31-625d99c7e5cc
+2025-04-14 07:29:33 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:29:33 - INFO - Created task: 13bacd93-2cf2-42cf-b1e7-cc2379a99fdb
+2025-04-14 07:29:33 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:29:34 - INFO - Created task: 8dc4f75e-120e-41dd-993a-286c5f9e8fcc
+2025-04-14 07:29:34 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс3\pending_tasks.txt
+2025-04-14 07:30:01 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс5
+2025-04-14 07:30:01 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:30:01 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:30:01 - INFO - Created task: d7426339-bb9f-4fd1-8e06-cbe9ae69cfb1
+2025-04-14 07:30:01 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:30:02 - INFO - Created task: 7a327db2-6044-4b93-b077-27d1daed7857
+2025-04-14 07:30:02 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:30:02 - INFO - Created task: 18d35c7f-ae7d-4249-844d-827c77924a02
+2025-04-14 07:30:02 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:30:02 - INFO - Created task: a5aae4fc-2b98-44f9-b5ce-8b95118998d4
+2025-04-14 07:30:02 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:30:02 - INFO - Created task: 9de46287-788b-409a-b9bc-71ef507dc350
+2025-04-14 07:30:02 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:30:03 - INFO - Created task: ced5db45-0a56-4933-b0e3-44ae4c55bf5d
+2025-04-14 07:30:03 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:30:03 - INFO - Created task: e24288ac-929c-4598-9851-c1bac8ec85d1
+2025-04-14 07:30:03 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:30:03 - INFO - Created task: f940feab-8090-4e84-9640-20c6f4ac2b6a
+2025-04-14 07:30:03 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:30:04 - INFO - Created task: b3b4b82b-0901-4068-9a18-aeb41160158b
+2025-04-14 07:30:04 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:30:04 - INFO - Created task: ec15f73a-f574-4f01-ab15-e7a895bfc65c
+2025-04-14 07:30:04 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс5\pending_tasks.txt
+2025-04-14 07:30:32 - INFO - Creating tasks for certificate: Тимофеева Елена - тс138
+2025-04-14 07:30:32 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:30:32 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:30:32 - INFO - Created task: 9bc08bf5-df4d-4f94-9c9a-ff961d2ebf75
+2025-04-14 07:30:32 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:30:32 - INFO - Created task: ec28903f-4d4a-4a02-800d-8668e2ffdef1
+2025-04-14 07:30:32 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:30:32 - INFO - Created task: 1da80d8a-6994-4ae2-bc84-f2ac9bbc835b
+2025-04-14 07:30:32 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:30:33 - INFO - Created task: 767f1964-8a35-44ca-ac86-d22f0f5bcdc5
+2025-04-14 07:30:33 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:30:33 - INFO - Created task: 313e7813-51d5-4c21-b801-6101543af440
+2025-04-14 07:30:33 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:30:33 - INFO - Created task: 4ba0f568-8a04-44e4-afc6-7af2f037b429
+2025-04-14 07:30:33 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:30:33 - INFO - Created task: 46fdc57b-e859-47e7-b044-3f62b4e985a4
+2025-04-14 07:30:33 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:30:34 - INFO - Created task: 8be25bf4-2f20-4362-9fb6-11cc94bcbf5b
+2025-04-14 07:30:34 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:30:34 - INFO - Created task: 32720bab-515b-4b53-a321-530d1f22a8eb
+2025-04-14 07:30:34 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:30:34 - INFO - Created task: c81a4ad9-6988-4e3d-8d81-99e7e3102ddd
+2025-04-14 07:30:34 - INFO - Saved 10 tasks to output\Тимофеева Елена - тс138\pending_tasks.txt
+2025-04-14 07:31:02 - INFO - Creating tasks for certificate: Тимофеева Елена - тс238
+2025-04-14 07:31:02 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:31:02 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:31:02 - INFO - Created task: 91f0bb33-4dd1-4d9d-8a21-813cc3af96bd
+2025-04-14 07:31:02 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:31:03 - INFO - Created task: 0bd9ed8c-66f3-487f-9bd2-f5b0ec164308
+2025-04-14 07:31:03 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:31:03 - INFO - Created task: 9fe981ea-c961-430b-830d-5e62012e70b6
+2025-04-14 07:31:03 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:31:03 - INFO - Created task: ebcd1f69-6033-4d8e-ae54-5d3c9fb39061
+2025-04-14 07:31:03 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:31:03 - INFO - Created task: 37f4396b-693a-4820-9431-898c8960c8e9
+2025-04-14 07:31:03 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:31:04 - INFO - Created task: 257e6181-eda9-441e-b230-30fd1acdd979
+2025-04-14 07:31:04 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:31:04 - INFO - Created task: 47a57951-a8ce-4dd0-ac2e-1a042f61639d
+2025-04-14 07:31:04 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:31:04 - INFO - Created task: 576d9188-4652-4fa1-8491-9e2e0092184a
+2025-04-14 07:31:04 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:31:04 - INFO - Created task: 98a31785-a063-47c9-82d2-35a11ae6e04f
+2025-04-14 07:31:04 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:31:05 - INFO - Created task: 8a38f8f9-3e45-4127-ae64-b30f2ae9a71d
+2025-04-14 07:31:05 - INFO - Saved 10 tasks to output\Тимофеева Елена - тс238\pending_tasks.txt
+2025-04-14 07:31:32 - INFO - Creating tasks for certificate: Тимофеева Елена - тс338
+2025-04-14 07:31:32 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:31:32 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:31:32 - INFO - Created task: a2907b46-ec5d-495b-83d8-8ce23152c32c
+2025-04-14 07:31:32 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:31:33 - INFO - Created task: 7bec3cab-6156-4a59-9a8c-b433a8cd573c
+2025-04-14 07:31:33 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:31:33 - INFO - Created task: 2be9033f-cdea-4175-acb3-a72c66961689
+2025-04-14 07:31:33 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:31:33 - INFO - Created task: ec9abf9a-9480-48b8-b0e6-d64f99442701
+2025-04-14 07:31:33 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:31:33 - INFO - Created task: b1b0d40f-ee80-4890-bd5c-14f667c0990c
+2025-04-14 07:31:33 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:31:34 - INFO - Created task: d9623a0a-deca-4425-94f2-91773114331a
+2025-04-14 07:31:34 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:31:34 - INFO - Created task: cbb4c3ec-e81c-406f-9c4a-7a77b31f48e1
+2025-04-14 07:31:34 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:31:34 - INFO - Created task: 6c4f5a3d-2c3e-4704-817b-f1f5c4effbfc
+2025-04-14 07:31:34 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:31:35 - INFO - Created task: 42a3bf1d-125c-4912-9f26-1f2ae182bc90
+2025-04-14 07:31:35 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:31:35 - INFO - Created task: f55411d5-babb-4606-906b-9c5036a8f39e
+2025-04-14 07:31:35 - INFO - Saved 10 tasks to output\Тимофеева Елена - тс338\pending_tasks.txt
+2025-04-14 07:32:02 - INFO - Creating tasks for certificate: Соколова Татьяна - тс22
+2025-04-14 07:32:02 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:32:02 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:32:03 - INFO - Created task: f579fec1-3ecc-4a00-8e23-3b6a7b88fd7e
+2025-04-14 07:32:03 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:32:03 - INFO - Created task: 29f2d91e-28ce-4756-9bc5-60ce0a857238
+2025-04-14 07:32:03 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:32:03 - INFO - Created task: 3093c1ed-c3cd-4b89-9a21-68fb5d826ad5
+2025-04-14 07:32:03 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:32:04 - INFO - Created task: 7e91129d-fe9f-467a-9d01-8edb4592abe3
+2025-04-14 07:32:04 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:32:04 - INFO - Created task: 0cc4933a-6437-4a91-b706-f9b8e02e1ee8
+2025-04-14 07:32:04 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:32:04 - INFO - Created task: 07ecc450-c1a9-4152-9c8f-961861654976
+2025-04-14 07:32:04 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:32:05 - INFO - Created task: 0b4c9763-fe9a-4e9e-9977-f8be67c62a39
+2025-04-14 07:32:05 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:32:05 - INFO - Created task: 31e88bcd-5b72-436b-8bac-0abf229a2d32
+2025-04-14 07:32:05 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:32:05 - INFO - Created task: 76aac7fa-7727-4fde-86d3-adf402a42691
+2025-04-14 07:32:05 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:32:05 - INFO - Created task: 198a9fc2-aab4-4e2c-a637-b66250762aaf
+2025-04-14 07:32:05 - INFO - Saved 10 tasks to output\Соколова Татьяна - тс22\pending_tasks.txt
+2025-04-14 07:32:33 - INFO - Creating tasks for certificate: Лежнева Евгения - тс54
+2025-04-14 07:32:33 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:32:33 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:32:33 - INFO - Created task: 5aa92dca-6931-4b7d-b179-d6121646b6de
+2025-04-14 07:32:33 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:32:34 - INFO - Created task: 13420c47-9316-464c-8e61-21d38f8b830f
+2025-04-14 07:32:34 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:32:34 - INFO - Created task: 6a5fc33f-6606-4de7-8f99-6714e0327caa
+2025-04-14 07:32:34 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:32:34 - INFO - Created task: 84e9bb13-ca54-4b82-bc05-abe5766e9087
+2025-04-14 07:32:34 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:32:34 - INFO - Created task: 92288316-9b22-44d0-acb4-3046706a1b03
+2025-04-14 07:32:34 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:32:35 - INFO - Created task: 5921d800-754c-4b84-a2c0-1e5051df4628
+2025-04-14 07:32:35 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:32:35 - INFO - Created task: 182f884f-a1de-47a1-908b-c719ee7c83c9
+2025-04-14 07:32:35 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:32:35 - INFO - Created task: be5a440d-c8d2-478f-a147-e2137c5aedbe
+2025-04-14 07:32:35 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:32:35 - INFO - Created task: 6cd767f3-d279-4ac1-8bd2-cd75e626e2b1
+2025-04-14 07:32:35 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:32:36 - INFO - Created task: 0d4a579c-e3f4-4bc2-becd-6e23edf8622c
+2025-04-14 07:32:36 - INFO - Saved 10 tasks to output\Лежнева Евгения - тс54\pending_tasks.txt
+2025-04-14 07:33:04 - INFO - Creating tasks for certificate: Лежнева Евгения - тс55
+2025-04-14 07:33:04 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:33:04 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:33:04 - INFO - Created task: b97525c1-dbf9-432c-a06c-03db27342e45
+2025-04-14 07:33:04 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:33:04 - INFO - Created task: 2c4c467c-ba27-432c-89a4-77ef2a806ee4
+2025-04-14 07:33:04 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:33:04 - INFO - Created task: f5457680-c34e-4f6c-b962-c1e64b9307ed
+2025-04-14 07:33:04 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:33:05 - INFO - Created task: 116ab740-493e-4c2d-af2e-de442edbee0b
+2025-04-14 07:33:05 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:33:05 - INFO - Created task: d427a68e-276a-4055-bebf-9ef5e2de488b
+2025-04-14 07:33:05 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:33:05 - INFO - Created task: cd9346ba-0a73-47c7-a033-77bf66f92422
+2025-04-14 07:33:05 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:33:05 - INFO - Created task: 881e8c52-2355-4351-b5dd-2d7047e2cfaf
+2025-04-14 07:33:05 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:33:06 - INFO - Created task: a5f45be1-2a1f-405d-b4e0-339a9646e03b
+2025-04-14 07:33:06 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:33:06 - INFO - Created task: 7c376a12-5b0d-4574-aebc-ff9ed9ef99f2
+2025-04-14 07:33:06 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:33:06 - INFO - Created task: 0293fa54-0ac8-47a0-9cc4-e25fe032acc0
+2025-04-14 07:33:06 - INFO - Saved 10 tasks to output\Лежнева Евгения - тс55\pending_tasks.txt
+2025-04-14 07:33:34 - INFO - Creating tasks for certificate: Лежнева Евгения - тс142
+2025-04-14 07:33:34 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:33:34 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:33:34 - INFO - Created task: 81a858d4-3185-4afb-9afc-e2454a0680fe
+2025-04-14 07:33:34 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:33:35 - INFO - Created task: 792b98b5-a4b9-4532-ba20-9d9012ec895e
+2025-04-14 07:33:35 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:33:35 - INFO - Created task: 3bcdd262-6879-411f-9571-530ad294e317
+2025-04-14 07:33:35 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:33:35 - INFO - Created task: ec373007-754b-490e-8390-2e65eb768ee1
+2025-04-14 07:33:35 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:33:35 - INFO - Created task: b623522e-3239-4803-a446-0efed0c54a10
+2025-04-14 07:33:35 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:33:36 - INFO - Created task: 33f50a8b-18da-4051-a713-06797f0496d9
+2025-04-14 07:33:36 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:33:36 - INFO - Created task: b9df55d9-dd5e-4b26-ae95-10dcd8cecd79
+2025-04-14 07:33:36 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:33:36 - INFO - Created task: 2d6eece7-a171-437f-b9d9-b37b54cf0f41
+2025-04-14 07:33:36 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:33:36 - INFO - Created task: ed4c47ed-741a-47a2-a79c-4a5032788f72
+2025-04-14 07:33:36 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:33:37 - INFO - Created task: cdd55b67-b267-4786-9f20-23d36e3ba6c3
+2025-04-14 07:33:37 - INFO - Saved 10 tasks to output\Лежнева Евгения - тс142\pending_tasks.txt
+2025-04-14 07:34:04 - INFO - Creating tasks for certificate: Костишина Наталья - тс25
+2025-04-14 07:34:04 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:34:04 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:34:04 - INFO - Created task: f417836f-e6a8-4295-a89b-da4b9b0b7316
+2025-04-14 07:34:04 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:34:05 - INFO - Created task: 6a8ec4de-c3e8-4424-b639-18904f14e231
+2025-04-14 07:34:05 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:34:05 - INFO - Created task: 37eadc68-ca6f-4f95-b30a-b1f9fe4f02ad
+2025-04-14 07:34:05 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:34:05 - INFO - Created task: f0cc01d3-3961-4a91-967b-555d8853df31
+2025-04-14 07:34:05 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:34:05 - INFO - Created task: e81f0c54-7a73-4102-ad36-f1529faa7c8c
+2025-04-14 07:34:05 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:34:06 - INFO - Created task: e6fce810-1396-4e20-bd24-3c895cfe6f3d
+2025-04-14 07:34:06 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:34:06 - INFO - Created task: 6c43d883-5da9-4a35-9298-dea2d12c204a
+2025-04-14 07:34:06 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:34:06 - INFO - Created task: 5e727734-e10e-48d2-89bf-6316ee58537f
+2025-04-14 07:34:06 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:34:07 - INFO - Created task: 67a4a083-d0cb-4c4c-b329-f64f9135e440
+2025-04-14 07:34:07 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:34:07 - INFO - Created task: 7392ed44-90c6-4587-b0ef-a5850c1d90a9
+2025-04-14 07:34:07 - INFO - Saved 10 tasks to output\Костишина Наталья - тс25\pending_tasks.txt
+2025-04-14 07:34:34 - INFO - Creating tasks for certificate: ТОРГСЕРВИС 75
+2025-04-14 07:34:34 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:34:34 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:34:35 - INFO - Created task: 3d745993-0502-4167-b6ea-b8dd80f620d9
+2025-04-14 07:34:35 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:34:35 - INFO - Created task: 7d77dda8-a5d1-44ff-a116-13995af8ea4c
+2025-04-14 07:34:35 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:34:35 - INFO - Created task: 46a1ab8d-de5f-4b5c-baf3-f85fe31523f5
+2025-04-14 07:34:35 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:34:35 - INFO - Created task: e7a3a4dd-4a00-495a-82f8-4db544d0180e
+2025-04-14 07:34:35 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:34:36 - INFO - Created task: d2f2755d-fd18-47e6-a88c-2d4012a5eb9c
+2025-04-14 07:34:36 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:34:36 - INFO - Created task: 467fab40-2c41-49cc-9dbf-15f8770718df
+2025-04-14 07:34:36 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:34:36 - INFO - Created task: 6f3c9fc7-3200-408a-b986-99e94c5b08b9
+2025-04-14 07:34:36 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:34:36 - INFO - Created task: 211b5323-6ea2-4d0d-8431-80133c0e6a18
+2025-04-14 07:34:36 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:34:37 - INFO - Created task: c6ccf6a8-d821-4ec1-8778-6d9cd2a990ff
+2025-04-14 07:34:37 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:34:37 - INFO - Created task: 520cc951-a7a6-4898-a82e-fb66f690ed27
+2025-04-14 07:34:37 - INFO - Saved 10 tasks to output\ТОРГСЕРВИС 75\pending_tasks.txt
+2025-04-14 07:35:05 - INFO - Creating tasks for certificate: Дорофеева Светлана - тс127
+2025-04-14 07:35:05 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:35:05 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:35:05 - INFO - Created task: 31e5e03e-cd2a-4733-a254-d3a7bb54c931
+2025-04-14 07:35:05 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:35:05 - INFO - Created task: 9191e5fc-d3d9-413e-a6d0-41dbf83e3df0
+2025-04-14 07:35:05 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:35:06 - INFO - Created task: d2008741-91e1-48c8-9374-1095023a6a57
+2025-04-14 07:35:06 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:35:06 - INFO - Created task: af4caa34-9047-482c-8192-2c690ef8d71f
+2025-04-14 07:35:06 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:35:06 - INFO - Created task: 1d353424-0230-4aa3-b2ed-c7a526d3f7ef
+2025-04-14 07:35:06 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:35:06 - INFO - Created task: c661fefc-5461-4788-a4b8-7af7f5820765
+2025-04-14 07:35:06 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:35:07 - INFO - Created task: 28df5398-af4b-4dc7-ace4-6d13d9a2c63f
+2025-04-14 07:35:07 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:35:07 - INFO - Created task: a2a17b9d-eb46-46bc-a9fd-d81178be8a81
+2025-04-14 07:35:07 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:35:07 - INFO - Created task: 5b5a9b9d-6807-40e3-b2bb-49d583ad0370
+2025-04-14 07:35:07 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:35:07 - INFO - Created task: 9edd120b-89f5-47bd-8a3b-a921ba4714cd
+2025-04-14 07:35:07 - INFO - Saved 10 tasks to output\Дорофеева Светлана - тс127\pending_tasks.txt
+2025-04-14 07:35:35 - INFO - Creating tasks for certificate: Дорофеева Светлана - тс27
+2025-04-14 07:35:35 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:35:35 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:35:35 - INFO - Created task: 6c792ec9-acb7-4aab-bd9d-4c179e99e9e8
+2025-04-14 07:35:35 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:35:36 - INFO - Created task: 86ec4133-428d-4bcf-9260-bd5a946ab92c
+2025-04-14 07:35:36 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:35:36 - INFO - Created task: 478f1dcd-fdad-4dfa-9ac0-0631a5e9973e
+2025-04-14 07:35:36 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:35:36 - INFO - Created task: 0eadbe05-b250-48ad-98f5-ae227ccdb23a
+2025-04-14 07:35:36 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:35:37 - INFO - Created task: 046e1529-7d26-474e-ad92-a2d5038309a7
+2025-04-14 07:35:37 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:35:37 - INFO - Created task: b7d2deac-a4da-41e3-8c5d-9f4a01fd79f0
+2025-04-14 07:35:37 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:35:37 - INFO - Created task: fb341054-0840-4a79-bad8-6c22c3506ab1
+2025-04-14 07:35:37 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:35:37 - INFO - Created task: 8b97ef92-54b4-4c5f-b2c4-5cc8d247e193
+2025-04-14 07:35:37 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:35:38 - INFO - Created task: 5dbf806e-2779-482c-b967-2c7846ec5d1e
+2025-04-14 07:35:38 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:35:38 - INFO - Created task: 48c5d2ab-48f6-41e1-a830-af7c1bb3bbcc
+2025-04-14 07:35:38 - INFO - Saved 10 tasks to output\Дорофеева Светлана - тс27\pending_tasks.txt
+2025-04-14 07:58:28 - INFO - Creating tasks for certificate: Омелина Татьяна - тс28
+2025-04-14 07:58:28 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:58:28 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:58:28 - INFO - Created task: 4dc30bf4-0786-4ec1-ae92-fd204bbee365
+2025-04-14 07:58:28 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:58:29 - INFO - Created task: ab493011-8e6f-4c21-90c1-2956d213e3e9
+2025-04-14 07:58:29 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:58:29 - INFO - Created task: 6cd2240a-442e-42ee-88f9-bb18544602a6
+2025-04-14 07:58:29 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:58:29 - INFO - Created task: ac00ee42-3a99-4fe4-935b-4acb973669a7
+2025-04-14 07:58:29 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:58:29 - INFO - Created task: 2ec5168a-d0aa-4914-a1e6-f74c6931eb92
+2025-04-14 07:58:29 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:58:30 - INFO - Created task: 82e6d3cc-0ac7-4f26-b80a-8e3c6c860bbd
+2025-04-14 07:58:30 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:58:30 - INFO - Created task: 3947e906-527b-4162-81f7-0f4afc81dac6
+2025-04-14 07:58:30 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:58:30 - INFO - Created task: 5cbf060f-9853-49a0-b25b-d740fdbe8edc
+2025-04-14 07:58:30 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:58:30 - INFO - Created task: 70a92948-21ec-4aee-aeb9-be42dec0b4e7
+2025-04-14 07:58:30 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:58:31 - INFO - Created task: 6606aebf-5b66-4519-b466-12de020e45ba
+2025-04-14 07:58:31 - INFO - Saved 10 tasks to output\Омелина Татьяна - тс28\pending_tasks.txt
+2025-04-14 07:58:58 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс324
+2025-04-14 07:58:58 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:58:58 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:58:59 - INFO - Created task: 3548d7c3-4ade-429f-87ca-608fb1a3c837
+2025-04-14 07:58:59 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:58:59 - INFO - Created task: 50dbe6f6-c159-49b2-bf24-14912aa9f57c
+2025-04-14 07:58:59 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:58:59 - INFO - Created task: 90b4efdf-7f0d-4cda-86bb-ce2fe03669df
+2025-04-14 07:58:59 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:59:00 - INFO - Created task: ec6f5240-3648-47ff-9f50-b41110f7468f
+2025-04-14 07:59:00 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:59:00 - INFO - Created task: ba093c1f-5460-4e21-82b8-8f90841d9258
+2025-04-14 07:59:00 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:59:00 - INFO - Created task: 2be9b8dc-cd93-418f-9bbd-83d483e6a8d1
+2025-04-14 07:59:00 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:59:00 - INFO - Created task: fadc67df-2f2f-431e-828e-0220a6c639bf
+2025-04-14 07:59:00 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:59:01 - INFO - Created task: 094d7e47-7be7-431c-b74b-dfbfa1e56ec3
+2025-04-14 07:59:01 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:59:01 - INFO - Created task: 5baba8f6-9ebd-4bfd-9243-1e5c0d9dc7e9
+2025-04-14 07:59:01 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:59:01 - INFO - Created task: 8d9299e4-0d13-4ac2-8c1f-1b76ff3fd377
+2025-04-14 07:59:01 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс324\pending_tasks.txt
+2025-04-14 07:59:29 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс124
+2025-04-14 07:59:29 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:59:29 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 07:59:29 - INFO - Created task: 24f61975-6b6c-42c6-88cd-d5c588d541f0
+2025-04-14 07:59:29 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 07:59:30 - INFO - Created task: 4e31fdb8-9ccc-46e4-ac5e-01028284813b
+2025-04-14 07:59:30 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 07:59:30 - INFO - Created task: 9e26449b-893a-4a10-b4b0-d66fabbe1484
+2025-04-14 07:59:30 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 07:59:30 - INFO - Created task: c1f22e37-8ecd-4539-bd6b-d26de2895299
+2025-04-14 07:59:30 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 07:59:30 - INFO - Created task: 68fc5b3a-7de2-41ed-96fa-9abf91b0bc28
+2025-04-14 07:59:30 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 07:59:31 - INFO - Created task: 0cb63518-0d56-41cd-9bcc-b821e9786ba7
+2025-04-14 07:59:31 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 07:59:31 - INFO - Created task: 851fa3f2-6e53-47ac-b763-575bdf5a7530
+2025-04-14 07:59:31 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 07:59:31 - INFO - Created task: 4c64ddde-4d39-4319-80c8-f1d784323fb4
+2025-04-14 07:59:31 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 07:59:31 - INFO - Created task: 792da28a-7967-4823-8c7b-c4c10b1dd7d6
+2025-04-14 07:59:31 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 07:59:32 - INFO - Created task: a84aeb96-c9e7-43a1-b11e-1d8271cf6e1d
+2025-04-14 07:59:32 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс124\pending_tasks.txt
+2025-04-14 07:59:59 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс3
+2025-04-14 07:59:59 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 07:59:59 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:00:00 - INFO - Created task: a911529f-6298-4e28-add5-4454021ec1c3
+2025-04-14 08:00:00 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:00:00 - INFO - Created task: ed12c077-2e50-4d94-9651-58515b5d567d
+2025-04-14 08:00:00 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:00:00 - INFO - Created task: 76b271e2-e999-469d-88de-f1b3c8a8f4cb
+2025-04-14 08:00:00 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:00:00 - INFO - Created task: a3e12910-2151-47d4-b964-000ffc8070a3
+2025-04-14 08:00:00 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:00:01 - INFO - Created task: b2838463-6206-4cfe-81e1-87e875d12b44
+2025-04-14 08:00:01 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:00:01 - INFO - Created task: bffe4872-c1c7-4f8d-a1b2-fd7b7b47943e
+2025-04-14 08:00:01 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:00:01 - INFO - Created task: f6b8cf7c-330c-4349-a526-433b692ccd8f
+2025-04-14 08:00:01 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:00:01 - INFO - Created task: 6383fb91-604d-4412-b5ea-347efc65ce1f
+2025-04-14 08:00:01 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:00:02 - INFO - Created task: d1d9eb73-33ae-49c2-a33f-71fd7c73bf88
+2025-04-14 08:00:02 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:00:02 - INFO - Created task: f5fd02e6-47f8-48e4-a370-bcd698d37009
+2025-04-14 08:00:02 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс3\pending_tasks.txt
+2025-04-14 08:35:53 - INFO - Creating tasks for certificate: Хуторская Татьяна - тс5
+2025-04-14 08:35:53 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:35:53 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:35:53 - INFO - Created task: 53b74ccf-e5ca-40ab-b9ff-86b0cc50c34d
+2025-04-14 08:35:53 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:35:53 - INFO - Created task: 802fc4bc-e9a1-4f4b-92c6-77fe522cb8e7
+2025-04-14 08:35:53 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:35:53 - INFO - Created task: 0d45daf8-6682-47a8-9dd9-503ff14fd7bb
+2025-04-14 08:35:53 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:35:54 - INFO - Created task: 2069ef79-71e5-470c-a68b-ec5944754437
+2025-04-14 08:35:54 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:35:54 - INFO - Created task: ecdccdf0-13b4-4b97-a04e-bec910dee02f
+2025-04-14 08:35:54 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:35:54 - INFO - Created task: e25fd60c-62ff-49f5-9255-7944ef60ffcb
+2025-04-14 08:35:54 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:35:55 - INFO - Created task: d3d2d119-2150-4803-a4af-07530ab1d30c
+2025-04-14 08:35:55 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:35:55 - INFO - Created task: 4cf4ffbf-124c-4872-8fc2-ad31ae6532f7
+2025-04-14 08:35:55 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:35:55 - INFO - Created task: fc841cd2-2b4e-43c0-a676-007e02174d3a
+2025-04-14 08:35:55 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:35:55 - INFO - Created task: 6f21e584-a25c-4cca-93b9-b69cec52675d
+2025-04-14 08:35:55 - INFO - Saved 10 tasks to output\Хуторская Татьяна - тс5\pending_tasks.txt
+2025-04-14 08:36:24 - INFO - Creating tasks for certificate: Тимофеева Елена - тс138
+2025-04-14 08:36:24 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:36:24 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:36:24 - INFO - Created task: df771160-9738-421b-b0d0-edd7cf1840a5
+2025-04-14 08:36:24 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:36:24 - INFO - Created task: ce7f4941-df7a-4c32-a81e-49bc66c92ae1
+2025-04-14 08:36:24 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:36:25 - INFO - Created task: 8b6ac79d-6fb9-4b33-905b-13fe80c4882f
+2025-04-14 08:36:25 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:36:25 - INFO - Created task: fd56f23c-72c6-4722-90f9-0f306c178b53
+2025-04-14 08:36:25 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:36:25 - INFO - Created task: 58143e49-88ba-4adb-9268-3083918d63e0
+2025-04-14 08:36:25 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:36:25 - INFO - Created task: f1013a08-56b1-4300-a8b8-a7bc35cfb586
+2025-04-14 08:36:25 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:36:26 - INFO - Created task: 7fea8b31-d250-4c08-b45a-f3143cafa036
+2025-04-14 08:36:26 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:36:26 - INFO - Created task: 5c5bdc94-ef80-433b-9841-fbb6f669712e
+2025-04-14 08:36:26 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:36:26 - INFO - Created task: a7033734-1ea8-425e-98cf-574a20bf2b60
+2025-04-14 08:36:26 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:36:26 - INFO - Created task: 8c6f1bf6-1006-4431-874a-054e7168692b
+2025-04-14 08:36:26 - INFO - Saved 10 tasks to output\Тимофеева Елена - тс138\pending_tasks.txt
+2025-04-14 08:36:55 - INFO - Creating tasks for certificate: Тимофеева Елена - тс238
+2025-04-14 08:36:55 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:36:55 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:36:56 - INFO - Created task: 0215ffb0-9298-415e-bd5e-ab1ea6dbb492
+2025-04-14 08:36:56 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:36:56 - INFO - Created task: c2647176-5b2f-47d3-bad2-51ca7b678516
+2025-04-14 08:36:56 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:36:56 - INFO - Created task: ebd98e3f-e6e3-42b7-8f4f-93a3ea75302f
+2025-04-14 08:36:56 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:36:56 - INFO - Created task: b6928378-bb6a-4031-b0c3-3d2a605427be
+2025-04-14 08:36:56 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:36:57 - INFO - Created task: 250a7413-54ac-4ac0-bc67-8c50ed7749a0
+2025-04-14 08:36:57 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:36:57 - INFO - Created task: 20948109-2cf7-46f3-8c8e-99fd4b5ffe3a
+2025-04-14 08:36:57 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:36:57 - INFO - Created task: bf0c9fae-c20f-42ac-8027-1341a5307f17
+2025-04-14 08:36:57 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:36:57 - INFO - Created task: 8d31503b-5631-4fc3-b77e-fdd0ffa26cd7
+2025-04-14 08:36:57 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:36:58 - INFO - Created task: fe4cc0c2-aa73-498c-a117-018fdee7fb34
+2025-04-14 08:36:58 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:36:58 - INFO - Created task: ec87daf1-08eb-45b8-a195-8f3998c4f109
+2025-04-14 08:36:58 - INFO - Saved 10 tasks to output\Тимофеева Елена - тс238\pending_tasks.txt
+2025-04-14 08:37:25 - INFO - Creating tasks for certificate: Тимофеева Елена - тс338
+2025-04-14 08:37:25 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:37:25 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:37:26 - INFO - Created task: 2d967c11-0910-41b7-b13d-ede7c81b5da1
+2025-04-14 08:37:26 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:37:26 - INFO - Created task: 631075f1-d400-473c-9279-f73a609766f7
+2025-04-14 08:37:26 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:37:26 - INFO - Created task: 662f07d6-4a9e-4790-b721-59fb2f74d810
+2025-04-14 08:37:26 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:37:26 - INFO - Created task: 6e3db6ce-a0c6-4fd4-9630-97f319e4ce66
+2025-04-14 08:37:26 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:37:27 - INFO - Created task: a91bae7e-0502-4b01-9cd2-7206d81b7122
+2025-04-14 08:37:27 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:37:27 - INFO - Created task: e066c604-8392-4703-9201-ff2cc2809680
+2025-04-14 08:37:27 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:37:27 - INFO - Created task: 34ddae5f-51c7-4ff2-b0c7-d8f8dea5d7aa
+2025-04-14 08:37:27 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:37:27 - INFO - Created task: 4a41a912-4085-4d5a-bb84-a8694854ff6d
+2025-04-14 08:37:27 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:37:28 - INFO - Created task: 27927199-3886-4819-8f97-cf4a05428b7b
+2025-04-14 08:37:28 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:37:28 - INFO - Created task: 75746c65-fa63-4e94-b3d8-53828b9932f0
+2025-04-14 08:37:28 - INFO - Saved 10 tasks to output\Тимофеева Елена - тс338\pending_tasks.txt
+2025-04-14 08:37:55 - INFO - Creating tasks for certificate: Соколова Татьяна - тс22
+2025-04-14 08:37:55 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:37:55 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:37:56 - INFO - Created task: 859609c7-3cc2-4b66-afff-cb1ea31460a4
+2025-04-14 08:37:56 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:37:56 - INFO - Created task: 91f44913-1eeb-4dd4-aafb-a728e3283a91
+2025-04-14 08:37:56 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:37:56 - INFO - Created task: 77d43784-0514-47b9-9d40-34d76d95ff07
+2025-04-14 08:37:56 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:37:56 - INFO - Created task: f7302e3a-d8d4-447e-9058-d3c7cfa6d606
+2025-04-14 08:37:56 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:37:57 - INFO - Created task: d0d2312b-10e4-4436-9a28-07a97ffa883c
+2025-04-14 08:37:57 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:37:57 - INFO - Created task: 2cbe30a9-a17a-41f4-be00-e86a91648225
+2025-04-14 08:37:57 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:37:57 - INFO - Created task: 0c438cc1-380e-4a1e-a3de-c9a24c947538
+2025-04-14 08:37:57 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:37:57 - INFO - Created task: 1bd49592-e2b9-4b74-af53-0cb4dad19c66
+2025-04-14 08:37:57 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:37:58 - INFO - Created task: 3ec76cab-72fc-4eda-bbf0-ec83b1e8015e
+2025-04-14 08:37:58 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:37:58 - INFO - Created task: 5920304a-e75d-4765-a974-3ffa73dfcfb6
+2025-04-14 08:37:58 - INFO - Saved 10 tasks to output\Соколова Татьяна - тс22\pending_tasks.txt
+2025-04-14 08:38:27 - INFO - Creating tasks for certificate: Лежнева Евгения - тс54
+2025-04-14 08:38:27 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:38:27 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:38:27 - INFO - Created task: fb5f0521-b427-48d3-aaae-575c1872c8d8
+2025-04-14 08:38:27 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:38:27 - INFO - Created task: 067727cb-e4b9-4402-b75b-a6c6a14f6860
+2025-04-14 08:38:27 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:38:27 - INFO - Created task: 12ba7541-d306-4a48-be22-069934448be2
+2025-04-14 08:38:27 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:38:28 - INFO - Created task: acce20f9-cc63-489e-aafe-82822af81533
+2025-04-14 08:38:28 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:38:28 - INFO - Created task: 6b327d3f-d3ea-4009-bb09-7b396381153a
+2025-04-14 08:38:28 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:38:28 - INFO - Created task: 11c56d80-571d-478c-aed8-4ecbe76b29d4
+2025-04-14 08:38:28 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:38:28 - INFO - Created task: f7759c32-cea0-41e3-99e7-bb4d312f7537
+2025-04-14 08:38:28 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:38:29 - INFO - Created task: 0851779c-8632-44e6-9e3d-880f7f017ded
+2025-04-14 08:38:29 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:38:29 - INFO - Created task: 9695fc13-dc81-4bff-b2e4-2687fcf38f31
+2025-04-14 08:38:29 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:38:29 - INFO - Created task: 796a42f0-6bab-4c36-8d53-e5d1cab9cdbc
+2025-04-14 08:38:29 - INFO - Saved 10 tasks to output\Лежнева Евгения - тс54\pending_tasks.txt
+2025-04-14 08:38:58 - INFO - Creating tasks for certificate: Лежнева Евгения - тс55
+2025-04-14 08:38:58 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:38:58 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:38:59 - INFO - Created task: 12345f38-c77f-41b1-a427-f81983504ff5
+2025-04-14 08:38:59 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:38:59 - INFO - Created task: 2cf920f9-c711-4c6e-beb0-f59e6ae51e0b
+2025-04-14 08:38:59 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:38:59 - INFO - Created task: 1983bf0a-06cc-4cbd-93ee-e971c707dd64
+2025-04-14 08:38:59 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:38:59 - INFO - Created task: f7f0a828-bd19-4501-bf7c-c53f20940f2e
+2025-04-14 08:38:59 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:39:00 - INFO - Created task: 06a2d31d-b0c6-4e04-afc7-728a248bf354
+2025-04-14 08:39:00 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:39:00 - INFO - Created task: 5121079e-5d52-451e-aa26-38852f92641c
+2025-04-14 08:39:00 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:39:00 - INFO - Created task: bda1bbbb-1d02-4691-bcbf-c6712ca8ab2f
+2025-04-14 08:39:00 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:39:01 - INFO - Created task: d48fc8e2-0082-4327-9acc-a8aa5d177354
+2025-04-14 08:39:01 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:39:01 - INFO - Created task: 2af5fcb3-c827-4be9-96d7-fc2a2887aa66
+2025-04-14 08:39:01 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:39:01 - INFO - Created task: 50b3c399-a110-4c82-91bf-f73063a576f3
+2025-04-14 08:39:01 - INFO - Saved 10 tasks to output\Лежнева Евгения - тс55\pending_tasks.txt
+2025-04-14 08:39:30 - INFO - Creating tasks for certificate: Лежнева Евгения - тс142
+2025-04-14 08:39:30 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:39:30 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:39:31 - INFO - Created task: 93cad08d-39bf-4a61-a7e2-42b7ad5a77ec
+2025-04-14 08:39:31 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:39:31 - INFO - Created task: e6969ece-8708-43ef-bf90-706669ce7874
+2025-04-14 08:39:31 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:39:31 - INFO - Created task: 37b33aa3-2dc8-4975-a850-b190afe72dd0
+2025-04-14 08:39:31 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:39:31 - INFO - Created task: f4462ae2-1013-4ae3-b157-7b04e74e24df
+2025-04-14 08:39:31 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:39:32 - INFO - Created task: 7e33eae2-0d87-45e2-bcdb-37be47e55794
+2025-04-14 08:39:32 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:39:32 - INFO - Created task: 63a2ce75-d4f0-45ee-9415-0f78a23c8a88
+2025-04-14 08:39:32 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:39:32 - INFO - Created task: 76585084-bedc-410b-a048-7280c9944dbf
+2025-04-14 08:39:32 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:39:32 - INFO - Created task: 23da63a7-b520-4004-ae1b-3746ee17f30d
+2025-04-14 08:39:32 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:39:33 - INFO - Created task: 5670d906-b271-48e6-bb02-1d59ec467dfd
+2025-04-14 08:39:33 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:39:33 - INFO - Created task: eb7bd852-1138-4ee1-b2ad-5f8d1ac73a09
+2025-04-14 08:39:33 - INFO - Saved 10 tasks to output\Лежнева Евгения - тс142\pending_tasks.txt
+2025-04-14 08:40:03 - INFO - Creating tasks for certificate: Костишина Наталья - тс25
+2025-04-14 08:40:03 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:40:03 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:40:03 - INFO - Created task: 28c0e8c9-43d9-4c47-856d-cfac5f806bf1
+2025-04-14 08:40:03 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:40:04 - INFO - Created task: 5d160a30-5eba-4ffd-8340-af9c923da96a
+2025-04-14 08:40:04 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:40:04 - INFO - Created task: fe389e2f-af69-4413-9717-18b318ea56b5
+2025-04-14 08:40:04 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:40:04 - INFO - Created task: c4caf7c6-83f7-4961-8acb-3422f1a77ad6
+2025-04-14 08:40:04 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:40:04 - INFO - Created task: d63cdcc0-a70e-440d-93f6-9b15735006c5
+2025-04-14 08:40:04 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:40:05 - INFO - Created task: 00c1daa3-e7da-461b-981c-d381b33b7a6a
+2025-04-14 08:40:05 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:40:05 - INFO - Created task: b756edfc-e2e9-4590-8ae6-3bc039cf9b9a
+2025-04-14 08:40:05 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:40:05 - INFO - Created task: 8c99a7f4-fa53-4896-9d26-c0e7198aaf98
+2025-04-14 08:40:05 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:40:05 - INFO - Created task: 156e39e4-1565-4142-9277-09ac7c555ada
+2025-04-14 08:40:05 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:40:06 - INFO - Created task: 3040e9ef-d320-4657-b514-627a0de370dc
+2025-04-14 08:40:06 - INFO - Saved 10 tasks to output\Костишина Наталья - тс25\pending_tasks.txt
+2025-04-14 08:40:35 - INFO - Creating tasks for certificate: ТОРГСЕРВИС 75
+2025-04-14 08:40:35 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:40:35 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:40:35 - INFO - Created task: 80dd3afb-d04a-431d-9df9-ea51bead8408
+2025-04-14 08:40:35 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:40:35 - INFO - Created task: c469a346-07c4-42c5-ac36-006da54687a7
+2025-04-14 08:40:35 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:40:35 - INFO - Created task: dcc80790-a130-418f-a4e0-03530a981b12
+2025-04-14 08:40:35 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:40:36 - INFO - Created task: 6751b756-c36e-4f5b-bcdf-dad88fe3ed10
+2025-04-14 08:40:36 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:40:36 - INFO - Created task: 3dc40538-a230-4030-b047-7771c1089876
+2025-04-14 08:40:36 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:40:36 - INFO - Created task: 2f8a5d75-7c90-4364-96b5-7203b5ab1b6f
+2025-04-14 08:40:36 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:40:36 - INFO - Created task: c8c3c904-bfcd-4cdc-97fd-5781dac36f74
+2025-04-14 08:40:36 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:40:37 - INFO - Created task: b57407c8-6ffc-4d29-bd2a-9f67ba034771
+2025-04-14 08:40:37 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:40:37 - INFO - Created task: c91effe2-2aa7-4ffe-87ad-c784164e8645
+2025-04-14 08:40:37 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:40:37 - INFO - Created task: 218814d6-af11-449e-a44e-9ab88e9b4b8d
+2025-04-14 08:40:37 - INFO - Saved 10 tasks to output\ТОРГСЕРВИС 75\pending_tasks.txt
+2025-04-14 08:41:06 - INFO - Creating tasks for certificate: Дорофеева Светлана - тс127
+2025-04-14 08:41:06 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:41:06 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:41:06 - INFO - Created task: b605f18e-730b-485c-a760-4253736b7766
+2025-04-14 08:41:06 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:41:06 - INFO - Created task: 03b6314f-656d-483f-a797-80df995ef4d9
+2025-04-14 08:41:06 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:41:06 - INFO - Created task: abaf1d85-e35e-46bc-af3a-9b7d099584b3
+2025-04-14 08:41:06 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:41:07 - INFO - Created task: 216af7ae-0846-4d40-9866-0836f637cb1a
+2025-04-14 08:41:07 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:41:07 - INFO - Created task: f03aa806-7f05-430e-a31f-7a07f2b09707
+2025-04-14 08:41:07 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:41:07 - INFO - Created task: 1946ff9f-7f95-43a9-a085-734613315ec7
+2025-04-14 08:41:07 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:41:07 - INFO - Created task: c6c91ba4-9617-4ba4-a800-0d3efe581ea5
+2025-04-14 08:41:07 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:41:08 - INFO - Created task: 5c90a3f4-c8e4-4ff9-b239-6164a99cd13e
+2025-04-14 08:41:08 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:41:08 - INFO - Created task: de549175-90aa-4b96-8707-34053a71aea0
+2025-04-14 08:41:08 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:41:08 - INFO - Created task: 7a0e6e7a-3adf-4fa9-8d04-e67c1fc0bcaf
+2025-04-14 08:41:08 - INFO - Saved 10 tasks to output\Дорофеева Светлана - тс127\pending_tasks.txt
+2025-04-14 08:41:38 - INFO - Creating tasks for certificate: Дорофеева Светлана - тс27
+2025-04-14 08:41:38 - INFO - Using date range: 2025-04-13 to 2025-04-13 (yesterday's data)
+2025-04-14 08:41:38 - INFO - Creating task for group 1 (Предметы одежды, бельё постельное, столовое, туалетное и кухонное)
+2025-04-14 08:41:38 - INFO - Created task: 03350321-b956-42cb-a29d-9bf65fdf91a3
+2025-04-14 08:41:38 - INFO - Creating task for group 2 (Обувные товары)
+2025-04-14 08:41:39 - INFO - Created task: 296b577c-3488-4ca9-bc54-3a12ca978457
+2025-04-14 08:41:39 - INFO - Creating task for group 3 (Табачная продукция)
+2025-04-14 08:41:39 - INFO - Created task: 46f51405-63df-4f3d-97de-67e1cea98881
+2025-04-14 08:41:39 - INFO - Creating task for group 4 (Духи и туалетная вода)
+2025-04-14 08:41:39 - INFO - Created task: cb540c05-fc7c-4218-b44e-c3283ad606f6
+2025-04-14 08:41:39 - INFO - Creating task for group 5 (Шины и покрышки пневматические резиновые новые)
+2025-04-14 08:41:39 - INFO - Created task: 07ee02b3-bf47-4795-bd3b-c2a5b69db26c
+2025-04-14 08:41:39 - INFO - Creating task for group 8 (Молочная продукция)
+2025-04-14 08:41:40 - INFO - Created task: 9e959485-53fd-425e-8cb1-497f199ce3ae
+2025-04-14 08:41:40 - INFO - Creating task for group 13 (Упакованная вода)
+2025-04-14 08:41:40 - INFO - Created task: caedb178-0817-41d2-a77a-ee88803bbc3b
+2025-04-14 08:41:40 - INFO - Creating task for group 15 (Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки)
+2025-04-14 08:41:40 - INFO - Created task: 90f6a529-a667-4402-a9a4-12ff7655dca6
+2025-04-14 08:41:40 - INFO - Creating task for group 17 (Биологически активные добавки к пище)
+2025-04-14 08:41:40 - INFO - Created task: feb1612b-cf5a-4ee1-b111-662ac0863b83
+2025-04-14 08:41:40 - INFO - Creating task for group 23 (Соковая продукция и безалкогольные напитки)
+2025-04-14 08:41:41 - INFO - Created task: 159c4c14-cc90-4075-b3cb-eaeb1ed93dbc
+2025-04-14 08:41:41 - INFO - Saved 10 tasks to output\Дорофеева Светлана - тс27\pending_tasks.txt
