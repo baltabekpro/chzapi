@@ -114,52 +114,75 @@ def process_reports_for_token(cert_name: str, email_config: dict = None):
     }
     
     csv_files = [f for f in os.listdir(reports_dir) if f.endswith('.csv')]
-    reports_logger.info(f"Found {len(csv_files)} CSV files to process")
+    reports_logger.info(f"Найдено {len(csv_files)} CSV файлов для обработки")
     
-    # Process violations data - no changes to this part
-    encodings = ['cp1251', 'utf-8-sig', 'utf-8', 'windows-1251', 'latin1']
+    # Сортируем файлы по имени, чтобы обеспечить стабильную обработку
+    csv_files.sort()
     
+    # Словарь для хранения временных результатов обработки для каждой группы товаров
+    # Это позволяет избежать перезаписи данных, если есть несколько файлов для одной группы
+    temp_violations = {}
+    
+    # Обрабатываем каждый CSV-файл
     for csv_file in csv_files:
         try:
             input_path = os.path.join(reports_dir, csv_file)
-            reports_logger.info(f"Processing file: {csv_file}")
+            reports_logger.info(f"Обработка файла: {csv_file}")
             
-            # Extract group code from filename using improved parsing
-            # Example filename: violations_group1__20250303_235139.csv
+            # Извлекаем код группы из имени файла
+            # Пример имени файла: violations_group1__20250303_235139.csv
             group_code = None
             try:
-                # Find the number after 'group' in the filename
+                # Ищем число после 'group' в имени файла
                 match = re.search(r'group(\d+)', csv_file)
                 if match:
                     group_code = int(match.group(1))
-            except ValueError:
-                reports_logger.warning(f"Could not extract group code from filename: {csv_file}")
+                    reports_logger.info(f"Извлечен код группы товаров: {group_code}")
+                else:
+                    reports_logger.warning(f"Не удалось извлечь код группы товаров из имени файла: {csv_file}")
+            except ValueError as ve:
+                reports_logger.warning(f"Ошибка при извлечении кода группы товаров: {ve}")
                 continue
             
             if group_code is None:
-                reports_logger.warning(f"No group code found in filename: {csv_file}")
+                reports_logger.warning(f"Код группы товаров не найден в имени файла: {csv_file}")
                 continue
                 
             # Проверяем, что код группы существует в словаре PRODUCT_GROUPS
             if group_code not in PRODUCT_GROUPS:
-                reports_logger.warning(f"Unknown product group code in filename: {csv_file}, code: {group_code}")
+                reports_logger.warning(f"Неизвестный код группы товаров в файле: {csv_file}, код: {group_code}")
                 continue
             
-            # Get product group name
+            # Получаем название товарной группы
             product_name = PRODUCT_GROUPS.get(group_code)
-            if not product_name:
-                reports_logger.warning(f"Unknown product group code: {group_code}")
-                continue
-                
-            violation_count = read_csv_with_encoding(input_path)
-            violations_data['violations'][product_name] = violation_count
-            reports_logger.info(f"Found {violation_count} violations for {product_name}")
+            reports_logger.info(f"Товарная группа: {product_name} (код {group_code})")
             
+            # Считаем нарушения в файле
+            violation_count = read_csv_with_encoding(input_path)
+            
+            # Сохраняем количество нарушений для данной товарной группы
+            # Если для группы уже есть данные, суммируем их
+            if product_name in temp_violations:
+                temp_violations[product_name] += violation_count
+                reports_logger.info(f"Добавлено {violation_count} нарушений к существующим {temp_violations[product_name] - violation_count} для группы {product_name}")
+            else:
+                temp_violations[product_name] = violation_count
+                reports_logger.info(f"Найдено {violation_count} нарушений для группы {product_name}")
+            
+            # Удаляем обработанный файл
             os.remove(input_path)
-            reports_logger.info(f"Processed and removed {csv_file}")
+            reports_logger.info(f"Файл {csv_file} обработан и удален")
             
         except Exception as e:
-            log_exception(reports_logger, e, f"Error processing {csv_file}")
+            log_exception(reports_logger, e, f"Ошибка при обработке файла {csv_file}")
+    
+    # Переносим обработанные данные в итоговый отчет
+    violations_data['violations'] = temp_violations
+    
+    # Выводим суммарную статистику
+    reports_logger.info(f"Итоговая статистика нарушений по товарным группам:")
+    for product, count in temp_violations.items():
+        reports_logger.info(f"  {product}: {count} нарушений")
     
     # Save consolidated JSON
     if violations_data['violations']:
