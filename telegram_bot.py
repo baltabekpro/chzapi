@@ -412,8 +412,34 @@ class TelegramBot:
             return
             
         try:
+            # Handle token refresh
+            if callback_data == "refresh_tokens":
+                # Check if user is admin
+                if user_id not in self.admin_users and str(user_id) not in self.admin_users:
+                    await query.edit_message_text("❌ У вас нет прав администратора для обновления токенов")
+                    return
+                
+                await query.edit_message_text("🔄 Обновление токенов API...")
+                
+                try:
+                    # Import and run the token refresh function
+                    from get_tokens import get_tokens
+                    tokens = get_tokens()
+                    
+                    if tokens:
+                        await query.edit_message_text(f"✅ Токены API успешно обновлены. Получено {len(tokens)} токенов.")
+                        telegram_logger.info(f"Tokens refreshed by user ID: {user_id}")
+                    else:
+                        await query.edit_message_text("❌ Не удалось обновить токены API")
+                        telegram_logger.error(f"Token refresh failed, requested by user ID: {user_id}")
+                except Exception as e:
+                    log_exception(telegram_logger, e, "Error refreshing tokens")
+                    await query.edit_message_text(f"❌ Ошибка при обновлении токенов: {str(e)}")
+                    
+                return
+                
             # Handle certificate selection
-            if callback_data.startswith("cert_"):
+            elif callback_data.startswith("cert_"):
                 cert_name = callback_data[5:]  # Remove "cert_" prefix
                 from file_utils import get_reports_list
                 reports = get_reports_list()
@@ -421,12 +447,20 @@ class TelegramBot:
                 if cert_name in reports:
                     cert_reports = reports[cert_name]
                     
-                    # Create list of reports for this certificate
+                    # Create list of reports for this certificate with shortened callback data
                     keyboard = []
-                    for report in cert_reports:
+                    # Create a mapping from short IDs to report paths
+                    if not hasattr(self, '_report_path_map'):
+                        self._report_path_map = {}
+                    
+                    for i, report in enumerate(cert_reports):
                         report_date = report['date']
+                        # Create a short ID for the report
+                        short_id = f"{cert_name[:10]}_{i}"  # Limit to 10 chars + index
+                        self._report_path_map[short_id] = report['path']
+                        
                         keyboard.append(
-                            [InlineKeyboardButton(f"Отчет от {report_date}", callback_data=f"report_{report['path']}")]
+                            [InlineKeyboardButton(f"Отчет от {report_date}", callback_data=f"rep_{short_id}")]
                         )
                         
                     # Add back button
@@ -440,34 +474,38 @@ class TelegramBot:
                 else:
                     await query.edit_message_text(f"❌ Отчеты для сертификата {cert_name} не найдены")
                     
-            # Handle report selection
-            elif callback_data.startswith("report_"):
-                report_path = callback_data[7:]  # Remove "report_" prefix
-                
-                try:
-                    with open(report_path, 'r', encoding='utf-8') as f:
-                        report_data = json.load(f)
+            # Handle shortened report selection
+            elif callback_data.startswith("rep_"):
+                short_id = callback_data[4:]  # Remove "rep_" prefix
+                if hasattr(self, '_report_path_map') and short_id in self._report_path_map:
+                    report_path = self._report_path_map[short_id]
+                    
+                    try:
+                        with open(report_path, 'r', encoding='utf-8') as f:
+                            report_data = json.load(f)
+                            
+                        date = report_data.get('date', 'Неизвестная дата')
+                        violations = report_data.get('violations', {})
                         
-                    date = report_data.get('date', 'Неизвестная дата')
-                    violations = report_data.get('violations', {})
-                    
-                    # Build report message
-                    message = f"📊 *Отчет о нарушениях за {date}*\n\n"
-                    message += "*Нарушения по товарным группам:*\n"
-                    
-                    total = 0
-                    for group, count in violations.items():
-                        total += count
-                        message += f"• {group}: {count}\n"
+                        # Build report message
+                        message = f"📊 *Отчет о нарушениях за {date}*\n\n"
+                        message += "*Нарушения по товарным группам:*\n"
                         
-                    message += f"\n*Всего нарушений:* {total}"
-                    
-                    # Send message with markdown formatting
-                    await query.edit_message_text(message, parse_mode='Markdown')
-                    
-                except Exception as e:
-                    log_exception(telegram_logger, e, f"Error reading report {report_path}")
-                    await query.edit_message_text(f"❌ Ошибка при чтении отчета: {str(e)}")
+                        total = 0
+                        for group, count in violations.items():
+                            total += count
+                            message += f"• {group}: {count}\n"
+                            
+                        message += f"\n*Всего нарушений:* {total}"
+                        
+                        # Send message with markdown formatting
+                        await query.edit_message_text(message, parse_mode='Markdown')
+                        
+                    except Exception as e:
+                        log_exception(telegram_logger, e, f"Error reading report {report_path}")
+                        await query.edit_message_text(f"❌ Ошибка при чтении отчета: {str(e)}")
+                else:
+                    await query.edit_message_text("❌ Отчет не найден")
                     
             # Handle back button
             elif callback_data == "back_to_certs":
@@ -477,8 +515,10 @@ class TelegramBot:
                 keyboard = []
                 for cert_name in reports.keys():
                     cert_reports = reports[cert_name]
+                    # Ensure cert_name is not too long for callback_data
+                    safe_cert_name = cert_name[:50] if len(cert_name) > 50 else cert_name
                     keyboard.append(
-                        [InlineKeyboardButton(f"{cert_name} ({len(cert_reports)} отчетов)", callback_data=f"cert_{cert_name}")]
+                        [InlineKeyboardButton(f"{cert_name} ({len(cert_reports)} отчетов)", callback_data=f"cert_{safe_cert_name}")]
                     )
                     
                 reply_markup = InlineKeyboardMarkup(keyboard)
@@ -1004,11 +1044,7 @@ class TelegramBot:
                     await self.application.start()
                     await self.application.updater.start_polling(
                         drop_pending_updates=True,  # Very important to ignore old updates
-                        allowed_updates=["message", "callback_query", "edited_message"],  # Limit update types
-                        read_timeout=self.connection_timeout,
-                        write_timeout=self.connection_timeout,
-                        connect_timeout=self.connection_timeout,
-                        pool_timeout=self.connection_timeout * 2  # Increased pool timeout
+                        allowed_updates=["message", "callback_query", "edited_message"]  # Limit update types
                     )
                     
                     # Mark as initialized if we get here
