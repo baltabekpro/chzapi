@@ -11717,3 +11717,60 @@ telegram.error.InvalidToken: The token `7840665570:AAGQK-0rG6SaZYuNpEE9w2G9Wjgmb
 2025-06-05 10:23:04 - INFO - Released lock socket
 2025-06-05 10:23:04 - INFO - Released lock socket
 2025-06-05 10:23:25 - INFO - Released lock socket
+2025-06-11 14:20:36 - INFO - Starting Telegram bot from main application
+2025-06-11 14:20:36 - INFO - Resetting any existing bot sessions...
+2025-06-11 14:20:36 - INFO - Reset response: 200
+2025-06-11 14:20:39 - INFO - Telegram configuration loaded successfully
+2025-06-11 14:20:39 - INFO - Telegram bot thread started
+2025-06-11 14:20:39 - INFO - Acquired lock on port 12345
+2025-06-11 14:20:39 - INFO - Cleaning up any existing bot sessions...
+2025-06-11 14:20:40 - INFO - Cleanup response: 200, {"ok":true,"result":true,"description":"Webhook is already deleted"}
+2025-06-11 14:20:42 - INFO - Error monitoring thread started
+2025-06-11 14:20:42 - INFO - Starting Telegram bot (attempt 1/3)
+2025-06-11 14:20:42 - INFO - Application started
+2025-06-11 14:20:42 - INFO - Telegram bot started successfully
+2025-06-11 14:20:48 - INFO - Start command from user baltabek_kk (ID: 1419048544)
+2025-06-11 14:20:55 - INFO - Scheduler status check: PID=29083, Status=🟢 Работает
+2025-06-11 14:21:00 - ERROR - Error handling button callback: BadRequest: Button_data_invalid
+2025-06-11 14:21:00 - ERROR - Traceback: Traceback (most recent call last):
+  File "/workspaces/chzapi/telegram_bot.py", line 436, in button_callback
+    await query.edit_message_text(
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_callbackquery.py", line 241, in edit_message_text
+    return await self.message.edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_message.py", line 2536, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 1473, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_bot.py", line 3288, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/ext/_extbot.py", line 340, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Button_data_invalid
+
+2025-06-11 14:21:44 - INFO - Daily process started by user ID: 1419048544
+2025-06-11 14:21:53 - INFO - Released lock socket

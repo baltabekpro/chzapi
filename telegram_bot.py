@@ -156,7 +156,7 @@ class TelegramBot:
         """Load the Telegram bot configuration"""
         try:
             if os.path.exists('telegram_config.json'):
-                with open('telegram_config.json', 'r', encoding='utf-8') as f:
+                with open('telegram_config.json', 'r', encoding='utf-8-sig') as f:
                     config = json.load(f)
                     telegram_logger.info("Telegram configuration loaded successfully")
                     return config
@@ -1234,17 +1234,22 @@ def start_telegram_bot() -> TelegramBot:
         # First try to reset any existing bot sessions
         try:
             import requests
-            with open('telegram_config.json', 'r', encoding='utf-8') as f:
+            with open('telegram_config.json', 'r', encoding='utf-8-sig') as f:
                 config = json.load(f)
             token = config.get('token')
             
-            if token and token != "YOUR_TELEGRAM_BOT_TOKEN":
+            if token and token not in ["YOUR_TELEGRAM_BOT_TOKEN", "YOUR_NEW_TOKEN_HERE", "ВАШ_НОВЫЙ_ТОКЕН_ЗДЕСЬ"]:
                 telegram_logger.info("Resetting any existing bot sessions...")
                 reset_url = f"https://api.telegram.org/bot{token}/deleteWebhook?drop_pending_updates=true"
                 response = requests.get(reset_url, timeout=10)  # Increased from 5 to 10 seconds
                 telegram_logger.info(f"Reset response: {response.status_code}")
                 # Sleep briefly to ensure reset is complete
                 time.sleep(3)  # Added sleep to ensure reset is complete
+        except (json.JSONDecodeError, UnicodeDecodeError) as e:
+            telegram_logger.error(f"❌ Ошибка чтения telegram_config.json: {e}")
+            telegram_logger.error("📝 Проверьте кодировку файла и исправьте JSON синтаксис")
+            telegram_logger.error("Подробная инструкция: TELEGRAM_TOKEN_SETUP.md")
+            return get_bot_instance()  # Return non-initialized instance
         except Exception as e:
             telegram_logger.warning(f"Error resetting bot session: {e}")
         

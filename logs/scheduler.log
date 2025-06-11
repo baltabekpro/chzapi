@@ -61,3 +61,9 @@
 2025-06-05 10:23:09 - INFO - Scheduler initialized
 2025-06-05 10:23:09 - INFO - Scheduler starting continuous operation
 2025-06-05 10:23:11 - INFO - Started scheduler process with PID 46192
+2025-06-11 14:20:44 - INFO - Started scheduler process with PID 29083
+2025-06-11 14:20:44 - INFO - Running scheduler in normal mode
+2025-06-11 14:20:44 - INFO - Loaded configuration from scheduler_config.json
+2025-06-11 14:20:44 - INFO - Using email time from email_config.json: 20:04
+2025-06-11 14:20:44 - INFO - Scheduler initialized
+2025-06-11 14:20:44 - INFO - Scheduler starting continuous operation
