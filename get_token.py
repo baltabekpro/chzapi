@@ -9,6 +9,7 @@ import sys
 import base64
 import os
 import subprocess
+import time
 from datetime import datetime
 import colorama
 from colorama import Fore, Style
@@ -22,19 +23,79 @@ BASE_URL = "https://markirovka.crpt.ru/api/v3/true-api"
 
 def get_auth_data():
     """Получает данные для подписи от сервера авторизации"""
-    try:
-        response = requests.get(
-            f"{BASE_URL}/auth/key",
-            headers={'Accept': 'application/json'}
-        )
-        response.raise_for_status()
-        data = response.json()
-        return data['uuid'], data['data']
-    except Exception as e:
-        print(f"{Fore.RED}Ошибка при получении данных для аутентификации: {str(e)}")
-        if hasattr(e, 'response') and e.response is not None:
-            print(f"{Fore.RED}Ответ сервера: {e.response.text}")
-        sys.exit(1)
+    max_retries = 3
+    retry_delay = 5  # секунд
+    
+    for attempt in range(1, max_retries + 1):
+        try:
+            print(f"{Fore.CYAN}Попытка получения данных для аутентификации ({attempt}/{max_retries})...")
+            
+            # Добавляем таймауты и настройки сессии
+            session = requests.Session()
+            session.headers.update({
+                'Accept': 'application/json',
+                'User-Agent': 'CRPT-API-Client/1.0'
+            })
+            
+            response = session.get(
+                f"{BASE_URL}/auth/key",
+                timeout=(10, 30),  # connection timeout, read timeout
+                verify=True  # Проверяем SSL сертификаты
+            )
+            response.raise_for_status()
+            data = response.json()
+            
+            print(f"{Fore.GREEN}✅ Данные для аутентификации получены успешно")
+            return data['uuid'], data['data']
+            
+        except requests.exceptions.ConnectionError as e:
+            print(f"{Fore.RED}❌ Ошибка подключения (попытка {attempt}/{max_retries}): {str(e)}")
+            if "10054" in str(e) or "Connection aborted" in str(e):
+                print(f"{Fore.YELLOW}⚠️ Сервер разорвал соединение. Возможные причины:")
+                print(f"{Fore.YELLOW}   - Временные проблемы с сетью")
+                print(f"{Fore.YELLOW}   - Блокировка из-за частых запросов")
+                print(f"{Fore.YELLOW}   - Проблемы с SSL сертификатом")
+            
+            if attempt < max_retries:
+                wait_time = retry_delay * attempt
+                print(f"{Fore.CYAN}⏳ Ожидание {wait_time} секунд перед повторной попыткой...")
+                time.sleep(wait_time)
+            else:
+                print(f"{Fore.RED}❌ Исчерпаны все попытки подключения")
+                
+        except requests.exceptions.Timeout as e:
+            print(f"{Fore.RED}❌ Превышено время ожидания (попытка {attempt}/{max_retries}): {str(e)}")
+            if attempt < max_retries:
+                wait_time = retry_delay * attempt
+                print(f"{Fore.CYAN}⏳ Ожидание {wait_time} секунд перед повторной попыткой...")
+                time.sleep(wait_time)
+            else:
+                print(f"{Fore.RED}❌ Исчерпаны все попытки подключения")
+                
+        except requests.exceptions.HTTPError as e:
+            print(f"{Fore.RED}❌ HTTP ошибка: {e}")
+            if hasattr(e, 'response') and e.response is not None:
+                print(f"{Fore.RED}Код ответа: {e.response.status_code}")
+                print(f"{Fore.RED}Ответ сервера: {e.response.text}")
+            break  # Не повторяем для HTTP ошибок
+            
+        except Exception as e:
+            print(f"{Fore.RED}❌ Неожиданная ошибка (попытка {attempt}/{max_retries}): {str(e)}")
+            if attempt < max_retries:
+                wait_time = retry_delay * attempt
+                print(f"{Fore.CYAN}⏳ Ожидание {wait_time} секунд перед повторной попыткой...")
+                time.sleep(wait_time)
+            else:
+                print(f"{Fore.RED}❌ Исчерпаны все попытки")
+    
+    # Если мы дошли до этого места, все попытки неудачны
+    print(f"{Fore.RED}❌ Не удалось получить данные для аутентификации после {max_retries} попыток")
+    print(f"{Fore.YELLOW}💡 Рекомендации:")
+    print(f"{Fore.YELLOW}   1. Проверьте интернет-соединение")
+    print(f"{Fore.YELLOW}   2. Убедитесь, что сертификат действителен")
+    print(f"{Fore.YELLOW}   3. Попробуйте позже (возможны временные проблемы на сервере)")
+    print(f"{Fore.YELLOW}   4. Проверьте настройки прокси/фаервола")
+    sys.exit(1)
 
 def save_data_to_sign(data_to_sign):
     """Сохраняет данные для подписи в файл"""
@@ -138,18 +199,52 @@ def get_token(uuid, signed_data, inn=None, use_mchd=False):
             print(f"{Fore.CYAN}Используем МЧДО: {use_mchd}")
             request_data['mchd'] = use_mchd
         
-        response = requests.post(
-            f"{BASE_URL}/auth/simpleSignIn",
-            headers={
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            json=request_data,
-            verify=True
-        )
+        print(f"\n{Fore.CYAN}Отправка запроса на получение токена...")
         
-        print(f"\n{Fore.CYAN}Статус ответа: {response.status_code}")
-        print(f"{Fore.CYAN}Заголовки ответа: {dict(response.headers)}")
+        # Добавляем retry механизм для получения токена
+        max_retries = 3
+        retry_delay = 3
+        
+        for attempt in range(1, max_retries + 1):
+            try:
+                print(f"{Fore.CYAN}Попытка получения токена ({attempt}/{max_retries})...")
+                
+                response = requests.post(
+                    f"{BASE_URL}/auth/simpleSignIn",
+                    headers={
+                        'Accept': 'application/json',
+                        'Content-Type': 'application/json',
+                        'User-Agent': 'CRPT-API-Client/1.0'
+                    },
+                    json=request_data,
+                    timeout=(10, 30),  # connection timeout, read timeout
+                    verify=True
+                )
+                
+                print(f"\n{Fore.CYAN}Статус ответа: {response.status_code}")
+                
+                # Успешный ответ - выходим из цикла
+                break
+                
+            except requests.exceptions.ConnectionError as e:
+                print(f"{Fore.RED}❌ Ошибка подключения при получении токена (попытка {attempt}/{max_retries}): {str(e)}")
+                if attempt < max_retries:
+                    wait_time = retry_delay * attempt
+                    print(f"{Fore.CYAN}⏳ Ожидание {wait_time} секунд перед повторной попыткой...")
+                    time.sleep(wait_time)
+                else:
+                    print(f"{Fore.RED}❌ Исчерпаны все попытки получения токена")
+                    return None, "connection_error"
+                    
+            except requests.exceptions.Timeout as e:
+                print(f"{Fore.RED}❌ Превышено время ожидания при получении токена (попытка {attempt}/{max_retries})")
+                if attempt < max_retries:
+                    wait_time = retry_delay * attempt
+                    print(f"{Fore.CYAN}⏳ Ожидание {wait_time} секунд перед повторной попыткой...")
+                    time.sleep(wait_time)
+                else:
+                    print(f"{Fore.RED}❌ Исчерпаны все попытки получения токена")
+                    return None, "timeout_error"
         
         try:
             response_json = response.json()

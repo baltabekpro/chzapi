@@ -11774,3 +11774,7 @@ telegram.error.BadRequest: Button_data_invalid
 
 2025-06-11 14:21:44 - INFO - Daily process started by user ID: 1419048544
 2025-06-11 14:21:53 - INFO - Released lock socket
+2025-06-11 14:57:03 - INFO - Starting Telegram bot from script
+2025-06-11 14:57:03 - INFO - Starting Telegram bot from main application
+2025-06-11 14:57:03 - INFO - Resetting any existing bot sessions...
+2025-06-11 14:57:03 - INFO - Reset response: 200
