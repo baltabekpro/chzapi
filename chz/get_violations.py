@@ -228,7 +228,7 @@ class ViolationsReport:
             return response.json()
         except requests.exceptions.RequestException as e:
             print(f"Ошибка при создании задания: {e}")
-            if hasattr(e, 'response'):
+            if hasattr(e, 'response') and e.response is not None:
                 print(f"Ответ сервера: {e.response.text}")
             sys.exit(1)
 

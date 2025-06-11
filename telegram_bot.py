@@ -880,8 +880,21 @@ class TelegramBot:
 
     async def start_bot(self) -> None:
         """Start the Telegram bot with retry mechanism and conflict handling."""
-        if not self.token or self.token == "YOUR_TELEGRAM_BOT_TOKEN":
-            telegram_logger.error("No valid bot token provided. Please update telegram_config.json")
+        # Validate token format and value
+        if not self.token or self.token == "YOUR_TELEGRAM_BOT_TOKEN" or self.token == "ВАШ_НОВЫЙ_ТОКЕН_ЗДЕСЬ":
+            telegram_logger.error("❌ ОШИБКА: Недействительный токен Telegram бота!")
+            telegram_logger.error("📝 Для получения токена:")
+            telegram_logger.error("1. Перейдите к @BotFather в Telegram")
+            telegram_logger.error("2. Создайте нового бота командой /newbot")
+            telegram_logger.error("3. Обновите токен в telegram_config.json")
+            telegram_logger.error("4. См. подробную инструкцию в TELEGRAM_TOKEN_SETUP.md")
+            return
+            
+        # Basic token format validation
+        if not self.token.count(':') == 1 or len(self.token.split(':')[0]) < 8:
+            telegram_logger.error("❌ ОШИБКА: Неверный формат токена!")
+            telegram_logger.error("Токен должен быть в формате: 123456789:ABCDEFGHijklmnop")
+            telegram_logger.error("📝 См. инструкцию в TELEGRAM_TOKEN_SETUP.md")
             return
             
         # Acquire lock to prevent multiple instances
@@ -1029,6 +1042,22 @@ class TelegramBot:
                         self.running = False
                         break
                 
+                except telegram.error.InvalidToken as e:
+                    telegram_logger.error(f"Invalid token error: {e}")
+                    telegram_logger.error("❌ КРИТИЧЕСКАЯ ОШИБКА: Токен Telegram бота недействителен!")
+                    telegram_logger.error("Возможные причины:")
+                    telegram_logger.error("1. Токен был отозван в @BotFather")
+                    telegram_logger.error("2. Токен неправильно скопирован")
+                    telegram_logger.error("3. Бот был удален")
+                    telegram_logger.error("📝 Инструкция по получению нового токена:")
+                    telegram_logger.error("1. Перейдите в Telegram к @BotFather")
+                    telegram_logger.error("2. Отправьте команду /newbot")
+                    telegram_logger.error("3. Следуйте инструкциям для создания бота")
+                    telegram_logger.error("4. Скопируйте новый токен в telegram_config.json")
+                    telegram_logger.error(f"Текущий токен: {self.token}")
+                    self.running = False
+                    break  # Не retry для недействительного токена
+                    
                 except telegram.error.Conflict as e:
                     telegram_logger.error(f"Conflict error: {e} (attempt {attempt}/{self.max_retries})")
                     # This is a special error - another instance is already using the token

@@ -32,7 +32,7 @@ def get_auth_data():
         return data['uuid'], data['data']
     except Exception as e:
         print(f"{Fore.RED}Ошибка при получении данных для аутентификации: {str(e)}")
-        if hasattr(e, 'response'):
+        if hasattr(e, 'response') and e.response is not None:
             print(f"{Fore.RED}Ответ сервера: {e.response.text}")
         sys.exit(1)
 

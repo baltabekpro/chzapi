@@ -34,7 +34,7 @@ class ReportDownloader:
             return response.json()
         except Exception as e:
             print(f"Ошибка при получении статуса задания: {e}")
-            if hasattr(e, 'response'):
+            if hasattr(e, 'response') and e.response is not None:
                 print(f"Ответ сервера: {e.response.text}")
             sys.exit(1)
 
@@ -59,7 +59,7 @@ class ReportDownloader:
             return response.json()
         except Exception as e:
             print(f"Ошибка при получении списка результатов: {e}")
-            if hasattr(e, 'response'):
+            if hasattr(e, 'response') and e.response is not None:
                 print(f"Ответ сервера: {e.response.text}")
             return None
 
@@ -117,7 +117,7 @@ class ReportDownloader:
             
         except Exception as e:
             print(f"Ошибка при скачивании файла: {e}")
-            if hasattr(e, 'response'):
+            if hasattr(e, 'response') and e.response is not None:
                 print(f"Ответ сервера: {e.response.text}")
             return False
 
