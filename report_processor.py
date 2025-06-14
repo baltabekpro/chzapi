@@ -28,15 +28,24 @@ def read_csv_with_encoding(file_path: str) -> int:
             with open(file_path, 'r', encoding=encoding) as f:
                 csv_reader = csv.reader(f)
                 rows = list(csv_reader)
-                row_count = max(0, len(rows) - 1)  # Subtract header row
                 
-                # Проверяем, что файл не пустой и содержит строки данных
-                if row_count > 0:
-                    reports_logger.info(f"Успешно прочитан файл {file_path} с кодировкой {encoding}: найдено {row_count} строк")
-                else:
+                # Проверяем, что файл не пустой
+                if len(rows) <= 1:
                     reports_logger.warning(f"Файл {file_path} содержит только заголовок или пустой")
+                    return 0
+                
+                # Проверяем структуру данных в CSV, ищем реальные нарушения
+                valid_rows = 0
+                for row_idx, row in enumerate(rows[1:], 1):  # Пропускаем заголовок
+                    # Проверяем, что строка содержит достаточно данных
+                    if len(row) >= 3:  # Минимум 3 поля должно быть для валидной записи
+                        # Проверяем, что строка не пустая и содержит данные, а не только пробелы
+                        has_data = any(cell.strip() for cell in row)
+                        if has_data:
+                            valid_rows += 1
                     
-                return row_count
+                reports_logger.info(f"Успешно прочитан файл {file_path} с кодировкой {encoding}: найдено {valid_rows} валидных строк из {len(rows) - 1} общих")
+                return valid_rows
                 
         except UnicodeDecodeError:
             continue
@@ -157,8 +166,61 @@ def process_reports_for_token(cert_name: str, email_config: dict = None):
             product_name = PRODUCT_GROUPS.get(group_code)
             reports_logger.info(f"Товарная группа: {product_name} (код {group_code})")
             
+            # Детальный анализ содержимого файла и подсчет нарушений
+            try:
+                with open(input_path, 'r', encoding='cp1251') as f:
+                    encoding = 'cp1251'
+                    content = f.read()
+                    if not content.strip():
+                        reports_logger.warning(f"Пустой файл: {csv_file}")
+                        continue
+            except UnicodeDecodeError:
+                try:
+                    with open(input_path, 'r', encoding='utf-8') as f:
+                        encoding = 'utf-8'
+                        content = f.read()
+                        if not content.strip():
+                            reports_logger.warning(f"Пустой файл: {csv_file}")
+                            continue
+                except:
+                    try:
+                        with open(input_path, 'r', encoding='latin1') as f:
+                            encoding = 'latin1'
+                            content = f.read()
+                            if not content.strip():
+                                reports_logger.warning(f"Пустой файл: {csv_file}")
+                                continue
+                    except Exception as e:
+                        reports_logger.error(f"Не удалось прочитать файл {csv_file}: {e}")
+                        continue
+            
             # Считаем нарушения в файле
             violation_count = read_csv_with_encoding(input_path)
+            
+            # Если количество нарушений подозрительно мало, проверяем детально структуру CSV
+            if violation_count <= 3:
+                reports_logger.warning(f"Подозрительно малое количество нарушений ({violation_count}) для группы {product_name}. Выполняю детальный анализ...")
+                
+                try:
+                    with open(input_path, 'r', encoding=encoding) as f:
+                        csv_reader = csv.reader(f)
+                        rows = list(csv_reader)
+                        
+                        if len(rows) > 1:  # Если есть заголовок и данные
+                            header = rows[0]
+                            reports_logger.info(f"Заголовок CSV: {header}")
+                            
+                            # Проверка на дубликаты
+                            data_rows = rows[1:]
+                            unique_rows = set(tuple(row) for row in data_rows if any(cell.strip() for cell in row))
+                            reports_logger.info(f"Всего строк: {len(data_rows)}, уникальных строк: {len(unique_rows)}")
+                            
+                            # Используем количество уникальных строк
+                            if len(unique_rows) > violation_count:
+                                reports_logger.warning(f"Обнаружено {len(unique_rows)} уникальных нарушений вместо {violation_count}. Обновляем подсчет.")
+                                violation_count = len(unique_rows)
+                except Exception as e:
+                    reports_logger.error(f"Ошибка при детальном анализе CSV {csv_file}: {e}")
             
             # Сохраняем количество нарушений для данной товарной группы
             # Если для группы уже есть данные, суммируем их
