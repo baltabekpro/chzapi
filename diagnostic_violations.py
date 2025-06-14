@@ -10,6 +10,7 @@ import glob
 from collections import defaultdict, Counter
 from datetime import datetime
 import sys
+import re
 
 def analyze_json_violations():
     """Анализ JSON-файлов с нарушениями"""
@@ -251,6 +252,167 @@ def generate_recommendation():
    - Добавить валидацию данных
     """)
 
+def deep_analyze_csv_files():
+    """Глубокий анализ структуры и содержимого CSV-файлов с нарушениями"""
+    print("\n=== ГЛУБОКИЙ АНАЛИЗ CSV-ФАЙЛОВ ===\n")
+    
+    # Ищем все CSV-файлы с данными о нарушениях
+    csv_patterns = [
+        'output/*/reports/*.csv',
+        'chz/output/*/reports/*.csv',
+        'main/output/*/reports/*.csv',
+        'reports/*/*.csv',
+        'output/*.csv'
+    ]
+    
+    all_csv = []
+    for pattern in csv_patterns:
+        all_csv.extend(glob.glob(pattern))
+        
+    print(f"Найдено CSV-файлов: {len(all_csv)}")
+    if not all_csv:
+        return
+    
+    # Структуры для сбора статистики
+    group_patterns = {}  # Соответствие шаблонов имен файлов и товарных групп
+    file_structures = {}  # Структуры файлов (заголовки)
+    row_counts = {}  # Количество строк в файлах
+    avg_values = {}  # Среднее количество значимых полей в строках
+    
+    # Анализируем файл группы
+    products_file = 'products.txt'
+    groups_map = {}
+    if os.path.exists(products_file):
+        try:
+            with open(products_file, 'r', encoding='utf-8') as f:
+                lines = f.readlines()
+            for line in lines:
+                line = line.strip()
+                if line:
+                    groups_map[line] = True
+            print(f"Загружено {len(groups_map)} товарных групп из products.txt")
+        except Exception as e:
+            print(f"Ошибка при чтении файла products.txt: {e}")
+    
+    # Анализ каждого файла
+    for csv_file in all_csv:
+        try:
+            print(f"\nАнализ файла: {os.path.basename(csv_file)}")
+            # Извлекаем код группы из имени файла
+            group_match = re.search(r'group(\d+)', os.path.basename(csv_file))
+            group_code = int(group_match.group(1)) if group_match else None
+            print(f"  Группа товаров: {group_code}")
+            
+            # Проверяем разные кодировки
+            content = None
+            encoding_used = None
+            for encoding in ['cp1251', 'utf-8', 'utf-8-sig', 'latin1']:
+                try:
+                    with open(csv_file, 'r', encoding=encoding) as f:
+                        content = f.read()
+                    encoding_used = encoding
+                    break
+                except UnicodeDecodeError:
+                    continue
+            
+            if content is None:
+                print(f"  Не удалось прочитать файл ни с одной кодировкой")
+                continue
+                
+            print(f"  Кодировка: {encoding_used}")
+            
+            # Повторно открываем с правильной кодировкой для анализа CSV
+            with open(csv_file, 'r', encoding=encoding_used) as f:
+                reader = csv.reader(f)
+                rows = list(reader)
+            
+            if not rows:
+                print("  Файл пустой")
+                continue
+                
+            header = rows[0]
+            data_rows = rows[1:]
+            
+            print(f"  Заголовок: {header}")
+            print(f"  Количество строк данных: {len(data_rows)}")
+            
+            # Проверяем уникальность строк
+            unique_rows = set(tuple(row) for row in data_rows if any(cell.strip() for cell in row))
+            print(f"  Уникальных строк: {len(unique_rows)}")
+            
+            # Считаем непустые ячейки в каждой строке
+            non_empty_cells = 0
+            for row in data_rows:
+                for cell in row:
+                    if cell.strip():
+                        non_empty_cells += 1
+            
+            avg_cells = non_empty_cells / len(data_rows) if data_rows else 0
+            print(f"  Среднее количество непустых ячеек в строке: {avg_cells:.2f}")
+            
+            # Собираем статистику
+            row_counts[os.path.basename(csv_file)] = len(data_rows)
+            file_structures[os.path.basename(csv_file)] = header
+            avg_values[os.path.basename(csv_file)] = avg_cells
+            if group_code:
+                group_patterns[os.path.basename(csv_file)] = group_code
+                
+        except Exception as e:
+            print(f"  Ошибка при анализе файла: {e}")
+    
+    # Анализ собранных данных
+    print("\n=== СВОДНАЯ СТАТИСТИКА ПО CSV ===\n")
+    
+    # Проверяем на повторяющиеся шаблоны
+    row_counts_frequency = defaultdict(list)
+    for file, count in row_counts.items():
+        row_counts_frequency[count].append(file)
+    
+    print("Частота количества строк в файлах:")
+    for count, files in sorted(row_counts_frequency.items(), key=lambda x: len(x[1]), reverse=True):
+        print(f"  {count} строк: {len(files)} файлов")
+        if len(files) > 1:
+            print(f"    Примеры файлов: {', '.join(files[:3])}")
+        
+    # Проверяем структуру заголовков
+    print("\nУникальные структуры заголовков:")
+    header_types = defaultdict(list)
+    for file, header in file_structures.items():
+        header_key = ",".join(header[:5] + ["..."] if len(header) > 5 else header)
+        header_types[header_key].append(file)
+    
+    for header, files in header_types.items():
+        print(f"  Заголовок: {header}")
+        print(f"    Файлов: {len(files)}")
+        
+    # Рекомендации на основе анализа
+    print("\nРЕКОМЕНДАЦИИ НА ОСНОВЕ АНАЛИЗА CSV:")
+    
+    # Если много файлов с одинаковым количеством строк
+    max_same_rows = max(len(files) for files in row_counts_frequency.values())
+    if max_same_rows > len(all_csv) * 0.3:
+        print("  ! ВНИМАНИЕ: Обнаружено много файлов с одинаковым количеством строк")
+        print("    Возможно, это тестовые данные или дубликаты. Проверьте содержимое.")
+    
+    # Если несколько разных структур заголовков
+    if len(header_types) > 1:
+        print("  ! ВНИМАНИЕ: Обнаружено несколько разных структур заголовков CSV")
+        print("    Убедитесь, что ваш парсер правильно работает со всеми форматами.")
+    
+    # Рекомендации по использованию
+    print("\n  РЕКОМЕНДАЦИИ ПО ИСПРАВЛЕНИЮ:")
+    print("  1. Проверьте функцию read_csv_with_encoding в report_processor.py")
+    print("  2. Добавьте проверки на дубликаты строк в CSV")
+    print("  3. Убедитесь, что используется правильный формат CSV для каждой группы товаров")
+    print("  4. Добавьте валидацию количества нарушений перед формированием отчета")
+    
+    return {
+        "row_counts": row_counts,
+        "file_structures": file_structures,
+        "group_patterns": group_patterns,
+        "avg_values": avg_values
+    }
+
 def main():
     print("ДИАГНОСТИКА ПРОБЛЕМЫ ОДИНАКОВЫХ ПОКАЗАТЕЛЕЙ НАРУШЕНИЙ")
     print("=" * 60)
@@ -265,14 +427,22 @@ def main():
     analyze_aggregation_logic()
     check_api_responses()
     
+    # Глубокий анализ CSV-файлов
+    print("\nЗапуск детального анализа CSV...")
+    csv_analysis = deep_analyze_csv_files()
+    
     # Генерируем рекомендации
     generate_recommendation()
+    
+    # Глубокий анализ CSV файлов
+    deep_analyze_csv_files()
     
     # Сохраняем отчет
     report = {
         "timestamp": datetime.now().isoformat(),
         "violations_analysis": dict(violations_counts),
         "csv_files_found": csv_files,
+        "csv_detailed_analysis": csv_analysis if 'csv_analysis' in locals() else {},
         "recommendation": "Check CSV content and fix aggregation logic"
     }
     
@@ -280,6 +450,9 @@ def main():
         json.dump(report, f, ensure_ascii=False, indent=2)
     
     print(f"\nДиагностический отчет сохранен в: diagnostic_report.json")
+    
+    print("\nДля исправления проблемы запустите:")
+    print("python report_processor.py --send")
 
 if __name__ == "__main__":
     main()
