@@ -471,7 +471,7 @@ def process_reports_for_token(cert_name: str, email_config: dict = None):
             )
 
             # os.remove(input_path)  # Закомментировано: сохраняем CSV файлы для дополнительного анализа
-            reports_logger.info(f"Processed {csv_file}  # Файл сохранен")
+            reports_logger.info(f"Processed {csv_file}")  # Файл сохранен
 
         except Exception as e:
             log_exception(reports_logger, e, f"Error processing {csv_file}")
