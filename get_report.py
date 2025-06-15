@@ -140,7 +140,7 @@ class ReportDownloader:
             
             if status == 'SUCCESS':
                 print("Report ready, downloading...")
-                return self.download_result_file(result['id'], output_dir)
+                return self.download_result_file(result['id'], output_dir, download_format='CSV')
             elif status == 'FAILED':
                 error = result.get('errorMessage') or result.get('fullErrorMessage')
                 print(f"Download error: {error}")
