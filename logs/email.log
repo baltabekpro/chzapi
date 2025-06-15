@@ -258,3 +258,37 @@ FileNotFoundError: [Errno 2] No such file or directory: 'email_config.json'
 2025-06-16 04:23:49 - INFO - Preparing email report for Дорофеева Светлана - тс127 on 2025-06-15
 2025-06-16 04:23:49 - INFO - Sending email to 1 recipients
 2025-06-16 04:23:50 - INFO - Email report sent successfully for Дорофеева Светлана - тс127
+2025-06-16 04:38:49 - INFO - Email configuration loaded successfully
+2025-06-16 04:47:04 - INFO - Starting report processing and email sending
+2025-06-16 04:47:04 - INFO - Email configuration loaded successfully
+2025-06-16 04:47:04 - INFO - Looking for reports from date: 2025-06-15
+2025-06-16 04:47:04 - INFO - Loaded report for Дорофеева Светлана - тс127
+2025-06-16 04:47:04 - INFO - Loaded report for Дорофеева Светлана - тс27
+2025-06-16 04:47:04 - INFO - Loaded report for Костишина Наталья - тс25
+2025-06-16 04:47:04 - INFO - Loaded report for Лежнева Евгения - тс142
+2025-06-16 04:47:04 - INFO - Loaded report for Лежнева Евгения - тс54
+2025-06-16 04:47:04 - INFO - Loaded report for Лежнева Евгения - тс55
+2025-06-16 04:47:04 - INFO - Loaded report for Омелина Татьяна - тс28
+2025-06-16 04:47:04 - INFO - Loaded report for Соколова Татьяна - тс22
+2025-06-16 04:47:04 - INFO - Loaded report for Тимофеева Елена - тс138
+2025-06-16 04:47:04 - INFO - Loaded report for Тимофеева Елена - тс238
+2025-06-16 04:47:04 - INFO - Loaded report for Тимофеева Елена - тс338
+2025-06-16 04:47:04 - INFO - Loaded report for ТОРГСЕРВИС 75
+2025-06-16 04:47:04 - INFO - Loaded report for Хуторская Татьяна - тс124
+2025-06-16 04:47:04 - INFO - Loaded report for Хуторская Татьяна - тс3
+2025-06-16 04:47:04 - INFO - Loaded report for Хуторская Татьяна - тс324
+2025-06-16 04:47:04 - INFO - Loaded report for Хуторская Татьяна - тс5
+2025-06-16 04:47:04 - INFO - Loaded 16 reports in total
+2025-06-16 04:47:04 - INFO - Found 3 regional reports: Undefined, region1, region2
+2025-06-16 04:47:04 - INFO - Region data contains 2 regions: region1, region2
+2025-06-16 04:47:04 - INFO - Processing report for region: Undefined (display name: Undefined)
+2025-06-16 04:47:04 - INFO - Sending email for region Undefined to 1 recipients
+2025-06-16 04:47:06 - INFO - Email report sent successfully for region Undefined
+2025-06-16 04:47:06 - INFO - Processing report for region: region1 (display name: Регион 1)
+2025-06-16 04:47:06 - INFO - Sending email for region Регион 1 to 1 recipients
+2025-06-16 04:47:07 - INFO - Email report sent successfully for region Регион 1
+2025-06-16 04:47:07 - INFO - Processing report for region: region2 (display name: Регион 2)
+2025-06-16 04:47:07 - INFO - Sending email for region Регион 2 to 1 recipients
+2025-06-16 04:47:08 - INFO - Email report sent successfully for region Регион 2
+2025-06-16 04:47:08 - INFO - Updated last email run time
+2025-06-16 04:47:08 - INFO - Successfully processed and sent all reports
