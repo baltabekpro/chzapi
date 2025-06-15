@@ -63,12 +63,10 @@ class ReportDownloader:
                 print(f"Ответ сервера: {e.response.text}")
             return None
 
-    def download_result_file(self, result_id: str, output_dir: str, download_format: str = None) -> bool:
+    def download_result_file(self, result_id: str, output_dir: str) -> bool:
         """Скачивает файл результата выгрузки"""
         try:
             params = {'pg': self.product_group_code}
-            if download_format:
-                params['downloadFormat'] = download_format
 
             # Get task info
             try:
@@ -140,7 +138,7 @@ class ReportDownloader:
             
             if status == 'SUCCESS':
                 print("Report ready, downloading...")
-                return self.download_result_file(result['id'], output_dir, download_format='XLSX')
+                return self.download_result_file(result['id'], output_dir)
             elif status == 'FAILED':
                 error = result.get('errorMessage') or result.get('fullErrorMessage')
                 print(f"Download error: {error}")

@@ -3,6 +3,7 @@ import json
 import sys
 import re  # Add missing import for regular expressions
 import csv  # Add import for CSV handling
+import pandas as pd  # Add pandas for Excel processing
 from datetime import datetime
 from logger_config import get_logger, log_exception
 from token_utils import load_regions_mapping, get_tc_to_region_mapping, group_violations_by_region
@@ -106,47 +107,53 @@ def process_reports_for_token(cert_name: str, email_config: dict = None):
         'violations': {}
     }
     
-    csv_files = [f for f in os.listdir(reports_dir) if f.endswith('.csv')]
-    reports_logger.info(f"Found {len(csv_files)} CSV files to process")
+    # Find CSV and Excel files to process
+    report_files = [f for f in os.listdir(reports_dir) if f.lower().endswith(('.csv', '.xlsx', '.xls'))]
+    reports_logger.info(f"Found {len(report_files)} report files to process (CSV/Excel)")
     
     # Process violations data - no changes to this part
     encodings = ['cp1251', 'utf-8-sig', 'utf-8', 'windows-1251', 'latin1']
     
-    for csv_file in csv_files:
+    for report_file in report_files:
         try:
-            input_path = os.path.join(reports_dir, csv_file)
-            reports_logger.info(f"Processing file: {csv_file}")
+            input_path = os.path.join(reports_dir, report_file)
+            reports_logger.info(f"Processing file: {report_file}")
             
-            # Extract group code from filename using improved parsing
-            # Example filename: violations_group1__20250303_235139.csv
+            # Extract group code from filename (e.g. violations_group1__20250303_235139.csv or .xlsx)
             group_code = None
-            try:
-                # Find the number after 'group' in the filename
-                match = re.search(r'group(\d+)', csv_file)
-                if match:
-                    group_code = int(match.group(1))
-            except ValueError:
-                reports_logger.warning(f"Could not extract group code from filename: {csv_file}")
-                continue
-            
+            match = re.search(r'group(\d+)', report_file)
+            if match:
+                group_code = int(match.group(1))
             if group_code is None:
-                reports_logger.warning(f"No group code found in filename: {csv_file}")
+                reports_logger.warning(f"No group code found in filename: {report_file}")
                 continue
-              # Get product group name
+              
+            # Get product group name
             product_name = PRODUCT_GROUPS.get(group_code)
             if not product_name:
                 reports_logger.warning(f"Unknown product group code: {group_code}")
                 continue
             
-            violation_count = read_csv_with_encoding(input_path)
+            # Read count based on file type
+            ext = os.path.splitext(report_file)[1].lower()
+            if ext in ['.xlsx', '.xls']:
+                try:
+                    df = pd.read_excel(input_path, engine='openpyxl')
+                    violation_count = len(df)
+                except Exception as e:
+                    reports_logger.error(f"Error reading Excel file {report_file}: {e}")
+                    violation_count = 0
+            else:
+                violation_count = read_csv_with_encoding(input_path)
+            
             violations_data['violations'][product_name] = violation_count
             reports_logger.info(f"Found {violation_count} violations for {product_name}")
             
             # os.remove(input_path)  # Закомментировано: сохраняем CSV файлы для дополнительного анализа
-            reports_logger.info(f"Processed {csv_file}")
+            reports_logger.info(f"Processed {report_file}")
             
         except Exception as e:
-            log_exception(reports_logger, e, f"Error processing {csv_file}")
+            log_exception(reports_logger, e, f"Error processing {report_file}")
     
     # Save consolidated JSON
     if violations_data['violations']:
