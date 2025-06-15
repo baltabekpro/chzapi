@@ -140,7 +140,7 @@ class ReportDownloader:
             
             if status == 'SUCCESS':
                 print("Report ready, downloading...")
-                return self.download_result_file(result['id'], output_dir, download_format='CSV')
+                return self.download_result_file(result['id'], output_dir, download_format='XLSX')
             elif status == 'FAILED':
                 error = result.get('errorMessage') or result.get('fullErrorMessage')
                 print(f"Download error: {error}")
@@ -174,7 +174,7 @@ def read_task_ids(filename: str = 'violation_task_ids.txt') -> List[str]:
 
 def update_task_ids(task_ids: List[str], filename: str = 'violation_task_ids.txt') -> None:
     """
-    Обновляет файл с ID заданий, удаляя выполненные задания
+    Обновляет файл с ID заданиями, удаляя выполненные задания
     
     Args:
         task_ids: Список оставшихся ID заданий
