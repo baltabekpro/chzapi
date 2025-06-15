@@ -98,7 +98,8 @@ if __name__ == "__main__":
             # Now import and run the dependency checker
             from dependency_manager import check_and_install_dependencies
             check_and_install_dependencies()
-    except Exception as e:        print(f"Error setting up dependencies: {e}")
+    except Exception as e:        
+        print(f"Error setting up dependencies: {e}")
         print("Please install required packages manually using:")
         print("pip install colorama requests pandas chardet")
         input("Press Enter to exit...")
