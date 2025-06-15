@@ -1,0 +1,3468 @@
+{
+  "analysis_date": "2025-06-05T18:29:26.087155",
+  "mode": "full",
+  "test_date": "2025-06-04",
+  "total_tests": 384,
+  "successful_tests": 0,
+  "failed_tests": 384,
+  "товарная_группа_errors": 0,
+  "detailed_results": [
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Омелина Татьяна - тс28",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс324",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс124",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс3",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Хуторская Татьяна - тс5",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс138",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс238",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Тимофеева Елена - тс338",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Соколова Татьяна - тс22",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс54",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс55",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Лежнева Евгения - тс142",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Костишина Наталья - тс25",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "ТОРГСЕРВИС 75",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс127",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 1,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 2,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 3,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 4,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 5,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 6,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 8,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 9,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 10,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 11,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 12,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 13,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 14,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 15,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 22,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 23,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 26,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 27,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 28,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 21,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 17,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 19,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 35,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    },
+    {
+      "cert_name": "Дорофеева Светлана - тс27",
+      "product_group_code": 38,
+      "success": false,
+      "error": "{\"error_message\":\"Должно быть заполнено одно из полей: taskTypeId | name\"}",
+      "response_code": 400,
+      "task_id": null,
+      "contains_товарная_группа_error": false
+    }
+  ],
+  "товарная_группа_error_details": []
+}

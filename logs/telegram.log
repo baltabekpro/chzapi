@@ -1,0 +1,211 @@
+2025-04-14 07:27:32 - INFO - Starting Telegram bot from main application
+2025-04-14 07:27:32 - INFO - Resetting any existing bot sessions...
+2025-04-14 07:27:33 - INFO - Reset response: 200
+2025-04-14 07:27:36 - INFO - Telegram configuration loaded successfully
+2025-04-14 07:27:36 - INFO - Telegram bot thread started
+2025-04-14 07:27:36 - INFO - Acquired lock on port 12345
+2025-04-14 07:27:36 - INFO - Cleaning up any existing bot sessions...
+2025-04-14 07:27:36 - INFO - Cleanup response: 200, {"ok":true,"result":true,"description":"Webhook is already deleted"}
+2025-04-14 07:27:41 - INFO - Starting Telegram bot (attempt 1/3)
+2025-04-14 07:27:41 - INFO - Starting error monitoring task
+2025-04-14 07:27:41 - INFO - Application started
+2025-04-14 07:27:41 - ERROR - Error starting Telegram bot (attempt 1/3): TypeError: Updater.start_polling() got an unexpected keyword argument 'read_timeout'
+2025-04-14 07:27:41 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Администратор\Downloads\chz\telegram_bot.py", line 976, in start_bot
+    await self.application.updater.start_polling(
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        drop_pending_updates=True,  # Very important to ignore old updates
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        pool_timeout=self.connection_timeout * 2  # Increased pool timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Updater.start_polling() got an unexpected keyword argument 'read_timeout'
+
+2025-04-14 07:27:41 - WARNING - Bot is not running or not initialized, error notification queued but won't be sent
+2025-04-14 07:27:41 - INFO - Released lock socket
+2025-04-14 07:27:41 - INFO - Released lock socket
+2025-04-14 07:57:59 - INFO - Released lock socket
+2025-04-14 07:57:59 - ERROR - Error in error monitoring task: Event loop is closed
+2025-04-14 07:58:06 - INFO - Starting Telegram bot from main application
+2025-04-14 07:58:06 - INFO - Resetting any existing bot sessions...
+2025-04-14 07:58:06 - INFO - Reset response: 200
+2025-04-14 07:58:09 - INFO - Telegram configuration loaded successfully
+2025-04-14 07:58:09 - INFO - Telegram bot thread started
+2025-04-14 07:58:09 - INFO - Acquired lock on port 12345
+2025-04-14 07:58:09 - INFO - Cleaning up any existing bot sessions...
+2025-04-14 07:58:09 - INFO - Cleanup response: 200, {"ok":true,"result":true,"description":"Webhook is already deleted"}
+2025-04-14 07:58:14 - INFO - Starting Telegram bot (attempt 1/3)
+2025-04-14 07:58:14 - INFO - Starting error monitoring task
+2025-04-14 07:58:14 - INFO - Application started
+2025-04-14 07:58:14 - ERROR - Error starting Telegram bot (attempt 1/3): TypeError: Updater.start_polling() got an unexpected keyword argument 'read_timeout'
+2025-04-14 07:58:14 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Администратор\Downloads\chz\telegram_bot.py", line 976, in start_bot
+    await self.application.updater.start_polling(
+          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        drop_pending_updates=True,  # Very important to ignore old updates
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        pool_timeout=self.connection_timeout * 2  # Increased pool timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Updater.start_polling() got an unexpected keyword argument 'read_timeout'
+
+2025-04-14 07:58:14 - WARNING - Bot is not running or not initialized, error notification queued but won't be sent
+2025-04-14 07:58:14 - INFO - Released lock socket
+2025-04-14 07:58:14 - INFO - Released lock socket
+2025-04-14 20:04:50 - INFO - Telegram configuration loaded successfully
+2025-04-14 20:04:50 - WARNING - Bot is not running or not initialized, error notification queued but won't be sent
+2025-04-14 20:05:54 - WARNING - Bot is not running or not initialized, error notification queued but won't be sent
+2025-06-05 18:24:10 - INFO - Starting Telegram bot from main application
+2025-06-05 18:24:10 - INFO - Resetting any existing bot sessions...
+2025-06-05 18:24:12 - INFO - Reset response: 401
+2025-06-05 18:24:15 - INFO - Telegram configuration loaded successfully
+2025-06-05 18:24:15 - INFO - Telegram bot thread started
+2025-06-05 18:24:15 - INFO - Acquired lock on port 12345
+2025-06-05 18:24:15 - INFO - Cleaning up any existing bot sessions...
+2025-06-05 18:24:15 - INFO - Cleanup response: 401, {"ok":false,"error_code":401,"description":"Unauthorized"}
+2025-06-05 18:24:33 - INFO - Starting Telegram bot (attempt 1/3)
+2025-06-05 18:24:33 - INFO - Starting error monitoring task
+2025-06-05 18:24:33 - ERROR - Error starting Telegram bot (attempt 1/3): InvalidToken: The token `7840665570:AAGQK-0rG6SaZYuNpEE9w2G9WjgmbHcgCrY` was rejected by the server.
+2025-06-05 18:24:33 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 835, in initialize
+    await self.get_me()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_extbot.py", line 1969, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 967, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\request\_baserequest.py", line 351, in _request_wrapper
+    raise InvalidToken(message)
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\Downloads\chz\telegram_bot.py", line 970, in start_bot
+    await asyncio.wait_for(
+    ...<2 lines>...
+    )
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_application.py", line 486, in initialize
+    await self.bot.initialize()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_extbot.py", line 308, in initialize
+    await super().initialize()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 837, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `7840665570:AAGQK-0rG6SaZYuNpEE9w2G9WjgmbHcgCrY` was rejected by the server.
+
+2025-06-05 18:24:33 - INFO - Released lock socket
+2025-06-05 18:24:33 - INFO - Released lock socket
+2025-06-16 01:54:27 - INFO - Starting Telegram bot from main application
+2025-06-16 01:54:27 - INFO - Resetting any existing bot sessions...
+2025-06-16 01:54:29 - INFO - Reset response: 401
+2025-06-16 01:54:32 - INFO - Telegram configuration loaded successfully
+2025-06-16 01:54:32 - INFO - Telegram bot thread started
+2025-06-16 01:54:32 - INFO - Acquired lock on port 12345
+2025-06-16 01:54:32 - INFO - Cleaning up any existing bot sessions...
+2025-06-16 01:54:32 - INFO - Cleanup response: 401, {"ok":false,"error_code":401,"description":"Unauthorized"}
+2025-06-16 01:54:37 - INFO - Starting Telegram bot (attempt 1/3)
+2025-06-16 01:54:37 - INFO - Starting error monitoring task
+2025-06-16 01:54:38 - ERROR - Error starting Telegram bot (attempt 1/3): InvalidToken: The token `7840665570:AAGQK-0rG6SaZYuNpEE9w2G9WjgmbHcgCrY` was rejected by the server.
+2025-06-16 01:54:38 - ERROR - Traceback: Traceback (most recent call last):
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 835, in initialize
+    await self.get_me()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_extbot.py", line 1969, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 967, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 691, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_extbot.py", line 362, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 720, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\request\_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\request\_baserequest.py", line 351, in _request_wrapper
+    raise InvalidToken(message)
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Администратор\Downloads\chz\telegram_bot.py", line 970, in start_bot
+    await asyncio.wait_for(
+    ...<2 lines>...
+    )
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_application.py", line 486, in initialize
+    await self.bot.initialize()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\ext\_extbot.py", line 308, in initialize
+    await super().initialize()
+  File "C:\Users\Администратор\AppData\Local\Programs\Python\Python313\Lib\site-packages\telegram\_bot.py", line 837, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `7840665570:AAGQK-0rG6SaZYuNpEE9w2G9WjgmbHcgCrY` was rejected by the server.
+
+2025-06-16 01:54:38 - INFO - Released lock socket
+2025-06-16 01:54:38 - INFO - Released lock socket
+2025-06-16 02:00:41 - INFO - Released lock socket
+2025-06-16 02:00:42 - ERROR - Error in error monitoring task: Event loop is closed
