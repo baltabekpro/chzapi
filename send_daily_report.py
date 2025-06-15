@@ -109,9 +109,11 @@ def generate_consolidated_report_by_region() -> Dict[str, Dict]:
     # Convert defaultdicts to regular dicts for serialization
     result = {}
     for region, data in regional_reports.items():
+        # Include individual certificate reports for email content
         result[region] = {
             'date': data['date'],
             'certificates': data['certificates'],
+            'cert_reports': data['cert_reports'],
             'violations': dict(data['violations']),
             'total': data['total']
         }
@@ -191,7 +193,11 @@ def send_regional_reports() -> bool:
                 """
             # End for each certificate table
             
-            # Create message
+            # Strip leading/trailing whitespace from HTML content and wrap in html/body
+            html = html.strip()
+            html = f"<html><body>{html}</body></html>"
+            
+            # Create message with plain text fallback and HTML
             msg = MIMEMultipart('alternative')
             msg['Subject'] = f"Отчет о нарушениях маркировки - Регион {region_name} - {report_data['date']}"
             msg['From'] = email_config['sender_email']
@@ -202,6 +208,10 @@ def send_regional_reports() -> bool:
                 recipients = email_config['recipient_emails']
                 
             msg['To'] = ', '.join(recipients)
+            # Attach plain text version
+            plain_text = f"Отчет о нарушениях маркировки по региону {region_name}\nДата: {report_data['date']}"
+            msg.attach(MIMEText(plain_text, 'plain'))
+            # Attach HTML version
             msg.attach(MIMEText(html, 'html'))
             
             email_logger.info(f"Sending email for region {region_name} to {len(recipients)} recipients")
