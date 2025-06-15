@@ -3817,3 +3817,1075 @@
 2025-06-16 02:00:41 - INFO - Processed and removed violations_group8__20250616_020038.csv
 2025-06-16 02:00:41 - INFO - Saved consolidated data to output\Соколова Татьяна - тс22\violations_2025-06-15.json
 2025-06-16 02:00:41 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:06:37 - INFO - Downloading tasks for certificate: Омелина Татьяна - тс28
+2025-06-16 03:06:37 - INFO - Found 10 pending tasks
+2025-06-16 03:06:37 - INFO - Downloading task a00a487b-ad89-4ddb-8b2c-94106f352721 for group 1
+2025-06-16 03:06:37 - INFO - Successfully downloaded task a00a487b-ad89-4ddb-8b2c-94106f352721
+2025-06-16 03:06:37 - INFO - Downloading task 34ea9137-5467-4c47-ac59-518bfed363df for group 2
+2025-06-16 03:06:58 - INFO - Successfully downloaded task 34ea9137-5467-4c47-ac59-518bfed363df
+2025-06-16 03:06:58 - INFO - Downloading task 5d2316cc-e40f-4ea1-ada2-2524c3ce7f2b for group 3
+2025-06-16 03:06:59 - INFO - Successfully downloaded task 5d2316cc-e40f-4ea1-ada2-2524c3ce7f2b
+2025-06-16 03:06:59 - INFO - Downloading task 95cb3fe0-df51-4d14-8571-b8af6bf98185 for group 4
+2025-06-16 03:07:00 - INFO - Successfully downloaded task 95cb3fe0-df51-4d14-8571-b8af6bf98185
+2025-06-16 03:07:00 - INFO - Downloading task 669712f8-b346-4d51-a337-ce91f2b93a7f for group 5
+2025-06-16 03:07:00 - INFO - Successfully downloaded task 669712f8-b346-4d51-a337-ce91f2b93a7f
+2025-06-16 03:07:00 - INFO - Downloading task 30df78f3-c6d2-48bd-9c32-f7ec45085cb6 for group 8
+2025-06-16 03:07:01 - INFO - Successfully downloaded task 30df78f3-c6d2-48bd-9c32-f7ec45085cb6
+2025-06-16 03:07:01 - INFO - Downloading task 897dafec-c842-4698-aae2-3a52658ed911 for group 13
+2025-06-16 03:07:02 - INFO - Successfully downloaded task 897dafec-c842-4698-aae2-3a52658ed911
+2025-06-16 03:07:02 - INFO - Downloading task 0921e1e0-80ce-417d-bdff-d1674d6f66d2 for group 15
+2025-06-16 03:07:02 - INFO - Successfully downloaded task 0921e1e0-80ce-417d-bdff-d1674d6f66d2
+2025-06-16 03:07:02 - INFO - Downloading task 767d9e22-c642-4ec4-994a-7026c2cce31c for group 17
+2025-06-16 03:07:03 - INFO - Successfully downloaded task 767d9e22-c642-4ec4-994a-7026c2cce31c
+2025-06-16 03:07:03 - INFO - Downloading task 91ca8e2c-b57d-4b1a-ab7e-39399748b40d for group 23
+2025-06-16 03:07:04 - INFO - Successfully downloaded task 91ca8e2c-b57d-4b1a-ab7e-39399748b40d
+2025-06-16 03:07:04 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:07:04 - INFO - Processing reports for certificate: Омелина Татьяна - тс28
+2025-06-16 03:07:04 - INFO - Found 10 CSV files to process
+2025-06-16 03:07:04 - INFO - Processing file: violations_group13__20250616_030702.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 62 violations
+2025-06-16 03:07:04 - INFO - Found 62 violations for Упакованная вода
+2025-06-16 03:07:04 - INFO - Processed violations_group13__20250616_030702.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group15__20250616_030702.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:07:04 - INFO - Processed violations_group15__20250616_030702.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group17__20250616_030703.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:07:04 - INFO - Processed violations_group17__20250616_030703.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group1__20250616_030637.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 4 violations
+2025-06-16 03:07:04 - INFO - Found 4 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:07:04 - INFO - Processed violations_group1__20250616_030637.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group23__20250616_030703.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:07:04 - INFO - Processed violations_group23__20250616_030703.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group2__20250616_030658.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:07:04 - INFO - Processed violations_group2__20250616_030658.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group3__20250616_030659.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:07:04 - INFO - Processed violations_group3__20250616_030659.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group4__20250616_030700.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:07:04 - INFO - Processed violations_group4__20250616_030700.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group5__20250616_030700.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:04 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:07:04 - INFO - Processed violations_group5__20250616_030700.csv
+2025-06-16 03:07:04 - INFO - Processing file: violations_group8__20250616_030701.csv
+2025-06-16 03:07:04 - INFO - Successfully read file with latin1 encoding, found 37 violations
+2025-06-16 03:07:04 - INFO - Found 37 violations for Молочная продукция
+2025-06-16 03:07:04 - INFO - Processed violations_group8__20250616_030701.csv
+2025-06-16 03:07:04 - INFO - Saved consolidated data to output\Омелина Татьяна - тс28\violations_2025-06-15.json
+2025-06-16 03:07:04 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:07:07 - INFO - Downloading tasks for certificate: Хуторская Татьяна - тс324
+2025-06-16 03:07:07 - INFO - Found 10 pending tasks
+2025-06-16 03:07:07 - INFO - Downloading task 52f5c022-b257-4c44-89ad-26da5b825b2e for group 1
+2025-06-16 03:07:07 - INFO - Successfully downloaded task 52f5c022-b257-4c44-89ad-26da5b825b2e
+2025-06-16 03:07:07 - INFO - Downloading task 5ffa8a14-614a-4fc7-a7b0-49a43a5e4b16 for group 2
+2025-06-16 03:07:28 - INFO - Successfully downloaded task 5ffa8a14-614a-4fc7-a7b0-49a43a5e4b16
+2025-06-16 03:07:28 - INFO - Downloading task de1abc25-e72d-4bb6-9de3-49145c4980a4 for group 3
+2025-06-16 03:07:29 - INFO - Successfully downloaded task de1abc25-e72d-4bb6-9de3-49145c4980a4
+2025-06-16 03:07:29 - INFO - Downloading task 59b20df2-54c8-4d30-b46c-2c595c81f3a3 for group 4
+2025-06-16 03:07:29 - INFO - Successfully downloaded task 59b20df2-54c8-4d30-b46c-2c595c81f3a3
+2025-06-16 03:07:30 - INFO - Downloading task 17eccf07-f9a3-45cb-84b4-32dc1223411a for group 5
+2025-06-16 03:07:30 - INFO - Successfully downloaded task 17eccf07-f9a3-45cb-84b4-32dc1223411a
+2025-06-16 03:07:30 - INFO - Downloading task 9bec1400-b92d-4c9c-bd7e-56c82b7cd8e0 for group 8
+2025-06-16 03:07:31 - INFO - Successfully downloaded task 9bec1400-b92d-4c9c-bd7e-56c82b7cd8e0
+2025-06-16 03:07:31 - INFO - Downloading task 7f4f354e-b0dc-4233-8ebf-9e77ae397904 for group 13
+2025-06-16 03:07:31 - INFO - Successfully downloaded task 7f4f354e-b0dc-4233-8ebf-9e77ae397904
+2025-06-16 03:07:31 - INFO - Downloading task 3f8568ba-9048-4ae5-bf41-5f90f546aca2 for group 15
+2025-06-16 03:07:32 - INFO - Successfully downloaded task 3f8568ba-9048-4ae5-bf41-5f90f546aca2
+2025-06-16 03:07:32 - INFO - Downloading task b651806c-9a35-4121-b3a4-66e6a049696a for group 17
+2025-06-16 03:07:33 - INFO - Successfully downloaded task b651806c-9a35-4121-b3a4-66e6a049696a
+2025-06-16 03:07:33 - INFO - Downloading task ce2cddbd-5e15-4443-af82-5785f816c3ae for group 23
+2025-06-16 03:07:33 - INFO - Successfully downloaded task ce2cddbd-5e15-4443-af82-5785f816c3ae
+2025-06-16 03:07:33 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:07:33 - INFO - Processing reports for certificate: Хуторская Татьяна - тс324
+2025-06-16 03:07:33 - INFO - Found 10 CSV files to process
+2025-06-16 03:07:33 - INFO - Processing file: violations_group13__20250616_030731.csv
+2025-06-16 03:07:33 - INFO - Successfully read file with latin1 encoding, found 7 violations
+2025-06-16 03:07:33 - INFO - Found 7 violations for Упакованная вода
+2025-06-16 03:07:33 - INFO - Processed violations_group13__20250616_030731.csv
+2025-06-16 03:07:33 - INFO - Processing file: violations_group15__20250616_030732.csv
+2025-06-16 03:07:33 - INFO - Successfully read file with latin1 encoding, found 11 violations
+2025-06-16 03:07:33 - INFO - Found 11 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:07:33 - INFO - Processed violations_group15__20250616_030732.csv
+2025-06-16 03:07:33 - INFO - Processing file: violations_group17__20250616_030733.csv
+2025-06-16 03:07:33 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:33 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:07:33 - INFO - Processed violations_group17__20250616_030733.csv
+2025-06-16 03:07:33 - INFO - Processing file: violations_group1__20250616_030707.csv
+2025-06-16 03:07:33 - INFO - Successfully read file with latin1 encoding, found 5 violations
+2025-06-16 03:07:33 - INFO - Found 5 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:07:33 - INFO - Processed violations_group1__20250616_030707.csv
+2025-06-16 03:07:33 - INFO - Processing file: violations_group23__20250616_030733.csv
+2025-06-16 03:07:33 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:33 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:07:33 - INFO - Processed violations_group23__20250616_030733.csv
+2025-06-16 03:07:34 - INFO - Processing file: violations_group2__20250616_030728.csv
+2025-06-16 03:07:34 - INFO - Successfully read file with latin1 encoding, found 8 violations
+2025-06-16 03:07:34 - INFO - Found 8 violations for Обувные товары
+2025-06-16 03:07:34 - INFO - Processed violations_group2__20250616_030728.csv
+2025-06-16 03:07:34 - INFO - Processing file: violations_group3__20250616_030729.csv
+2025-06-16 03:07:34 - INFO - Successfully read file with latin1 encoding, found 5 violations
+2025-06-16 03:07:34 - INFO - Found 5 violations for Табачная продукция
+2025-06-16 03:07:34 - INFO - Processed violations_group3__20250616_030729.csv
+2025-06-16 03:07:34 - INFO - Processing file: violations_group4__20250616_030729.csv
+2025-06-16 03:07:34 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:34 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:07:34 - INFO - Processed violations_group4__20250616_030729.csv
+2025-06-16 03:07:34 - INFO - Processing file: violations_group5__20250616_030730.csv
+2025-06-16 03:07:34 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:07:34 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:07:34 - INFO - Processed violations_group5__20250616_030730.csv
+2025-06-16 03:07:34 - INFO - Processing file: violations_group8__20250616_030731.csv
+2025-06-16 03:07:34 - INFO - Successfully read file with latin1 encoding, found 85 violations
+2025-06-16 03:07:34 - INFO - Found 85 violations for Молочная продукция
+2025-06-16 03:07:34 - INFO - Processed violations_group8__20250616_030731.csv
+2025-06-16 03:07:34 - INFO - Saved consolidated data to output\Хуторская Татьяна - тс324\violations_2025-06-15.json
+2025-06-16 03:07:34 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:07:36 - INFO - Downloading tasks for certificate: Хуторская Татьяна - тс124
+2025-06-16 03:07:36 - INFO - Found 10 pending tasks
+2025-06-16 03:07:36 - INFO - Downloading task f14a10a8-66b6-4e4a-9273-607ab64206a4 for group 1
+2025-06-16 03:08:00 - INFO - Successfully downloaded task f14a10a8-66b6-4e4a-9273-607ab64206a4
+2025-06-16 03:08:00 - INFO - Downloading task 19c58c35-54c6-4aab-829b-1d48e2dfd567 for group 2
+2025-06-16 03:08:01 - INFO - Successfully downloaded task 19c58c35-54c6-4aab-829b-1d48e2dfd567
+2025-06-16 03:08:01 - INFO - Downloading task 342b1275-10b2-4271-8141-b770dacf8727 for group 3
+2025-06-16 03:08:02 - INFO - Successfully downloaded task 342b1275-10b2-4271-8141-b770dacf8727
+2025-06-16 03:08:02 - INFO - Downloading task 6f8eceb5-0615-4263-bafa-70bb7c9ac247 for group 4
+2025-06-16 03:08:02 - INFO - Successfully downloaded task 6f8eceb5-0615-4263-bafa-70bb7c9ac247
+2025-06-16 03:08:02 - INFO - Downloading task c934f7a0-2b37-4170-b00e-db6a69577cf4 for group 5
+2025-06-16 03:08:03 - INFO - Successfully downloaded task c934f7a0-2b37-4170-b00e-db6a69577cf4
+2025-06-16 03:08:03 - INFO - Downloading task 7a39c99e-dfe2-482e-93e1-a17d25ff2c2d for group 8
+2025-06-16 03:08:04 - INFO - Successfully downloaded task 7a39c99e-dfe2-482e-93e1-a17d25ff2c2d
+2025-06-16 03:08:04 - INFO - Downloading task 9e3abfc5-5b67-4e85-be62-ac464e9fbdef for group 13
+2025-06-16 03:08:04 - INFO - Successfully downloaded task 9e3abfc5-5b67-4e85-be62-ac464e9fbdef
+2025-06-16 03:08:04 - INFO - Downloading task c94ae613-e95e-4f24-838f-e3d6320048dc for group 15
+2025-06-16 03:08:05 - INFO - Successfully downloaded task c94ae613-e95e-4f24-838f-e3d6320048dc
+2025-06-16 03:08:05 - INFO - Downloading task 68568b10-b898-4ba2-a56e-84e86b2bd544 for group 17
+2025-06-16 03:08:05 - INFO - Successfully downloaded task 68568b10-b898-4ba2-a56e-84e86b2bd544
+2025-06-16 03:08:06 - INFO - Downloading task acf73491-6d7c-4a20-902e-9ef9d5b74a0f for group 23
+2025-06-16 03:08:06 - INFO - Successfully downloaded task acf73491-6d7c-4a20-902e-9ef9d5b74a0f
+2025-06-16 03:08:06 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:08:06 - INFO - Processing reports for certificate: Хуторская Татьяна - тс124
+2025-06-16 03:08:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:08:06 - INFO - Processing file: violations_group13__20250616_030804.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:08:06 - INFO - Processed violations_group13__20250616_030804.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group15__20250616_030805.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:08:06 - INFO - Processed violations_group15__20250616_030805.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group17__20250616_030805.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:08:06 - INFO - Processed violations_group17__20250616_030805.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group1__20250616_030800.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:08:06 - INFO - Processed violations_group1__20250616_030800.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group23__20250616_030806.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:08:06 - INFO - Processed violations_group23__20250616_030806.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group2__20250616_030801.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:08:06 - INFO - Processed violations_group2__20250616_030801.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group3__20250616_030802.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 7 violations
+2025-06-16 03:08:06 - INFO - Found 7 violations for Табачная продукция
+2025-06-16 03:08:06 - INFO - Processed violations_group3__20250616_030802.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group4__20250616_030802.csv
+2025-06-16 03:08:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:06 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:08:06 - INFO - Processed violations_group4__20250616_030802.csv
+2025-06-16 03:08:06 - INFO - Processing file: violations_group5__20250616_030803.csv
+2025-06-16 03:08:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:07 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:08:07 - INFO - Processed violations_group5__20250616_030803.csv
+2025-06-16 03:08:07 - INFO - Processing file: violations_group8__20250616_030804.csv
+2025-06-16 03:08:07 - INFO - Successfully read file with latin1 encoding, found 8 violations
+2025-06-16 03:08:07 - INFO - Found 8 violations for Молочная продукция
+2025-06-16 03:08:07 - INFO - Processed violations_group8__20250616_030804.csv
+2025-06-16 03:08:07 - INFO - Saved consolidated data to output\Хуторская Татьяна - тс124\violations_2025-06-15.json
+2025-06-16 03:08:07 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:08:09 - INFO - Downloading tasks for certificate: Хуторская Татьяна - тс3
+2025-06-16 03:08:09 - INFO - Found 10 pending tasks
+2025-06-16 03:08:09 - INFO - Downloading task 49672d99-3e5e-4cba-938e-6e70eec52e76 for group 1
+2025-06-16 03:08:30 - INFO - Successfully downloaded task 49672d99-3e5e-4cba-938e-6e70eec52e76
+2025-06-16 03:08:30 - INFO - Downloading task cb738b91-3894-4994-ae13-dea6b37b210a for group 2
+2025-06-16 03:08:31 - INFO - Successfully downloaded task cb738b91-3894-4994-ae13-dea6b37b210a
+2025-06-16 03:08:31 - INFO - Downloading task 9e602eea-33c5-40e8-8f04-3d56f45b4579 for group 3
+2025-06-16 03:08:31 - INFO - Successfully downloaded task 9e602eea-33c5-40e8-8f04-3d56f45b4579
+2025-06-16 03:08:31 - INFO - Downloading task 964204ca-2afa-482d-9095-f274555172fd for group 4
+2025-06-16 03:08:32 - INFO - Successfully downloaded task 964204ca-2afa-482d-9095-f274555172fd
+2025-06-16 03:08:32 - INFO - Downloading task 683e441e-e805-48db-9dd6-b31a5ed233a6 for group 5
+2025-06-16 03:08:33 - INFO - Successfully downloaded task 683e441e-e805-48db-9dd6-b31a5ed233a6
+2025-06-16 03:08:33 - INFO - Downloading task 2f608505-ac9e-4954-bdd9-966bae3caed4 for group 8
+2025-06-16 03:08:33 - INFO - Successfully downloaded task 2f608505-ac9e-4954-bdd9-966bae3caed4
+2025-06-16 03:08:33 - INFO - Downloading task 9e177b50-fc08-4907-bde7-172c82bce1f5 for group 13
+2025-06-16 03:08:34 - INFO - Successfully downloaded task 9e177b50-fc08-4907-bde7-172c82bce1f5
+2025-06-16 03:08:34 - INFO - Downloading task 17613e8f-de3f-4249-b3f5-3dbe5a942037 for group 15
+2025-06-16 03:08:35 - INFO - Successfully downloaded task 17613e8f-de3f-4249-b3f5-3dbe5a942037
+2025-06-16 03:08:35 - INFO - Downloading task 06f76556-6ecf-491b-8375-1beb8b13ce94 for group 17
+2025-06-16 03:08:35 - INFO - Successfully downloaded task 06f76556-6ecf-491b-8375-1beb8b13ce94
+2025-06-16 03:08:35 - INFO - Downloading task 2239cb99-b508-46b3-b539-fc013ca0a124 for group 23
+2025-06-16 03:08:36 - INFO - Successfully downloaded task 2239cb99-b508-46b3-b539-fc013ca0a124
+2025-06-16 03:08:36 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:08:36 - INFO - Processing reports for certificate: Хуторская Татьяна - тс3
+2025-06-16 03:08:36 - INFO - Found 10 CSV files to process
+2025-06-16 03:08:36 - INFO - Processing file: violations_group13__20250616_030834.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:08:36 - INFO - Processed violations_group13__20250616_030834.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group15__20250616_030835.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:08:36 - INFO - Processed violations_group15__20250616_030835.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group17__20250616_030835.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:08:36 - INFO - Processed violations_group17__20250616_030835.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group1__20250616_030830.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:08:36 - INFO - Processed violations_group1__20250616_030830.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group23__20250616_030836.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 7 violations
+2025-06-16 03:08:36 - INFO - Found 7 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:08:36 - INFO - Processed violations_group23__20250616_030836.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group2__20250616_030831.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:08:36 - INFO - Processed violations_group2__20250616_030831.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group3__20250616_030831.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:08:36 - INFO - Processed violations_group3__20250616_030831.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group4__20250616_030832.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:08:36 - INFO - Processed violations_group4__20250616_030832.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group5__20250616_030833.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:08:36 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:08:36 - INFO - Processed violations_group5__20250616_030833.csv
+2025-06-16 03:08:36 - INFO - Processing file: violations_group8__20250616_030833.csv
+2025-06-16 03:08:36 - INFO - Successfully read file with cp1251 encoding, found 8 violations
+2025-06-16 03:08:36 - INFO - Found 8 violations for Молочная продукция
+2025-06-16 03:08:36 - INFO - Processed violations_group8__20250616_030833.csv
+2025-06-16 03:08:36 - INFO - Saved consolidated data to output\Хуторская Татьяна - тс3\violations_2025-06-15.json
+2025-06-16 03:08:36 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:08:39 - INFO - Downloading tasks for certificate: Хуторская Татьяна - тс5
+2025-06-16 03:08:39 - INFO - Found 10 pending tasks
+2025-06-16 03:08:39 - INFO - Downloading task cc060733-9cf5-43b3-a7d4-7a01d7f7e73b for group 1
+2025-06-16 03:09:00 - INFO - Successfully downloaded task cc060733-9cf5-43b3-a7d4-7a01d7f7e73b
+2025-06-16 03:09:00 - INFO - Downloading task 37f892ea-12cf-4d59-9e36-26db239e86a6 for group 2
+2025-06-16 03:09:01 - INFO - Successfully downloaded task 37f892ea-12cf-4d59-9e36-26db239e86a6
+2025-06-16 03:09:01 - INFO - Downloading task 5298b26b-00ac-4c66-92c3-64469877b619 for group 3
+2025-06-16 03:09:02 - INFO - Successfully downloaded task 5298b26b-00ac-4c66-92c3-64469877b619
+2025-06-16 03:09:02 - INFO - Downloading task 32bab4a8-6749-469d-8573-d8ba37dae5f5 for group 4
+2025-06-16 03:09:02 - INFO - Successfully downloaded task 32bab4a8-6749-469d-8573-d8ba37dae5f5
+2025-06-16 03:09:02 - INFO - Downloading task 8c4395e7-0732-4bc2-ae28-fb6864643599 for group 5
+2025-06-16 03:09:03 - INFO - Successfully downloaded task 8c4395e7-0732-4bc2-ae28-fb6864643599
+2025-06-16 03:09:03 - INFO - Downloading task 89c6e81a-3303-4f2d-9cac-fc7cb7594bda for group 8
+2025-06-16 03:09:04 - INFO - Successfully downloaded task 89c6e81a-3303-4f2d-9cac-fc7cb7594bda
+2025-06-16 03:09:04 - INFO - Downloading task e2aa7bd1-b22b-49cd-ae7e-ad9e74d7002e for group 13
+2025-06-16 03:09:04 - INFO - Successfully downloaded task e2aa7bd1-b22b-49cd-ae7e-ad9e74d7002e
+2025-06-16 03:09:04 - INFO - Downloading task c9dbfe08-0f98-47b7-82a0-aeed13c1cd8b for group 15
+2025-06-16 03:09:05 - INFO - Successfully downloaded task c9dbfe08-0f98-47b7-82a0-aeed13c1cd8b
+2025-06-16 03:09:05 - INFO - Downloading task 77b9d61c-b58e-453d-90e0-f6d0ee26d7d0 for group 17
+2025-06-16 03:09:05 - INFO - Successfully downloaded task 77b9d61c-b58e-453d-90e0-f6d0ee26d7d0
+2025-06-16 03:09:05 - INFO - Downloading task 8b86d4af-e805-46b3-b2ab-edacc44127f2 for group 23
+2025-06-16 03:09:06 - INFO - Successfully downloaded task 8b86d4af-e805-46b3-b2ab-edacc44127f2
+2025-06-16 03:09:06 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:09:06 - INFO - Processing reports for certificate: Хуторская Татьяна - тс5
+2025-06-16 03:09:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:09:06 - INFO - Processing file: violations_group13__20250616_030904.csv
+2025-06-16 03:09:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:09:06 - INFO - Processed violations_group13__20250616_030904.csv
+2025-06-16 03:09:06 - INFO - Processing file: violations_group15__20250616_030905.csv
+2025-06-16 03:09:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:06 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:09:06 - INFO - Processed violations_group15__20250616_030905.csv
+2025-06-16 03:09:06 - INFO - Processing file: violations_group17__20250616_030905.csv
+2025-06-16 03:09:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:06 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:09:06 - INFO - Processed violations_group17__20250616_030905.csv
+2025-06-16 03:09:06 - INFO - Processing file: violations_group1__20250616_030900.csv
+2025-06-16 03:09:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:06 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:09:07 - INFO - Processed violations_group1__20250616_030900.csv
+2025-06-16 03:09:07 - INFO - Processing file: violations_group23__20250616_030906.csv
+2025-06-16 03:09:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:07 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:09:07 - INFO - Processed violations_group23__20250616_030906.csv
+2025-06-16 03:09:07 - INFO - Processing file: violations_group2__20250616_030901.csv
+2025-06-16 03:09:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:07 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:09:07 - INFO - Processed violations_group2__20250616_030901.csv
+2025-06-16 03:09:07 - INFO - Processing file: violations_group3__20250616_030902.csv
+2025-06-16 03:09:07 - INFO - Successfully read file with latin1 encoding, found 4 violations
+2025-06-16 03:09:07 - INFO - Found 4 violations for Табачная продукция
+2025-06-16 03:09:07 - INFO - Processed violations_group3__20250616_030902.csv
+2025-06-16 03:09:07 - INFO - Processing file: violations_group4__20250616_030902.csv
+2025-06-16 03:09:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:07 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:09:07 - INFO - Processed violations_group4__20250616_030902.csv
+2025-06-16 03:09:07 - INFO - Processing file: violations_group5__20250616_030903.csv
+2025-06-16 03:09:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:07 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:09:07 - INFO - Processed violations_group5__20250616_030903.csv
+2025-06-16 03:09:07 - INFO - Processing file: violations_group8__20250616_030903.csv
+2025-06-16 03:09:07 - INFO - Successfully read file with latin1 encoding, found 11 violations
+2025-06-16 03:09:07 - INFO - Found 11 violations for Молочная продукция
+2025-06-16 03:09:07 - INFO - Processed violations_group8__20250616_030903.csv
+2025-06-16 03:09:07 - INFO - Saved consolidated data to output\Хуторская Татьяна - тс5\violations_2025-06-15.json
+2025-06-16 03:09:07 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:09:10 - INFO - Downloading tasks for certificate: Тимофеева Елена - тс138
+2025-06-16 03:09:10 - INFO - Found 10 pending tasks
+2025-06-16 03:09:10 - INFO - Downloading task 45bcf9d6-089c-4725-b6f6-d4e3d3dfa089 for group 1
+2025-06-16 03:09:30 - INFO - Successfully downloaded task 45bcf9d6-089c-4725-b6f6-d4e3d3dfa089
+2025-06-16 03:09:30 - INFO - Downloading task 77247f59-f8f0-4a42-bc1d-897076c3c249 for group 2
+2025-06-16 03:09:31 - INFO - Successfully downloaded task 77247f59-f8f0-4a42-bc1d-897076c3c249
+2025-06-16 03:09:31 - INFO - Downloading task 1aec34f2-a70c-47b7-b47e-954e0a2e33ff for group 3
+2025-06-16 03:09:32 - INFO - Successfully downloaded task 1aec34f2-a70c-47b7-b47e-954e0a2e33ff
+2025-06-16 03:09:32 - INFO - Downloading task fba134a4-aa2d-44e1-b5bc-938ee01c16ba for group 4
+2025-06-16 03:09:32 - INFO - Successfully downloaded task fba134a4-aa2d-44e1-b5bc-938ee01c16ba
+2025-06-16 03:09:32 - INFO - Downloading task 5160ce02-424e-40ae-a876-7290a37cd57c for group 5
+2025-06-16 03:09:33 - INFO - Successfully downloaded task 5160ce02-424e-40ae-a876-7290a37cd57c
+2025-06-16 03:09:33 - INFO - Downloading task d06fe728-52ba-43d5-b2dd-eb48091d4622 for group 8
+2025-06-16 03:09:34 - INFO - Successfully downloaded task d06fe728-52ba-43d5-b2dd-eb48091d4622
+2025-06-16 03:09:34 - INFO - Downloading task aa6b81bb-1521-4012-84bb-75c0441f0ecc for group 13
+2025-06-16 03:09:34 - INFO - Successfully downloaded task aa6b81bb-1521-4012-84bb-75c0441f0ecc
+2025-06-16 03:09:34 - INFO - Downloading task f7af7165-89da-447e-836b-582fc68ffd4f for group 15
+2025-06-16 03:09:35 - INFO - Successfully downloaded task f7af7165-89da-447e-836b-582fc68ffd4f
+2025-06-16 03:09:35 - INFO - Downloading task f87665ce-4883-409f-ba2f-fc81091a666f for group 17
+2025-06-16 03:09:36 - INFO - Successfully downloaded task f87665ce-4883-409f-ba2f-fc81091a666f
+2025-06-16 03:09:36 - INFO - Downloading task 9a490c55-c8b0-4985-a906-a3b6daea5674 for group 23
+2025-06-16 03:09:36 - INFO - Successfully downloaded task 9a490c55-c8b0-4985-a906-a3b6daea5674
+2025-06-16 03:09:36 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:09:36 - INFO - Processing reports for certificate: Тимофеева Елена - тс138
+2025-06-16 03:09:36 - INFO - Found 10 CSV files to process
+2025-06-16 03:09:36 - INFO - Processing file: violations_group13__20250616_030934.csv
+2025-06-16 03:09:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:36 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:09:36 - INFO - Processed violations_group13__20250616_030934.csv
+2025-06-16 03:09:36 - INFO - Processing file: violations_group15__20250616_030935.csv
+2025-06-16 03:09:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:36 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:09:36 - INFO - Processed violations_group15__20250616_030935.csv
+2025-06-16 03:09:36 - INFO - Processing file: violations_group17__20250616_030936.csv
+2025-06-16 03:09:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:09:36 - INFO - Processed violations_group17__20250616_030936.csv
+2025-06-16 03:09:36 - INFO - Processing file: violations_group1__20250616_030930.csv
+2025-06-16 03:09:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:09:36 - INFO - Processed violations_group1__20250616_030930.csv
+2025-06-16 03:09:36 - INFO - Processing file: violations_group23__20250616_030936.csv
+2025-06-16 03:09:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:36 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:09:36 - INFO - Processed violations_group23__20250616_030936.csv
+2025-06-16 03:09:36 - INFO - Processing file: violations_group2__20250616_030931.csv
+2025-06-16 03:09:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:09:37 - INFO - Processed violations_group2__20250616_030931.csv
+2025-06-16 03:09:37 - INFO - Processing file: violations_group3__20250616_030932.csv
+2025-06-16 03:09:37 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:37 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:09:37 - INFO - Processed violations_group3__20250616_030932.csv
+2025-06-16 03:09:37 - INFO - Processing file: violations_group4__20250616_030932.csv
+2025-06-16 03:09:37 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:37 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:09:37 - INFO - Processed violations_group4__20250616_030932.csv
+2025-06-16 03:09:37 - INFO - Processing file: violations_group5__20250616_030933.csv
+2025-06-16 03:09:37 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:37 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:09:37 - INFO - Processed violations_group5__20250616_030933.csv
+2025-06-16 03:09:37 - INFO - Processing file: violations_group8__20250616_030934.csv
+2025-06-16 03:09:37 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:09:37 - INFO - Found 3 violations for Молочная продукция
+2025-06-16 03:09:37 - INFO - Processed violations_group8__20250616_030934.csv
+2025-06-16 03:09:37 - INFO - Saved consolidated data to output\Тимофеева Елена - тс138\violations_2025-06-15.json
+2025-06-16 03:09:37 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:09:40 - INFO - Downloading tasks for certificate: Тимофеева Елена - тс238
+2025-06-16 03:09:40 - INFO - Found 10 pending tasks
+2025-06-16 03:09:40 - INFO - Downloading task 5ccfc909-3529-49e8-a67e-90cd7a60b977 for group 1
+2025-06-16 03:10:01 - INFO - Successfully downloaded task 5ccfc909-3529-49e8-a67e-90cd7a60b977
+2025-06-16 03:10:01 - INFO - Downloading task ba49a85a-de49-4a89-bf6b-0645d06ecbeb for group 2
+2025-06-16 03:10:01 - INFO - Successfully downloaded task ba49a85a-de49-4a89-bf6b-0645d06ecbeb
+2025-06-16 03:10:01 - INFO - Downloading task a83edc6f-e367-49b7-bd9f-0d9a2637aa4b for group 3
+2025-06-16 03:10:02 - INFO - Successfully downloaded task a83edc6f-e367-49b7-bd9f-0d9a2637aa4b
+2025-06-16 03:10:02 - INFO - Downloading task 6fea635c-9180-4d8d-9491-412d0f06c11d for group 4
+2025-06-16 03:10:02 - INFO - Successfully downloaded task 6fea635c-9180-4d8d-9491-412d0f06c11d
+2025-06-16 03:10:02 - INFO - Downloading task 02f6660c-649f-4a9b-a476-f4adbdf8c4f7 for group 5
+2025-06-16 03:10:03 - INFO - Successfully downloaded task 02f6660c-649f-4a9b-a476-f4adbdf8c4f7
+2025-06-16 03:10:03 - INFO - Downloading task be08ad17-685c-40dc-ae3e-a9768f5c1fc1 for group 8
+2025-06-16 03:10:04 - INFO - Successfully downloaded task be08ad17-685c-40dc-ae3e-a9768f5c1fc1
+2025-06-16 03:10:04 - INFO - Downloading task a261e1d7-c17d-45c7-8ea0-5a2c0e2c8981 for group 13
+2025-06-16 03:10:04 - INFO - Successfully downloaded task a261e1d7-c17d-45c7-8ea0-5a2c0e2c8981
+2025-06-16 03:10:04 - INFO - Downloading task 479c9e8e-af87-46d9-b387-6dc4b64fbb87 for group 15
+2025-06-16 03:10:05 - INFO - Successfully downloaded task 479c9e8e-af87-46d9-b387-6dc4b64fbb87
+2025-06-16 03:10:05 - INFO - Downloading task 9b6fe469-880a-4a5b-887b-66c9949e52ba for group 17
+2025-06-16 03:10:06 - INFO - Successfully downloaded task 9b6fe469-880a-4a5b-887b-66c9949e52ba
+2025-06-16 03:10:06 - INFO - Downloading task 6238d00f-175a-4ca8-9c53-04ebbd8dec03 for group 23
+2025-06-16 03:10:06 - INFO - Successfully downloaded task 6238d00f-175a-4ca8-9c53-04ebbd8dec03
+2025-06-16 03:10:06 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:10:06 - INFO - Processing reports for certificate: Тимофеева Елена - тс238
+2025-06-16 03:10:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:10:06 - INFO - Processing file: violations_group13__20250616_031004.csv
+2025-06-16 03:10:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:10:06 - INFO - Processed violations_group13__20250616_031004.csv
+2025-06-16 03:10:06 - INFO - Processing file: violations_group15__20250616_031005.csv
+2025-06-16 03:10:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:06 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:10:06 - INFO - Processed violations_group15__20250616_031005.csv
+2025-06-16 03:10:06 - INFO - Processing file: violations_group17__20250616_031006.csv
+2025-06-16 03:10:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:06 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:10:06 - INFO - Processed violations_group17__20250616_031006.csv
+2025-06-16 03:10:06 - INFO - Processing file: violations_group1__20250616_031001.csv
+2025-06-16 03:10:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:06 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:10:06 - INFO - Processed violations_group1__20250616_031001.csv
+2025-06-16 03:10:06 - INFO - Processing file: violations_group23__20250616_031006.csv
+2025-06-16 03:10:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:06 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:10:06 - INFO - Processed violations_group23__20250616_031006.csv
+2025-06-16 03:10:06 - INFO - Processing file: violations_group2__20250616_031001.csv
+2025-06-16 03:10:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:07 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:10:07 - INFO - Processed violations_group2__20250616_031001.csv
+2025-06-16 03:10:07 - INFO - Processing file: violations_group3__20250616_031002.csv
+2025-06-16 03:10:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:07 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:10:07 - INFO - Processed violations_group3__20250616_031002.csv
+2025-06-16 03:10:07 - INFO - Processing file: violations_group4__20250616_031002.csv
+2025-06-16 03:10:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:07 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:10:07 - INFO - Processed violations_group4__20250616_031002.csv
+2025-06-16 03:10:07 - INFO - Processing file: violations_group5__20250616_031003.csv
+2025-06-16 03:10:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:07 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:10:07 - INFO - Processed violations_group5__20250616_031003.csv
+2025-06-16 03:10:07 - INFO - Processing file: violations_group8__20250616_031004.csv
+2025-06-16 03:10:07 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:07 - INFO - Found 3 violations for Молочная продукция
+2025-06-16 03:10:07 - INFO - Processed violations_group8__20250616_031004.csv
+2025-06-16 03:10:07 - INFO - Saved consolidated data to output\Тимофеева Елена - тс238\violations_2025-06-15.json
+2025-06-16 03:10:07 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:10:09 - INFO - Downloading tasks for certificate: Тимофеева Елена - тс338
+2025-06-16 03:10:09 - INFO - Found 10 pending tasks
+2025-06-16 03:10:09 - INFO - Downloading task d800f242-d37e-49d7-a96f-1847c3f2190b for group 1
+2025-06-16 03:10:30 - INFO - Successfully downloaded task d800f242-d37e-49d7-a96f-1847c3f2190b
+2025-06-16 03:10:30 - INFO - Downloading task 58d2710a-da7e-4273-a855-bbf747d51d88 for group 2
+2025-06-16 03:10:31 - INFO - Successfully downloaded task 58d2710a-da7e-4273-a855-bbf747d51d88
+2025-06-16 03:10:31 - INFO - Downloading task f31751b4-3140-4b4b-be33-d368d2f2410d for group 3
+2025-06-16 03:10:31 - INFO - Successfully downloaded task f31751b4-3140-4b4b-be33-d368d2f2410d
+2025-06-16 03:10:31 - INFO - Downloading task 034a9a24-276a-4ca1-8c3e-5c61bf2b57ea for group 4
+2025-06-16 03:10:32 - INFO - Successfully downloaded task 034a9a24-276a-4ca1-8c3e-5c61bf2b57ea
+2025-06-16 03:10:32 - INFO - Downloading task 3f9252d2-e08f-45c8-ae58-7fa561a8f9cc for group 5
+2025-06-16 03:10:33 - INFO - Successfully downloaded task 3f9252d2-e08f-45c8-ae58-7fa561a8f9cc
+2025-06-16 03:10:33 - INFO - Downloading task 024dbdd4-0f6a-483d-accb-d8cc480d87cd for group 8
+2025-06-16 03:10:33 - INFO - Successfully downloaded task 024dbdd4-0f6a-483d-accb-d8cc480d87cd
+2025-06-16 03:10:33 - INFO - Downloading task 74fc703c-d50d-44c0-a1b4-39b45477badc for group 13
+2025-06-16 03:10:34 - INFO - Successfully downloaded task 74fc703c-d50d-44c0-a1b4-39b45477badc
+2025-06-16 03:10:34 - INFO - Downloading task 10a40366-b14d-41c8-bca8-6477fdddfe73 for group 15
+2025-06-16 03:10:35 - INFO - Successfully downloaded task 10a40366-b14d-41c8-bca8-6477fdddfe73
+2025-06-16 03:10:35 - INFO - Downloading task f529cc82-d669-4e7e-b353-550391f74868 for group 17
+2025-06-16 03:10:35 - INFO - Successfully downloaded task f529cc82-d669-4e7e-b353-550391f74868
+2025-06-16 03:10:35 - INFO - Downloading task 1dc8c127-75bb-40ad-85a7-170e2a87559a for group 23
+2025-06-16 03:10:36 - INFO - Successfully downloaded task 1dc8c127-75bb-40ad-85a7-170e2a87559a
+2025-06-16 03:10:36 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:10:36 - INFO - Processing reports for certificate: Тимофеева Елена - тс338
+2025-06-16 03:10:36 - INFO - Found 10 CSV files to process
+2025-06-16 03:10:36 - INFO - Processing file: violations_group13__20250616_031034.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:10:36 - INFO - Processed violations_group13__20250616_031034.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group15__20250616_031035.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:10:36 - INFO - Processed violations_group15__20250616_031035.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group17__20250616_031035.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:10:36 - INFO - Processed violations_group17__20250616_031035.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group1__20250616_031030.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:10:36 - INFO - Processed violations_group1__20250616_031030.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group23__20250616_031036.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 4 violations
+2025-06-16 03:10:36 - INFO - Found 4 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:10:36 - INFO - Processed violations_group23__20250616_031036.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group2__20250616_031031.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:10:36 - INFO - Processed violations_group2__20250616_031031.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group3__20250616_031031.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:10:36 - INFO - Processed violations_group3__20250616_031031.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group4__20250616_031032.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:10:36 - INFO - Processed violations_group4__20250616_031032.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group5__20250616_031033.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:10:36 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:10:36 - INFO - Processed violations_group5__20250616_031033.csv
+2025-06-16 03:10:36 - INFO - Processing file: violations_group8__20250616_031033.csv
+2025-06-16 03:10:36 - INFO - Successfully read file with latin1 encoding, found 8 violations
+2025-06-16 03:10:36 - INFO - Found 8 violations for Молочная продукция
+2025-06-16 03:10:36 - INFO - Processed violations_group8__20250616_031033.csv
+2025-06-16 03:10:36 - INFO - Saved consolidated data to output\Тимофеева Елена - тс338\violations_2025-06-15.json
+2025-06-16 03:10:36 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:10:39 - INFO - Downloading tasks for certificate: Соколова Татьяна - тс22
+2025-06-16 03:10:39 - INFO - Found 10 pending tasks
+2025-06-16 03:10:39 - INFO - Downloading task 23fc5761-8ae6-4ec2-b732-224eb0e2805a for group 1
+2025-06-16 03:11:00 - INFO - Successfully downloaded task 23fc5761-8ae6-4ec2-b732-224eb0e2805a
+2025-06-16 03:11:00 - INFO - Downloading task 606612ea-8501-4e05-9178-4c7464cffb28 for group 2
+2025-06-16 03:11:01 - INFO - Successfully downloaded task 606612ea-8501-4e05-9178-4c7464cffb28
+2025-06-16 03:11:01 - INFO - Downloading task 71f90e4d-39b2-4b69-af03-14f4d30c7db3 for group 3
+2025-06-16 03:11:01 - INFO - Successfully downloaded task 71f90e4d-39b2-4b69-af03-14f4d30c7db3
+2025-06-16 03:11:01 - INFO - Downloading task fde24857-f47d-47bd-9db5-c1cb865c210b for group 4
+2025-06-16 03:11:02 - INFO - Successfully downloaded task fde24857-f47d-47bd-9db5-c1cb865c210b
+2025-06-16 03:11:02 - INFO - Downloading task 36352744-059b-4b03-9b40-b80167a80806 for group 5
+2025-06-16 03:11:02 - INFO - Successfully downloaded task 36352744-059b-4b03-9b40-b80167a80806
+2025-06-16 03:11:02 - INFO - Downloading task 02b5cbc7-1501-4d94-9539-b81e93269e47 for group 8
+2025-06-16 03:11:03 - INFO - Successfully downloaded task 02b5cbc7-1501-4d94-9539-b81e93269e47
+2025-06-16 03:11:03 - INFO - Downloading task 68e90a79-7a7f-4342-a8ab-d47f19254019 for group 13
+2025-06-16 03:11:04 - INFO - Successfully downloaded task 68e90a79-7a7f-4342-a8ab-d47f19254019
+2025-06-16 03:11:04 - INFO - Downloading task 7ec42fc9-b53e-4a5c-841c-ee903f503fe9 for group 15
+2025-06-16 03:11:04 - INFO - Successfully downloaded task 7ec42fc9-b53e-4a5c-841c-ee903f503fe9
+2025-06-16 03:11:04 - INFO - Downloading task c227eefa-3469-4ef1-822e-3412cf15eb56 for group 17
+2025-06-16 03:11:05 - INFO - Successfully downloaded task c227eefa-3469-4ef1-822e-3412cf15eb56
+2025-06-16 03:11:05 - INFO - Downloading task d2c4de4c-c5c8-4ff3-a768-ac6f1b8cb377 for group 23
+2025-06-16 03:11:06 - INFO - Successfully downloaded task d2c4de4c-c5c8-4ff3-a768-ac6f1b8cb377
+2025-06-16 03:11:06 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:11:06 - INFO - Processing reports for certificate: Соколова Татьяна - тс22
+2025-06-16 03:11:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:11:06 - INFO - Processing file: violations_group13__20250616_031104.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:11:06 - INFO - Processed violations_group13__20250616_031104.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group15__20250616_031104.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:11:06 - INFO - Processed violations_group15__20250616_031104.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group17__20250616_031105.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:11:06 - INFO - Processed violations_group17__20250616_031105.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group1__20250616_031100.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:11:06 - INFO - Processed violations_group1__20250616_031100.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group23__20250616_031106.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 9 violations
+2025-06-16 03:11:06 - INFO - Found 9 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:11:06 - INFO - Processed violations_group23__20250616_031106.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group2__20250616_031101.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:11:06 - INFO - Processed violations_group2__20250616_031101.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group3__20250616_031101.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:11:06 - INFO - Processed violations_group3__20250616_031101.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group4__20250616_031102.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:11:06 - INFO - Processed violations_group4__20250616_031102.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group5__20250616_031102.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:06 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:11:06 - INFO - Processed violations_group5__20250616_031102.csv
+2025-06-16 03:11:06 - INFO - Processing file: violations_group8__20250616_031103.csv
+2025-06-16 03:11:06 - INFO - Successfully read file with latin1 encoding, found 460 violations
+2025-06-16 03:11:06 - INFO - Found 460 violations for Молочная продукция
+2025-06-16 03:11:06 - INFO - Processed violations_group8__20250616_031103.csv
+2025-06-16 03:11:06 - INFO - Saved consolidated data to output\Соколова Татьяна - тс22\violations_2025-06-15.json
+2025-06-16 03:11:06 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:11:09 - INFO - Downloading tasks for certificate: Лежнева Евгения - тс54
+2025-06-16 03:11:09 - INFO - Found 10 pending tasks
+2025-06-16 03:11:09 - INFO - Downloading task 52e8a887-a479-41b5-a944-8248c507e1ba for group 1
+2025-06-16 03:11:30 - INFO - Successfully downloaded task 52e8a887-a479-41b5-a944-8248c507e1ba
+2025-06-16 03:11:30 - INFO - Downloading task f9e8009f-a6e4-4e63-86ef-05cd672274fe for group 2
+2025-06-16 03:11:31 - INFO - Successfully downloaded task f9e8009f-a6e4-4e63-86ef-05cd672274fe
+2025-06-16 03:11:31 - INFO - Downloading task 56a4774b-a8ff-48b8-bf00-ef739b2eef3a for group 3
+2025-06-16 03:11:31 - INFO - Successfully downloaded task 56a4774b-a8ff-48b8-bf00-ef739b2eef3a
+2025-06-16 03:11:31 - INFO - Downloading task 69f43739-e753-404a-8de7-628e32a8b66d for group 4
+2025-06-16 03:11:32 - INFO - Successfully downloaded task 69f43739-e753-404a-8de7-628e32a8b66d
+2025-06-16 03:11:32 - INFO - Downloading task 8099124c-5b7c-4f1e-a8a5-9e788f661e4c for group 5
+2025-06-16 03:11:32 - INFO - Successfully downloaded task 8099124c-5b7c-4f1e-a8a5-9e788f661e4c
+2025-06-16 03:11:32 - INFO - Downloading task 7b2be902-66f6-47c0-ab48-d1d1c4f43b4a for group 8
+2025-06-16 03:11:33 - INFO - Successfully downloaded task 7b2be902-66f6-47c0-ab48-d1d1c4f43b4a
+2025-06-16 03:11:33 - INFO - Downloading task f2595df4-e148-4f2c-9a74-cc9606fd3ed5 for group 13
+2025-06-16 03:11:34 - INFO - Successfully downloaded task f2595df4-e148-4f2c-9a74-cc9606fd3ed5
+2025-06-16 03:11:34 - INFO - Downloading task 9715b8cb-38cf-4a38-a7db-b21b14ec15d5 for group 15
+2025-06-16 03:11:35 - INFO - Successfully downloaded task 9715b8cb-38cf-4a38-a7db-b21b14ec15d5
+2025-06-16 03:11:35 - INFO - Downloading task 6cf64968-d386-4eb8-afd9-1de42b3c4f3c for group 17
+2025-06-16 03:11:35 - INFO - Successfully downloaded task 6cf64968-d386-4eb8-afd9-1de42b3c4f3c
+2025-06-16 03:11:35 - INFO - Downloading task 165059db-6820-44d0-8557-1eb5edf1b67b for group 23
+2025-06-16 03:11:36 - INFO - Successfully downloaded task 165059db-6820-44d0-8557-1eb5edf1b67b
+2025-06-16 03:11:36 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:11:36 - INFO - Processing reports for certificate: Лежнева Евгения - тс54
+2025-06-16 03:11:36 - INFO - Found 10 CSV files to process
+2025-06-16 03:11:36 - INFO - Processing file: violations_group13__20250616_031134.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 5 violations
+2025-06-16 03:11:36 - INFO - Found 5 violations for Упакованная вода
+2025-06-16 03:11:36 - INFO - Processed violations_group13__20250616_031134.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group15__20250616_031135.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:11:36 - INFO - Processed violations_group15__20250616_031135.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group17__20250616_031135.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:11:36 - INFO - Processed violations_group17__20250616_031135.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group1__20250616_031130.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:11:36 - INFO - Processed violations_group1__20250616_031130.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group23__20250616_031136.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:11:36 - INFO - Processed violations_group23__20250616_031136.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group2__20250616_031131.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:11:36 - INFO - Processed violations_group2__20250616_031131.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group3__20250616_031131.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:11:36 - INFO - Processed violations_group3__20250616_031131.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group4__20250616_031132.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:11:36 - INFO - Processed violations_group4__20250616_031132.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group5__20250616_031132.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:11:36 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:11:36 - INFO - Processed violations_group5__20250616_031132.csv
+2025-06-16 03:11:36 - INFO - Processing file: violations_group8__20250616_031133.csv
+2025-06-16 03:11:36 - INFO - Successfully read file with latin1 encoding, found 115 violations
+2025-06-16 03:11:36 - INFO - Found 115 violations for Молочная продукция
+2025-06-16 03:11:36 - INFO - Processed violations_group8__20250616_031133.csv
+2025-06-16 03:11:36 - INFO - Saved consolidated data to output\Лежнева Евгения - тс54\violations_2025-06-15.json
+2025-06-16 03:11:36 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:11:39 - INFO - Downloading tasks for certificate: Лежнева Евгения - тс55
+2025-06-16 03:11:39 - INFO - Found 10 pending tasks
+2025-06-16 03:11:39 - INFO - Downloading task 072984bb-e655-4a0a-ac78-a381fd0a1b77 for group 1
+2025-06-16 03:12:00 - INFO - Successfully downloaded task 072984bb-e655-4a0a-ac78-a381fd0a1b77
+2025-06-16 03:12:00 - INFO - Downloading task 13523c0f-ed4d-4cfc-9bf5-cc1d90ca6a59 for group 2
+2025-06-16 03:12:01 - INFO - Successfully downloaded task 13523c0f-ed4d-4cfc-9bf5-cc1d90ca6a59
+2025-06-16 03:12:01 - INFO - Downloading task 4bac6dc8-7700-4298-9f61-d034c9661501 for group 3
+2025-06-16 03:12:01 - INFO - Successfully downloaded task 4bac6dc8-7700-4298-9f61-d034c9661501
+2025-06-16 03:12:01 - INFO - Downloading task 5328871a-2080-4bbb-9ca9-4efb15c39481 for group 4
+2025-06-16 03:12:02 - INFO - Successfully downloaded task 5328871a-2080-4bbb-9ca9-4efb15c39481
+2025-06-16 03:12:02 - INFO - Downloading task 92b930ea-98b4-4d35-a085-2e99024b207e for group 5
+2025-06-16 03:12:03 - INFO - Successfully downloaded task 92b930ea-98b4-4d35-a085-2e99024b207e
+2025-06-16 03:12:03 - INFO - Downloading task 5bfaa623-7fb7-4cc1-9c11-a11772c2b2e0 for group 8
+2025-06-16 03:12:03 - INFO - Successfully downloaded task 5bfaa623-7fb7-4cc1-9c11-a11772c2b2e0
+2025-06-16 03:12:03 - INFO - Downloading task 0084c0f9-c9dc-43f4-be28-c2283cdaacd0 for group 13
+2025-06-16 03:12:04 - INFO - Successfully downloaded task 0084c0f9-c9dc-43f4-be28-c2283cdaacd0
+2025-06-16 03:12:04 - INFO - Downloading task 4fccdaa4-5e0c-4f71-ae5a-3167fc9f5a54 for group 15
+2025-06-16 03:12:05 - INFO - Successfully downloaded task 4fccdaa4-5e0c-4f71-ae5a-3167fc9f5a54
+2025-06-16 03:12:05 - INFO - Downloading task 35f46657-30a4-47c8-a441-9f46f4c9ada7 for group 17
+2025-06-16 03:12:05 - INFO - Successfully downloaded task 35f46657-30a4-47c8-a441-9f46f4c9ada7
+2025-06-16 03:12:05 - INFO - Downloading task 3095b327-9d04-421f-8694-3627314352e0 for group 23
+2025-06-16 03:12:06 - INFO - Successfully downloaded task 3095b327-9d04-421f-8694-3627314352e0
+2025-06-16 03:12:06 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:12:06 - INFO - Processing reports for certificate: Лежнева Евгения - тс55
+2025-06-16 03:12:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:12:06 - INFO - Processing file: violations_group13__20250616_031204.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:12:06 - INFO - Processed violations_group13__20250616_031204.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group15__20250616_031205.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:12:06 - INFO - Processed violations_group15__20250616_031205.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group17__20250616_031205.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:12:06 - INFO - Processed violations_group17__20250616_031205.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group1__20250616_031200.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:12:06 - INFO - Processed violations_group1__20250616_031200.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group23__20250616_031206.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:12:06 - INFO - Processed violations_group23__20250616_031206.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group2__20250616_031201.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:12:06 - INFO - Processed violations_group2__20250616_031201.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group3__20250616_031201.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:12:06 - INFO - Processed violations_group3__20250616_031201.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group4__20250616_031202.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:12:06 - INFO - Processed violations_group4__20250616_031202.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group5__20250616_031203.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:06 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:12:06 - INFO - Processed violations_group5__20250616_031203.csv
+2025-06-16 03:12:06 - INFO - Processing file: violations_group8__20250616_031203.csv
+2025-06-16 03:12:06 - INFO - Successfully read file with latin1 encoding, found 55 violations
+2025-06-16 03:12:06 - INFO - Found 55 violations for Молочная продукция
+2025-06-16 03:12:06 - INFO - Processed violations_group8__20250616_031203.csv
+2025-06-16 03:12:06 - INFO - Saved consolidated data to output\Лежнева Евгения - тс55\violations_2025-06-15.json
+2025-06-16 03:12:06 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:12:09 - INFO - Downloading tasks for certificate: Лежнева Евгения - тс142
+2025-06-16 03:12:09 - INFO - Found 10 pending tasks
+2025-06-16 03:12:09 - INFO - Downloading task 4ee9a983-85af-4efd-8afe-68a412854a74 for group 1
+2025-06-16 03:12:30 - INFO - Successfully downloaded task 4ee9a983-85af-4efd-8afe-68a412854a74
+2025-06-16 03:12:30 - INFO - Downloading task 4485ac27-8988-4658-b413-32264a50f207 for group 2
+2025-06-16 03:12:31 - INFO - Successfully downloaded task 4485ac27-8988-4658-b413-32264a50f207
+2025-06-16 03:12:31 - INFO - Downloading task 4ec56f5c-dec5-4119-ab89-c99f2525f2bf for group 3
+2025-06-16 03:12:31 - INFO - Successfully downloaded task 4ec56f5c-dec5-4119-ab89-c99f2525f2bf
+2025-06-16 03:12:31 - INFO - Downloading task 2b67494f-d979-4915-8751-3b5cfa7e28bb for group 4
+2025-06-16 03:12:32 - INFO - Successfully downloaded task 2b67494f-d979-4915-8751-3b5cfa7e28bb
+2025-06-16 03:12:32 - INFO - Downloading task 963ec39a-79f1-4034-b512-dfc7deef2ba8 for group 5
+2025-06-16 03:12:32 - INFO - Successfully downloaded task 963ec39a-79f1-4034-b512-dfc7deef2ba8
+2025-06-16 03:12:32 - INFO - Downloading task c075dc3b-23f0-46c7-b9b2-8cbc592e954c for group 8
+2025-06-16 03:12:33 - INFO - Successfully downloaded task c075dc3b-23f0-46c7-b9b2-8cbc592e954c
+2025-06-16 03:12:33 - INFO - Downloading task 656614fe-a04e-4a8d-b907-4a9e0df75fa6 for group 13
+2025-06-16 03:12:34 - INFO - Successfully downloaded task 656614fe-a04e-4a8d-b907-4a9e0df75fa6
+2025-06-16 03:12:34 - INFO - Downloading task 29119676-bbdb-48a5-9267-01c6e716c08a for group 15
+2025-06-16 03:12:34 - INFO - Successfully downloaded task 29119676-bbdb-48a5-9267-01c6e716c08a
+2025-06-16 03:12:34 - INFO - Downloading task 940d3b98-b3dc-455f-a670-bcec5dcc0b17 for group 17
+2025-06-16 03:12:35 - INFO - Successfully downloaded task 940d3b98-b3dc-455f-a670-bcec5dcc0b17
+2025-06-16 03:12:35 - INFO - Downloading task 466e3c7c-a216-4834-b384-b69ab99dbc4e for group 23
+2025-06-16 03:12:36 - INFO - Successfully downloaded task 466e3c7c-a216-4834-b384-b69ab99dbc4e
+2025-06-16 03:12:36 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:12:36 - INFO - Processing reports for certificate: Лежнева Евгения - тс142
+2025-06-16 03:12:36 - INFO - Found 10 CSV files to process
+2025-06-16 03:12:36 - INFO - Processing file: violations_group13__20250616_031234.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:12:36 - INFO - Processed violations_group13__20250616_031234.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group15__20250616_031234.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:12:36 - INFO - Processed violations_group15__20250616_031234.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group17__20250616_031235.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:12:36 - INFO - Processed violations_group17__20250616_031235.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group1__20250616_031230.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:12:36 - INFO - Processed violations_group1__20250616_031230.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group23__20250616_031236.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:12:36 - INFO - Processed violations_group23__20250616_031236.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group2__20250616_031231.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:12:36 - INFO - Processed violations_group2__20250616_031231.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group3__20250616_031231.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:12:36 - INFO - Processed violations_group3__20250616_031231.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group4__20250616_031232.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:12:36 - INFO - Processed violations_group4__20250616_031232.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group5__20250616_031232.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:12:36 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:12:36 - INFO - Processed violations_group5__20250616_031232.csv
+2025-06-16 03:12:36 - INFO - Processing file: violations_group8__20250616_031233.csv
+2025-06-16 03:12:36 - INFO - Successfully read file with latin1 encoding, found 144 violations
+2025-06-16 03:12:36 - INFO - Found 144 violations for Молочная продукция
+2025-06-16 03:12:36 - INFO - Processed violations_group8__20250616_031233.csv
+2025-06-16 03:12:36 - INFO - Saved consolidated data to output\Лежнева Евгения - тс142\violations_2025-06-15.json
+2025-06-16 03:12:36 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:12:39 - INFO - Downloading tasks for certificate: Костишина Наталья - тс25
+2025-06-16 03:12:39 - INFO - Found 10 pending tasks
+2025-06-16 03:12:39 - INFO - Downloading task 98cca687-3ca0-4b4f-9c4e-b7a208fbb862 for group 1
+2025-06-16 03:13:00 - INFO - Successfully downloaded task 98cca687-3ca0-4b4f-9c4e-b7a208fbb862
+2025-06-16 03:13:00 - INFO - Downloading task 28237a95-3eff-466a-b911-475cffc857e9 for group 2
+2025-06-16 03:13:00 - INFO - Successfully downloaded task 28237a95-3eff-466a-b911-475cffc857e9
+2025-06-16 03:13:00 - INFO - Downloading task 941b5bf1-39e5-41fd-b4e5-a10a1814d4ca for group 3
+2025-06-16 03:13:01 - INFO - Successfully downloaded task 941b5bf1-39e5-41fd-b4e5-a10a1814d4ca
+2025-06-16 03:13:01 - INFO - Downloading task 37c9e457-687f-4908-b5eb-4fddb3390365 for group 4
+2025-06-16 03:13:02 - INFO - Successfully downloaded task 37c9e457-687f-4908-b5eb-4fddb3390365
+2025-06-16 03:13:02 - INFO - Downloading task 82e3e0ca-9018-42a5-8064-c12d06d4200d for group 5
+2025-06-16 03:13:02 - INFO - Successfully downloaded task 82e3e0ca-9018-42a5-8064-c12d06d4200d
+2025-06-16 03:13:02 - INFO - Downloading task aedc327f-8c8a-47c8-ba12-bec2f388fecd for group 8
+2025-06-16 03:13:03 - INFO - Successfully downloaded task aedc327f-8c8a-47c8-ba12-bec2f388fecd
+2025-06-16 03:13:03 - INFO - Downloading task 216f31db-6df9-418a-a9e8-dfcdbabf95f2 for group 13
+2025-06-16 03:13:04 - INFO - Successfully downloaded task 216f31db-6df9-418a-a9e8-dfcdbabf95f2
+2025-06-16 03:13:04 - INFO - Downloading task 2b27564e-7dfc-4e87-9a38-30b9397815a6 for group 15
+2025-06-16 03:13:04 - INFO - Successfully downloaded task 2b27564e-7dfc-4e87-9a38-30b9397815a6
+2025-06-16 03:13:04 - INFO - Downloading task 208e8462-1d23-4592-80e6-474b6a2cd60f for group 17
+2025-06-16 03:13:05 - INFO - Successfully downloaded task 208e8462-1d23-4592-80e6-474b6a2cd60f
+2025-06-16 03:13:05 - INFO - Downloading task efefdc86-2fed-4cc1-a27f-4b39c457fb8b for group 23
+2025-06-16 03:13:05 - INFO - Successfully downloaded task efefdc86-2fed-4cc1-a27f-4b39c457fb8b
+2025-06-16 03:13:05 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:13:06 - INFO - Processing reports for certificate: Костишина Наталья - тс25
+2025-06-16 03:13:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:13:06 - INFO - Processing file: violations_group13__20250616_031304.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:13:06 - INFO - Processed violations_group13__20250616_031304.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group15__20250616_031304.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:13:06 - INFO - Processed violations_group15__20250616_031304.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group17__20250616_031305.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:13:06 - INFO - Processed violations_group17__20250616_031305.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group1__20250616_031300.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:13:06 - INFO - Processed violations_group1__20250616_031300.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group23__20250616_031305.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:13:06 - INFO - Processed violations_group23__20250616_031305.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group2__20250616_031300.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:13:06 - INFO - Processed violations_group2__20250616_031300.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group3__20250616_031301.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:13:06 - INFO - Processed violations_group3__20250616_031301.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group4__20250616_031302.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:13:06 - INFO - Processed violations_group4__20250616_031302.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group5__20250616_031302.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:06 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:13:06 - INFO - Processed violations_group5__20250616_031302.csv
+2025-06-16 03:13:06 - INFO - Processing file: violations_group8__20250616_031303.csv
+2025-06-16 03:13:06 - INFO - Successfully read file with cp1251 encoding, found 4 violations
+2025-06-16 03:13:06 - INFO - Found 4 violations for Молочная продукция
+2025-06-16 03:13:06 - INFO - Processed violations_group8__20250616_031303.csv
+2025-06-16 03:13:06 - INFO - Saved consolidated data to output\Костишина Наталья - тс25\violations_2025-06-15.json
+2025-06-16 03:13:06 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:13:09 - INFO - Downloading tasks for certificate: ТОРГСЕРВИС 75
+2025-06-16 03:13:09 - INFO - Found 10 pending tasks
+2025-06-16 03:13:09 - INFO - Downloading task 550da0ad-dc45-48b1-8350-ad6544566865 for group 1
+2025-06-16 03:13:30 - INFO - Successfully downloaded task 550da0ad-dc45-48b1-8350-ad6544566865
+2025-06-16 03:13:30 - INFO - Downloading task 0fa31962-ceaf-4b6b-ad33-422697e2f0cb for group 2
+2025-06-16 03:13:30 - INFO - Successfully downloaded task 0fa31962-ceaf-4b6b-ad33-422697e2f0cb
+2025-06-16 03:13:30 - INFO - Downloading task 9e216927-e7cd-406c-8c23-6de91d8f5973 for group 3
+2025-06-16 03:13:31 - INFO - Successfully downloaded task 9e216927-e7cd-406c-8c23-6de91d8f5973
+2025-06-16 03:13:31 - INFO - Downloading task 00c5455c-d29d-4064-a15b-72c589bd746e for group 4
+2025-06-16 03:13:32 - INFO - Successfully downloaded task 00c5455c-d29d-4064-a15b-72c589bd746e
+2025-06-16 03:13:32 - INFO - Downloading task fb74d3b9-207b-41ce-8a52-d46abe87a512 for group 5
+2025-06-16 03:13:32 - INFO - Successfully downloaded task fb74d3b9-207b-41ce-8a52-d46abe87a512
+2025-06-16 03:13:32 - INFO - Downloading task 05e298de-afcf-4645-8780-bd461c8b0725 for group 8
+2025-06-16 03:13:33 - INFO - Successfully downloaded task 05e298de-afcf-4645-8780-bd461c8b0725
+2025-06-16 03:13:33 - INFO - Downloading task 3bddcd96-0b0c-4906-ab50-df457a359c1b for group 13
+2025-06-16 03:13:34 - INFO - Successfully downloaded task 3bddcd96-0b0c-4906-ab50-df457a359c1b
+2025-06-16 03:13:34 - INFO - Downloading task 58abf76f-a534-498e-b77d-c3eb3a45b5dd for group 15
+2025-06-16 03:13:34 - INFO - Successfully downloaded task 58abf76f-a534-498e-b77d-c3eb3a45b5dd
+2025-06-16 03:13:34 - INFO - Downloading task 30251642-ec1e-4770-857b-c004e3e3d9ce for group 17
+2025-06-16 03:13:35 - INFO - Successfully downloaded task 30251642-ec1e-4770-857b-c004e3e3d9ce
+2025-06-16 03:13:35 - INFO - Downloading task b94da89a-9b34-4ca2-8219-11c69b8e54a2 for group 23
+2025-06-16 03:13:36 - INFO - Successfully downloaded task b94da89a-9b34-4ca2-8219-11c69b8e54a2
+2025-06-16 03:13:36 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:13:36 - INFO - Processing reports for certificate: ТОРГСЕРВИС 75
+2025-06-16 03:13:36 - INFO - Found 10 CSV files to process
+2025-06-16 03:13:36 - INFO - Processing file: violations_group13__20250616_031334.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:13:36 - INFO - Processed violations_group13__20250616_031334.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group15__20250616_031334.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 7 violations
+2025-06-16 03:13:36 - INFO - Found 7 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:13:36 - INFO - Processed violations_group15__20250616_031334.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group17__20250616_031335.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:13:36 - INFO - Processed violations_group17__20250616_031335.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group1__20250616_031330.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:13:36 - INFO - Processed violations_group1__20250616_031330.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group23__20250616_031336.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:13:36 - INFO - Processed violations_group23__20250616_031336.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group2__20250616_031330.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:13:36 - INFO - Processed violations_group2__20250616_031330.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group3__20250616_031331.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:13:36 - INFO - Processed violations_group3__20250616_031331.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group4__20250616_031332.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:13:36 - INFO - Processed violations_group4__20250616_031332.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group5__20250616_031332.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:13:36 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:13:36 - INFO - Processed violations_group5__20250616_031332.csv
+2025-06-16 03:13:36 - INFO - Processing file: violations_group8__20250616_031333.csv
+2025-06-16 03:13:36 - INFO - Successfully read file with latin1 encoding, found 29 violations
+2025-06-16 03:13:36 - INFO - Found 29 violations for Молочная продукция
+2025-06-16 03:13:36 - INFO - Processed violations_group8__20250616_031333.csv
+2025-06-16 03:13:36 - INFO - Saved consolidated data to output\ТОРГСЕРВИС 75\violations_2025-06-15.json
+2025-06-16 03:13:36 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:13:39 - INFO - Downloading tasks for certificate: Дорофеева Светлана - тс127
+2025-06-16 03:13:39 - INFO - Found 10 pending tasks
+2025-06-16 03:13:39 - INFO - Downloading task 44038dd7-1603-417e-901c-c06fb18e5363 for group 1
+2025-06-16 03:14:00 - INFO - Successfully downloaded task 44038dd7-1603-417e-901c-c06fb18e5363
+2025-06-16 03:14:00 - INFO - Downloading task ed011217-643e-4270-9e0e-fb6b70c302a7 for group 2
+2025-06-16 03:14:00 - INFO - Successfully downloaded task ed011217-643e-4270-9e0e-fb6b70c302a7
+2025-06-16 03:14:00 - INFO - Downloading task 52637b34-7a33-4157-9354-a1eeacde2aea for group 3
+2025-06-16 03:14:01 - INFO - Successfully downloaded task 52637b34-7a33-4157-9354-a1eeacde2aea
+2025-06-16 03:14:01 - INFO - Downloading task b70ddf10-47c7-4835-a591-a4ac82b9fd4b for group 4
+2025-06-16 03:14:02 - INFO - Successfully downloaded task b70ddf10-47c7-4835-a591-a4ac82b9fd4b
+2025-06-16 03:14:02 - INFO - Downloading task d38c8822-b2a6-4b8d-8c6f-8c1be75f129d for group 5
+2025-06-16 03:14:02 - INFO - Successfully downloaded task d38c8822-b2a6-4b8d-8c6f-8c1be75f129d
+2025-06-16 03:14:02 - INFO - Downloading task b7fb4795-e8a7-460d-bf52-7fdf7aee1539 for group 8
+2025-06-16 03:14:03 - INFO - Successfully downloaded task b7fb4795-e8a7-460d-bf52-7fdf7aee1539
+2025-06-16 03:14:03 - INFO - Downloading task 431e794d-aa9f-40d8-8181-092a9e890a5d for group 13
+2025-06-16 03:14:04 - INFO - Successfully downloaded task 431e794d-aa9f-40d8-8181-092a9e890a5d
+2025-06-16 03:14:04 - INFO - Downloading task 01c54231-6215-4f8e-a496-2b21f4860c16 for group 15
+2025-06-16 03:14:04 - INFO - Successfully downloaded task 01c54231-6215-4f8e-a496-2b21f4860c16
+2025-06-16 03:14:04 - INFO - Downloading task 26182185-ed66-4923-a01f-e3ae7ba33f72 for group 17
+2025-06-16 03:14:05 - INFO - Successfully downloaded task 26182185-ed66-4923-a01f-e3ae7ba33f72
+2025-06-16 03:14:05 - INFO - Downloading task 3a050528-4a63-46db-82ab-2b4bc776e9bd for group 23
+2025-06-16 03:14:06 - INFO - Successfully downloaded task 3a050528-4a63-46db-82ab-2b4bc776e9bd
+2025-06-16 03:14:06 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:14:06 - INFO - Processing reports for certificate: Дорофеева Светлана - тс127
+2025-06-16 03:14:06 - INFO - Found 10 CSV files to process
+2025-06-16 03:14:06 - INFO - Processing file: violations_group13__20250616_031404.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:06 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:14:06 - INFO - Processed violations_group13__20250616_031404.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group15__20250616_031404.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 27 violations
+2025-06-16 03:14:06 - INFO - Found 27 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:14:06 - INFO - Processed violations_group15__20250616_031404.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group17__20250616_031405.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 7 violations
+2025-06-16 03:14:06 - INFO - Found 7 violations for Биологически активные добавки к пище
+2025-06-16 03:14:06 - INFO - Processed violations_group17__20250616_031405.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group1__20250616_031359.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 15 violations
+2025-06-16 03:14:06 - INFO - Found 15 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:14:06 - INFO - Processed violations_group1__20250616_031359.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group23__20250616_031406.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:06 - INFO - Found 3 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:14:06 - INFO - Processed violations_group23__20250616_031406.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group2__20250616_031400.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 8 violations
+2025-06-16 03:14:06 - INFO - Found 8 violations for Обувные товары
+2025-06-16 03:14:06 - INFO - Processed violations_group2__20250616_031400.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group3__20250616_031401.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:06 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:14:06 - INFO - Processed violations_group3__20250616_031401.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group4__20250616_031402.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:06 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:14:06 - INFO - Processed violations_group4__20250616_031402.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group5__20250616_031402.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:06 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:14:06 - INFO - Processed violations_group5__20250616_031402.csv
+2025-06-16 03:14:06 - INFO - Processing file: violations_group8__20250616_031403.csv
+2025-06-16 03:14:06 - INFO - Successfully read file with latin1 encoding, found 85 violations
+2025-06-16 03:14:06 - INFO - Found 85 violations for Молочная продукция
+2025-06-16 03:14:06 - INFO - Processed violations_group8__20250616_031403.csv
+2025-06-16 03:14:06 - INFO - Saved consolidated data to output\Дорофеева Светлана - тс127\violations_2025-06-15.json
+2025-06-16 03:14:06 - INFO - Report processed and saved. Consolidated emails will be sent later.
+2025-06-16 03:14:09 - INFO - Downloading tasks for certificate: Дорофеева Светлана - тс27
+2025-06-16 03:14:09 - INFO - Found 10 pending tasks
+2025-06-16 03:14:09 - INFO - Downloading task d976ec2d-d143-4c02-ab8a-68eb1b347544 for group 1
+2025-06-16 03:14:30 - INFO - Successfully downloaded task d976ec2d-d143-4c02-ab8a-68eb1b347544
+2025-06-16 03:14:30 - INFO - Downloading task 499ecae3-3a63-4e52-ba71-bb0fae8c5304 for group 2
+2025-06-16 03:14:30 - INFO - Successfully downloaded task 499ecae3-3a63-4e52-ba71-bb0fae8c5304
+2025-06-16 03:14:30 - INFO - Downloading task d7130aad-f3cd-47ec-a70e-7ba875a70154 for group 3
+2025-06-16 03:14:31 - INFO - Successfully downloaded task d7130aad-f3cd-47ec-a70e-7ba875a70154
+2025-06-16 03:14:31 - INFO - Downloading task 2956e164-d081-4e9b-8b20-7e53fb78294b for group 4
+2025-06-16 03:14:32 - INFO - Successfully downloaded task 2956e164-d081-4e9b-8b20-7e53fb78294b
+2025-06-16 03:14:32 - INFO - Downloading task 9a0e6a70-8182-4e7f-9bbe-66e9de896807 for group 5
+2025-06-16 03:14:32 - INFO - Successfully downloaded task 9a0e6a70-8182-4e7f-9bbe-66e9de896807
+2025-06-16 03:14:32 - INFO - Downloading task 3a1f5789-d88c-4b2b-afe1-8f5ea380f84d for group 8
+2025-06-16 03:14:33 - INFO - Successfully downloaded task 3a1f5789-d88c-4b2b-afe1-8f5ea380f84d
+2025-06-16 03:14:33 - INFO - Downloading task a99009dd-3113-4e07-bd5e-45ca223430ae for group 13
+2025-06-16 03:14:34 - INFO - Successfully downloaded task a99009dd-3113-4e07-bd5e-45ca223430ae
+2025-06-16 03:14:34 - INFO - Downloading task 35ea909f-1b99-4f41-b29d-28c6a0462024 for group 15
+2025-06-16 03:14:34 - INFO - Successfully downloaded task 35ea909f-1b99-4f41-b29d-28c6a0462024
+2025-06-16 03:14:34 - INFO - Downloading task b4e99eb2-f965-473e-a93e-e8922eaf7602 for group 17
+2025-06-16 03:14:35 - INFO - Successfully downloaded task b4e99eb2-f965-473e-a93e-e8922eaf7602
+2025-06-16 03:14:35 - INFO - Downloading task d63fa05a-0253-49bc-b03c-c3bbd41df8e5 for group 23
+2025-06-16 03:14:35 - INFO - Successfully downloaded task d63fa05a-0253-49bc-b03c-c3bbd41df8e5
+2025-06-16 03:14:35 - INFO - All tasks completed, removed pending tasks file
+2025-06-16 03:14:35 - INFO - Processing reports for certificate: Дорофеева Светлана - тс27
+2025-06-16 03:14:35 - INFO - Found 10 CSV files to process
+2025-06-16 03:14:35 - INFO - Processing file: violations_group13__20250616_031434.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Упакованная вода
+2025-06-16 03:14:36 - INFO - Processed violations_group13__20250616_031434.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group15__20250616_031434.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Пиво, напитки, изготавливаемые на основе пива, слабоалкогольные напитки
+2025-06-16 03:14:36 - INFO - Processed violations_group15__20250616_031434.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group17__20250616_031435.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Биологически активные добавки к пище
+2025-06-16 03:14:36 - INFO - Processed violations_group17__20250616_031435.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group1__20250616_031430.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Предметы одежды, бельё постельное, столовое, туалетное и кухонное
+2025-06-16 03:14:36 - INFO - Processed violations_group1__20250616_031430.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group23__20250616_031435.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 5 violations
+2025-06-16 03:14:36 - INFO - Found 5 violations for Соковая продукция и безалкогольные напитки
+2025-06-16 03:14:36 - INFO - Processed violations_group23__20250616_031435.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group2__20250616_031430.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Обувные товары
+2025-06-16 03:14:36 - INFO - Processed violations_group2__20250616_031430.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group3__20250616_031431.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Табачная продукция
+2025-06-16 03:14:36 - INFO - Processed violations_group3__20250616_031431.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group4__20250616_031432.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Духи и туалетная вода
+2025-06-16 03:14:36 - INFO - Processed violations_group4__20250616_031432.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group5__20250616_031432.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 3 violations
+2025-06-16 03:14:36 - INFO - Found 3 violations for Шины и покрышки пневматические резиновые новые
+2025-06-16 03:14:36 - INFO - Processed violations_group5__20250616_031432.csv
+2025-06-16 03:14:36 - INFO - Processing file: violations_group8__20250616_031433.csv
+2025-06-16 03:14:36 - INFO - Successfully read file with latin1 encoding, found 58 violations
+2025-06-16 03:14:36 - INFO - Found 58 violations for Молочная продукция
+2025-06-16 03:14:36 - INFO - Processed violations_group8__20250616_031433.csv
+2025-06-16 03:14:36 - INFO - Saved consolidated data to output\Дорофеева Светлана - тс27\violations_2025-06-15.json
+2025-06-16 03:14:36 - INFO - Report processed and saved. Consolidated emails will be sent later.

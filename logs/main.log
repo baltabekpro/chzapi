@@ -153,3 +153,44 @@
 2025-06-16 02:00:41 - INFO - Processing certificate: Лежнева Евгения - тс54
 2025-06-16 02:00:41 - INFO - Loaded 10 product groups from products.txt
 2025-06-16 02:00:41 - INFO - Программа остановлена пользователем (Ctrl+C)
+2025-06-16 03:06:29 - INFO - === Запуск ЦРПТ Маркировка ===
+2025-06-16 03:06:29 - INFO - Автоматический планировщик запущен
+2025-06-16 03:06:29 - INFO - Запуск в интерактивном режиме
+2025-06-16 03:06:33 - INFO - Запуск ежедневной обработки...
+2025-06-16 03:06:33 - INFO - Будут обработаны данные за вчерашний день
+2025-06-16 03:06:33 - INFO - Refreshing tokens before daily processing...
+2025-06-16 03:06:34 - INFO - Processing certificate: Омелина Татьяна - тс28
+2025-06-16 03:06:34 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:07:04 - INFO - Processing certificate: Хуторская Татьяна - тс324
+2025-06-16 03:07:04 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:07:34 - INFO - Processing certificate: Хуторская Татьяна - тс124
+2025-06-16 03:07:34 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:08:07 - INFO - Processing certificate: Хуторская Татьяна - тс3
+2025-06-16 03:08:07 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:08:36 - INFO - Processing certificate: Хуторская Татьяна - тс5
+2025-06-16 03:08:37 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:09:07 - INFO - Processing certificate: Тимофеева Елена - тс138
+2025-06-16 03:09:07 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:09:37 - INFO - Processing certificate: Тимофеева Елена - тс238
+2025-06-16 03:09:37 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:10:07 - INFO - Processing certificate: Тимофеева Елена - тс338
+2025-06-16 03:10:07 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:10:36 - INFO - Processing certificate: Соколова Татьяна - тс22
+2025-06-16 03:10:36 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:11:06 - INFO - Processing certificate: Лежнева Евгения - тс54
+2025-06-16 03:11:06 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:11:36 - INFO - Processing certificate: Лежнева Евгения - тс55
+2025-06-16 03:11:36 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:12:06 - INFO - Processing certificate: Лежнева Евгения - тс142
+2025-06-16 03:12:06 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:12:36 - INFO - Processing certificate: Костишина Наталья - тс25
+2025-06-16 03:12:36 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:13:06 - INFO - Processing certificate: ТОРГСЕРВИС 75
+2025-06-16 03:13:06 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:13:36 - INFO - Processing certificate: Дорофеева Светлана - тс127
+2025-06-16 03:13:36 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:14:06 - INFO - Processing certificate: Дорофеева Светлана - тс27
+2025-06-16 03:14:06 - INFO - Loaded 10 product groups from products.txt
+2025-06-16 03:14:36 - INFO - Processing complete. Sending consolidated regional reports...
+2025-06-16 03:14:40 - INFO - Daily processing completed successfully
+2025-06-16 03:15:18 - INFO - Выход из программы
