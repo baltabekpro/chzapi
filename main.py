@@ -30,11 +30,9 @@ def check_and_install_dependencies():
     """
     Check for and install all required dependencies
     """
-    # Dictionary of required packages and their import names (if different)
-    required_packages = {
+    # Dictionary of required packages and their import names (if different)    required_packages = {
         "requests": "requests",
         "colorama": "colorama", 
-        "python-telegram-bot": "telegram",
         "pandas": "pandas",
         "chardet": "chardet",
         "cryptography": "cryptography",
@@ -100,10 +98,9 @@ if __name__ == "__main__":
             # Now import and run the dependency checker
             from dependency_manager import check_and_install_dependencies
             check_and_install_dependencies()
-    except Exception as e:
-        print(f"Error setting up dependencies: {e}")
+    except Exception as e:        print(f"Error setting up dependencies: {e}")
         print("Please install required packages manually using:")
-        print("pip install colorama requests python-telegram-bot pandas chardet")
+        print("pip install colorama requests pandas chardet")
         input("Press Enter to exit...")
         sys.exit(1)
 
@@ -975,17 +972,6 @@ def start_scheduler():
 
 def main():
     logger.info("=== Запуск ЦРПТ Маркировка ===")
-    
-    # Start Telegram bot if configured, but don't wait for it to initialize
-    telegram_bot = None
-    if os.path.exists('telegram_config.json'):
-        try:
-            from telegram_bot import start_telegram_bot
-            telegram_bot = start_telegram_bot()
-            logger.info("Telegram bot initialization started in background")
-        except Exception as e:
-            log_exception(logger, e, "Error starting Telegram bot")
-            logger.info("Continuing without Telegram bot")
     
     # Check for command line argument to run in scheduler mode
     if len(sys.argv) > 1 and sys.argv[1] == '--scheduler':

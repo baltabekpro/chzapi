@@ -8,8 +8,7 @@ logs_dir = os.path.join(os.getcwd(), "logs")
 if not os.path.exists(logs_dir):
     os.makedirs(logs_dir)
 
-# Flag to check if telegram bot is initialized
-_telegram_initialized = False
+# Removed Telegram bot functionality
 
 def setup_logger(name=None, log_level=logging.INFO):
     """
@@ -116,45 +115,10 @@ def is_critical_error(error_message, traceback):
 
 def send_to_telegram(message):
     """
-    Send an error message to Telegram
+    Send an error message to Telegram (функция отключена)
     
     Args:
         message: The error message to send
     """
-    global _telegram_initialized
-    
-    # Import the Telegram bot module
-    try:
-        # Avoid circular imports by importing only when needed
-        if not _telegram_initialized:
-            # Check if telegram_bot.py exists
-            if not os.path.exists(os.path.join(os.getcwd(), "telegram_bot.py")):
-                return
-                
-            # Check if Telegram config exists and is configured
-            telegram_config_path = os.path.join(os.getcwd(), "telegram_config.json")
-            if not os.path.exists(telegram_config_path):
-                return
-                
-            import json
-            with open(telegram_config_path, 'r', encoding='utf-8') as f:
-                config = json.load(f)
-                
-            if not config.get("token") or config.get("token") == "YOUR_TELEGRAM_BOT_TOKEN":
-                return
-                
-            if not config.get("error_notification_chat_ids"):
-                return
-                
-            # Set flag to avoid checking again
-            _telegram_initialized = True
-            
-        # Now that we've checked, import and use the function
-        from telegram_bot import send_telegram_notification
-        send_telegram_notification(message)
-    except ImportError:
-        # If telegram_bot.py doesn't exist or can't be imported, silently ignore
-        pass
-    except Exception as e:
-        # Log any other errors but don't fail
-        logging.getLogger('logger_config').error(f"Error sending to Telegram: {e}")
+    # Функционал Telegram бота удален
+    pass
