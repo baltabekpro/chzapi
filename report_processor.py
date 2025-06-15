@@ -132,19 +132,18 @@ def process_reports_for_token(cert_name: str, email_config: dict = None):
             if group_code is None:
                 reports_logger.warning(f"No group code found in filename: {csv_file}")
                 continue
-            
-            # Get product group name
+              # Get product group name
             product_name = PRODUCT_GROUPS.get(group_code)
             if not product_name:
                 reports_logger.warning(f"Unknown product group code: {group_code}")
                 continue
-                
+            
             violation_count = read_csv_with_encoding(input_path)
             violations_data['violations'][product_name] = violation_count
             reports_logger.info(f"Found {violation_count} violations for {product_name}")
             
-            os.remove(input_path)
-            reports_logger.info(f"Processed and removed {csv_file}")
+            # os.remove(input_path)  # Закомментировано: сохраняем CSV файлы для дополнительного анализа
+            reports_logger.info(f"Processed {csv_file}")
             
         except Exception as e:
             log_exception(reports_logger, e, f"Error processing {csv_file}")
