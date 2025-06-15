@@ -80,6 +80,7 @@ def generate_consolidated_report_by_region() -> Dict[str, Dict]:
     regional_reports = defaultdict(lambda: {
         'date': get_yesterday_date(),
         'certificates': [],
+        'cert_reports': {},  # individual reports per certificate
         'violations': defaultdict(int),
         'total': 0
     })
@@ -88,7 +89,9 @@ def generate_consolidated_report_by_region() -> Dict[str, Dict]:
     for report in all_reports:
         cert_name = report['certificate']
         region = cert_to_region.get(cert_name, "Undefined")
-        
+        # Store individual certificate report
+        regional_reports[region]['cert_reports'][cert_name] = report['data'].get('violations', {})
+         
         regional_reports[region]['certificates'].append(cert_name)
         
         for product_group, count in report['data'].get('violations', {}).items():
@@ -150,39 +153,43 @@ def send_regional_reports() -> bool:
             region_name = regions_data.get(region, {}).get('name', region)
             email_logger.info(f"Processing report for region: {region} (display name: {region_name})")
             
-            # Create email HTML content
+            # Create email HTML content with individual tables per certificate
             html = f"""
             <h2>Отчет о нарушениях маркировки по региону {region_name}</h2>
             <h3>Дата: {report_data['date']} (данные за вчерашний день)</h3>
-            <h4>Включенные торговые точки: {', '.join(report_data['certificates'])}</h4>
-            <table border="1" style="border-collapse: collapse; width: 100%;">
-                <tr style="background-color: #f2f2f2;">
-                    <th style="padding: 8px;">Товарная группа</th>
-                    <th style="padding: 8px;">Количество нарушений</th>
-                </tr>
             """
-            
-            # Add rows for each product group
-            for product_group, count in sorted(
-                report_data['violations'].items(), 
-                key=lambda x: x[1], 
-                reverse=True
-            ):
+            # For each certificate, add its own table
+            for cert in report_data.get('cert_reports', {}):
+                cert_violations = report_data['cert_reports'][cert]
                 html += f"""
-                <tr>
-                    <td style="padding: 8px;">{product_group}</td>
-                    <td style="padding: 8px; text-align: center;">{count}</td>
-                </tr>
+                <h4>Торговая точка: {cert}</h4>
+                <table border=\"1\" style=\"border-collapse: collapse; width: 100%; margin-bottom:20px;\">
+                    <tr style=\"background-color: #f2f2f2;\">
+                        <th style=\"padding: 8px;\">Товарная группа</th>
+                        <th style=\"padding: 8px;\">Количество нарушений</th>
+                    </tr>
                 """
-            
-            # Add total row
-            html += f"""
-                <tr style="background-color: #f2f2f2; font-weight: bold;">
-                    <td style="padding: 8px;">Всего нарушений:</td>
-                    <td style="padding: 8px; text-align: center;">{report_data['total']}</td>
-                </tr>
-            </table>
-            """
+                # Add rows for each product group in this certificate
+                for product_group, count in sorted(
+                    cert_violations.items(), key=lambda x: x[1], reverse=True
+                ):
+                    html += f"""
+                    <tr>
+                        <td style=\"padding: 8px;\">{product_group}</td>
+                        <td style=\"padding: 8px; text-align: center;\">{count}</td>
+                    </tr>
+                    """
+                # Add total row for this certificate
+                total_count = sum(cert_violations.values())
+                html += f"""
+                    <tr style=\"background-color: #f2f2f2; font-weight: bold;\">
+                        <td style=\"padding: 8px;\">Всего нарушений:</td>
+                        <td style=\"padding: 8px; text-align: center;\">{total_count}</td>
+                    </tr>
+                </table>
+                <br/>
+                """
+            # End for each certificate table
             
             # Create message
             msg = MIMEMultipart('alternative')

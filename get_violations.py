@@ -224,6 +224,14 @@ class ViolationsReport:
                 headers=self.headers,
                 json=request_data
             )
+            # Если нет доступа к товарной группе, пропускаем создание задания
+            if response.status_code == 403:
+                try:
+                    err = response.json().get('error_message', response.text)
+                except:
+                    err = response.text
+                print(f"Skip create task for group {product_group_code}, no access: {err}")
+                return {}
             response.raise_for_status()
             return response.json()
         except requests.exceptions.RequestException as e:

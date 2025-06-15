@@ -88,6 +88,15 @@ class ReportDownloader:
                 params=params
             )
             
+            # Если нет доступа к товарной группе, пропускаем задачу
+            if response.status_code == 403:
+                try:
+                    err = response.json().get('error_message', response.text)
+                except:
+                    err = response.text
+                print(f"Skip task {result_id}, no access: {err}")
+                return True
+     
             if response.status_code == 204:
                 print("Файл пуст")
                 return True
