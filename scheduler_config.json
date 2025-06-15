@@ -1,7 +1,0 @@
-{
-  "daily_report_time": "04:00",
-  "check_interval": 60,
-  "token_refresh_time": "03:00",
-  "enabled": true,
-  "email_time": "20:04"
-}
